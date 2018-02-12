@@ -1,0 +1,104 @@
+2018-02-12 19:03:23 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:03:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:03:23 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:03:23 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:03:23 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:03:23 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:03:23 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:03:23 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:03:25 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:03:25 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:03:25 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:03:25 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:03:25 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:03:25 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:03:25 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:03:25 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:03:31 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:03:31 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:03:31 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:03:31 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:03:31 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:03:31 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:03:31 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:03:31 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:04:02 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:04:02 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:04:02 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:04:02 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:04:02 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:04:02 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:04:02 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:04:02 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:05:02 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:05:02 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:05:02 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:05:02 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:05:02 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:05:02 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:05:02 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:05:02 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:05:04 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:05:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:05:04 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:05:04 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:05:04 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:05:04 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:05:04 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:05:04 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:05:11 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:05:11 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:05:11 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:05:11 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:05:11 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:05:11 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:05:11 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:05:11 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:05:42 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:05:42 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:05:42 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:05:42 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:05:42 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:05:42 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:05:42 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:05:42 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:06:43 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:06:43 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:06:43 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:06:43 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:06:43 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:06:43 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:06:43 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:06:43 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:20:52 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:20:52 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:20:52 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:20:52 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:20:52 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:20:52 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:20:52 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:20:52 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:20:53 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
+2018-02-12 19:20:53 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
+2018-02-12 19:20:53 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-12 19:20:53 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-12 19:20:53 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-12 19:20:53 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-12 19:20:53 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-12 19:20:53 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-12 19:28:31 - PHP Warning:  Missing argument 1 for ModelDesignLayout::getLayoutModules() in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 13
+2018-02-12 19:28:31 - PHP Warning:  Missing argument 2 for ModelDesignLayout::getLayoutModules() in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 13
+2018-02-12 19:28:31 - PHP Notice:  Undefined variable: layout_id in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
+2018-02-12 19:28:31 - PHP Notice:  Undefined variable: position in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
+2018-02-12 19:28:42 - PHP Warning:  Missing argument 2 for ModelDesignLayout::getLayoutModules() in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 13
+2018-02-12 19:28:42 - PHP Notice:  Undefined variable: position in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
+2018-02-12 19:28:43 - PHP Warning:  Missing argument 2 for ModelDesignLayout::getLayoutModules() in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 13
+2018-02-12 19:28:43 - PHP Notice:  Undefined variable: position in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
+2018-02-12 19:28:51 - PHP Warning:  Missing argument 2 for ModelDesignLayout::getLayoutModules() in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 13
+2018-02-12 19:28:51 - PHP Notice:  Undefined variable: position in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
+2018-02-12 19:28:58 - PHP Warning:  Missing argument 2 for ModelDesignLayout::getLayoutModules() in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 13
+2018-02-12 19:28:58 - PHP Notice:  Undefined variable: position in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
+2018-02-12 19:29:09 - PHP Warning:  Missing argument 2 for ModelDesignLayout::getLayoutModules() in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 13
+2018-02-12 19:29:09 - PHP Notice:  Undefined variable: position in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
+2018-02-12 19:29:16 - PHP Warning:  Missing argument 2 for ModelDesignLayout::getLayoutModules() in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 13
+2018-02-12 19:29:16 - PHP Notice:  Undefined variable: position in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
