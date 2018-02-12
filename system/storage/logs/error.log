@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2018-02-12 19:03:23 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\discount_popup.php on line 11
 2018-02-12 19:03:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\engine\loader.php on line 83
 2018-02-12 19:03:23 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
@@ -102,3 +103,61 @@
 2018-02-12 19:29:09 - PHP Notice:  Undefined variable: position in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
 2018-02-12 19:29:16 - PHP Warning:  Missing argument 2 for ModelDesignLayout::getLayoutModules() in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 13
 2018-02-12 19:29:16 - PHP Notice:  Undefined variable: position in C:\xampp\htdocs\atchaya_theme\catalog\model\design\layout.php on line 14
+=======
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: button_save in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 8
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: cancel in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 9
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: button_cancel in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 9
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: heading_title in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 10
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: breadcrumbs in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 12
+2018-02-12 18:56:14 - PHP Warning:  Invalid argument supplied for foreach() in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 12
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: error_warning in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 19
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: text_edit in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 26
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: action in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 29
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: entry_name in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 31
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: name in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 33
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: entry_name in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 33
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: error_name in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 34
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: entry_banner in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 40
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: banners in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 43
+2018-02-12 18:56:14 - PHP Warning:  Invalid argument supplied for foreach() in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 43
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: entry_width in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 54
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: width in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 56
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: entry_width in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 56
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: error_width in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 57
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: entry_height in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 63
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: height in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 65
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: entry_height in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 65
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: error_height in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 66
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: entry_status in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 72
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: status in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 75
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: text_enabled in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 79
+2018-02-12 18:56:14 - PHP Notice:  Undefined variable: text_disabled in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 80
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: button_save in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 8
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: cancel in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 9
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: button_cancel in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 9
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: heading_title in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 10
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: breadcrumbs in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 12
+2018-02-12 18:57:29 - PHP Warning:  Invalid argument supplied for foreach() in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 12
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: error_warning in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 19
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: text_edit in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 26
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: action in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 29
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: entry_name in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 31
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: name in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 33
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: entry_name in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 33
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: error_name in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 34
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: entry_banner in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 40
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: banners in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 43
+2018-02-12 18:57:29 - PHP Warning:  Invalid argument supplied for foreach() in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 43
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: entry_width in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 54
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: width in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 56
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: entry_width in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 56
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: error_width in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 57
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: entry_height in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 63
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: height in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 65
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: entry_height in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 65
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: error_height in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 66
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: entry_status in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 72
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: status in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 75
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: text_enabled in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 79
+2018-02-12 18:57:29 - PHP Notice:  Undefined variable: text_disabled in F:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\blogvideo.tpl on line 80
+>>>>>>> 3bc87959f81cf2998af5ba26b2d9a5aacfc594e9
