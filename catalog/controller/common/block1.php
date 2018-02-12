@@ -68,9 +68,12 @@ class ControllerCommonBlock1 extends Controller {
 				}
 			}
 		}
+
+		$output = $this->load->controller('extension/module/discount_popup');
+		$data['modules'][] = $output;
 		
 
 		return $this->load->view('common/block1', $data);
-		$this->load->controller('extension/module/discount_popup');
+		
 	}
 }
