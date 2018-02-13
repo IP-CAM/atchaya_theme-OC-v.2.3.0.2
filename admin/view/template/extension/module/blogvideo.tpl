@@ -43,22 +43,26 @@
       </div>
 
       <div class="panel-body">
+
         <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form-banner" class="form-horizontal">
 
           <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-name"><?php echo $entry_name; ?></label>
+
+            <label class="col-sm-2 control-label" for="input-status"><?php echo $entry_status; ?></label>
+
             <div class="col-sm-10">
-              <input type="text" name="blogvideo_url" value="<?php echo $blogvideo_url?>" placeholder="<?php echo $entry_name; ?>" id="input-name" class="form-control" />
-
-              <?php if ($error_name) { ?>
-              <div class="text-danger"><?php echo $error_name; ?></div>
-              <?php } ?>
-
+              <select name="blogvideo_url_status" id="input-status" class="form-control">
+                <?php if ($blogvideo_url_status) { ?>
+                <option value="1" selected="selected"><?php echo $text_enabled; ?></option>
+                <option value="0"><?php echo $text_disabled; ?></option>
+                <?php } else { ?>
+                <option value="1"><?php echo $text_enabled; ?></option>
+                <option value="0" selected="selected"><?php echo $text_disabled; ?></option>
+                <?php } ?>
+              </select>
             </div>
-          </div>
 
-          
-          
+          </div>
         </form>
       </div>
     </div>

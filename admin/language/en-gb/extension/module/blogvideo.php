@@ -9,8 +9,7 @@ $_['text_edit']        = 'Blog Video';
 
 // Entry
 $_['entry_status']     = 'Status';
-$_['entry_name']       = 'Video Url';
-$_['button_save']      = 'save';
+$_['button_save']      = 'Save';
 
 // Error
 $_['error_permission'] = 'Warning: You do not have permission to modify account module!';
