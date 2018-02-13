@@ -33,11 +33,108 @@ class ControllerExtensionModuleDiscountPopup extends Controller {
 
 		$data['products'] = array();
 
+		$setting['limit'] = 10;
+		
+		$product_rotator_status = 0;
 
+		$filter_data = array(
+			'sort'  => 'pd.name',
+			'order' => 'ASC',
+			'start' => 0,
+			'limit' => 1
+		);
+
+		$results = $this->model_catalog_product->getProductSpecials($filter_data);
+
+		if ($results) {
+			foreach ($results as $result) {
+				if ($result['image']) {
+					$image = $this->model_tool_image->resize($result['image'], 400, 320);
+				} else {
+					$image = $this->model_tool_image->resize('placeholder.png', 100, 200);
+				}
+
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$price_num = $this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax'));
+					$price = $this->currency->format($this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+				} else {
+					$price_num = false;
+					$price = false;
+				}
+
+				if ((float)$result['special']) {
+					$special_num = $this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax'));
+					$special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+				} else {
+					$special_num = false;
+					$special = false;
+				}
+
+				if ($this->config->get('config_tax')) {
+					$tax = $this->currency->format((float)$result['special'] ? $result['special'] : $result['price'], $this->session->data['currency']);
+				} else {
+					$tax = false;
+				}
+
+				if ($this->config->get('config_review_status')) {
+					$rating = $result['rating'];
+				} else {
+					$rating = false;
+				}
+
+				if($product_rotator_status == 1) {
+					$product_id = $result['product_id'];
+					$product_rotator_image = $this->model_catalog_ocproductrotator->getProductRotatorImage($product_id);
+
+					if($product_rotator_image) {
+						$rotator_image = $this->model_tool_image->resize($product_rotator_image, 40, 50);
+					} else {
+						$rotator_image = false;
+					}
+				} else {
+					$rotator_image = false;
+				}
+				
+				$data['tags'] = array();
+
+				if ($result['tag']) {
+					$tags = explode(',', $result['tag']);
+
+					foreach ($tags as $tag) {
+						$data['tags'][] = array(
+							'tag'  => trim($tag),
+							'href' => $this->url->link('product/search', 'tag=' . trim($tag))
+						);
+					}
+				}
+				
+				$result['name'] = strlen($result['name']) > 40 ? substr($result['name'],0,40)."..." : $result['name'];
+
+				$data['products'][] = array(
+					'product_id'  => $result['product_id'],
+					'thumb'       => $image,
+					'rotator_image' => $rotator_image,
+					'name'        => $result['name'],
+					'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get($this->config->get('config_theme') . '_product_description_length')) . '..',
+					'price_num'       => $price_num,
+					'price'       => $price,
+					'special'     => $special,
+					'special_num'     => $special_num,
+					'tax'         => $tax,
+					'tags'         => $data['tags'],
+					'rating'      => $rating,
+					'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id'])
+				);
+			}
+		}
 
 		
+		if(!empty($data['products']) && $this->config->get('discount_popup_status') == 1) {
 
-  		return $this->load->view('extension/module/newsletterpopup');
+			return $this->load->view('extension/module/discount_popup', $data);
+
+		}
+  		
 
 
   	}
