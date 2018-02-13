@@ -1,0 +1,45 @@
+2018-02-13 18:36:59 - PHP Notice:  Undefined variable: entry_image in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 33
+2018-02-13 18:36:59 - PHP Notice:  Undefined variable: thumb in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:36:59 - PHP Notice:  Undefined variable: placeholder in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:36:59 - PHP Notice:  Undefined variable: image in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:36:59 - PHP Notice:  Undefined variable: entry_additional_image in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 48
+2018-02-13 18:36:59 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 49
+2018-02-13 18:36:59 - PHP Notice:  Undefined variable: product_images in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 18:36:59 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 18:36:59 - PHP Notice:  Undefined variable: button_image_add in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 67
+2018-02-13 18:42:24 - PHP Notice:  Undefined variable: thumb in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:42:24 - PHP Notice:  Undefined variable: placeholder in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:42:24 - PHP Notice:  Undefined variable: image in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:42:24 - PHP Notice:  Undefined variable: product_images in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 18:42:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 18:42:24 - PHP Notice:  Undefined variable: button_image_add in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 67
+2018-02-13 18:43:13 - PHP Notice:  Undefined variable: thumb in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:43:13 - PHP Notice:  Undefined variable: placeholder in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:43:13 - PHP Notice:  Undefined variable: image in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:43:13 - PHP Notice:  Undefined variable: product_images in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 18:43:13 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 18:43:13 - PHP Notice:  Undefined variable: button_image_add in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 67
+2018-02-13 18:58:54 - PHP Notice:  Undefined variable: thumb in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:58:54 - PHP Notice:  Undefined variable: placeholder in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:58:54 - PHP Notice:  Undefined variable: image in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 18:58:54 - PHP Notice:  Undefined variable: product_images in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 18:58:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 18:58:54 - PHP Notice:  Undefined variable: button_image_add in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 67
+2018-02-13 19:12:59 - PHP Notice:  Undefined variable: thumb in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 19:12:59 - PHP Notice:  Undefined variable: placeholder in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 19:12:59 - PHP Notice:  Undefined variable: image in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 19:12:59 - PHP Notice:  Undefined variable: product_images in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 19:12:59 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 19:12:59 - PHP Notice:  Undefined variable: button_image_add in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 67
+2018-02-13 19:13:01 - PHP Notice:  Undefined variable: thumb in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 19:13:01 - PHP Notice:  Undefined variable: placeholder in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 19:13:01 - PHP Notice:  Undefined variable: image in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 19:13:01 - PHP Notice:  Undefined variable: product_images in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 19:13:01 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 19:13:01 - PHP Notice:  Undefined variable: button_image_add in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 67
+2018-02-13 19:22:54 - PHP Notice:  Undefined variable: thumb in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 19:22:54 - PHP Notice:  Undefined variable: placeholder in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 19:22:54 - PHP Notice:  Undefined variable: image in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 39
+2018-02-13 19:22:54 - PHP Notice:  Undefined variable: product_images in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 19:22:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 55
+2018-02-13 19:22:54 - PHP Notice:  Undefined variable: button_image_add in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 67
