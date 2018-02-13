@@ -72,7 +72,6 @@ class ControllerExtensionModuleOcPageBuilder extends Controller
 		} else {
 			$this->document->addStyle('catalog/view/theme/default/stylesheet/opentheme/ocpagebuilder.css');
 		}
-
         return $this->load->view('common/layout_content_built', $data);
     }
 }
