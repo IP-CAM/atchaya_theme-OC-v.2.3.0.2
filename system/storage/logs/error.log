@@ -2586,3 +2586,4 @@
 2018-02-13 19:40:06 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
 >>>>>>> 572e3c1d8dafb4fd14d0cdc00909117afba5580a
 >>>>>>> 0cf8c23601721cc13933c2ed08315221b1f94a3d
+2018-02-13 20:45:41 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/atchaya_theme/admin/view/template/blog/videolist_list.tpl! in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\library\template\php.php on line 23
