@@ -209,3 +209,15 @@
 2018-02-12 20:09:06 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
 2018-02-12 20:09:06 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
 2018-02-12 20:09:06 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-13 6:00:23 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-13 6:00:23 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-13 6:00:23 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-13 6:00:23 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-13 6:00:23 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-13 6:00:23 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
+2018-02-13 6:00:59 - PHP Notice:  Undefined variable: heading_title in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 8
+2018-02-13 6:00:59 - PHP Notice:  Undefined variable: newletter_des in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 10
+2018-02-13 6:00:59 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 14
+2018-02-13 6:00:59 - PHP Notice:  Undefined variable: entry_button in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 18
+2018-02-13 6:00:59 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
+2018-02-13 6:00:59 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
