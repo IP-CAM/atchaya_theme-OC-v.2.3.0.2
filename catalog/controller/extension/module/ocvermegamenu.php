@@ -38,7 +38,6 @@ class ControllerExtensionModuleOCvermegamenu extends Controller {
 		$data['top_offset'] = 20; 
 		$data['effect'] = 1; 
 		$data['_menu'] = $html; 
-		
 		return $this->load->view('extension/module/ocvermegamenu.tpl', $data);
 	}
 }
