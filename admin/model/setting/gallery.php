@@ -1,14 +1,14 @@
 <?php
 class ModelSettingGallery extends Model {
-	public function getGallery($code, $store_id = 0) {
+	public function getGallery() {
+		
 		$gallery_data = array();
 
-		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "gallery WHERE id = '" . (int)$store_id ."'");
-
-		foreach ($query->rows as $result) {
-				$gallery_data[$result['key']] = $result['value'];
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "gallery");
+		
+		foreach ($query->rows as $result){
+				$gallery_data[] = $result;
 		}
-
 		return $gallery_data;
 	}
 

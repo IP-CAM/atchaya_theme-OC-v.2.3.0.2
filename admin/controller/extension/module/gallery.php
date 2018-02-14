@@ -3,13 +3,14 @@ class ControllerExtensionModuleGallery extends Controller {
 	private $error = array();
 
 	public function index() {
+		
 		$this->load->language('extension/module/gallery');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 
 		$this->load->model('setting/gallery');
 
-		$this->getList();
+		$data['gallery_data'] = $this->model_setting_gallery->getGallery();
 
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 			$this->model_setting_setting->editSetting('category', $this->request->post);
@@ -29,6 +30,9 @@ class ControllerExtensionModuleGallery extends Controller {
 
 		$data['button_save'] = $this->language->get('button_save');
 		$data['button_cancel'] = $this->language->get('button_cancel');
+		$data['grid_image'] = $this->language->get('grid_image');
+		$data['grid_description'] = $this->language->get('grid_description');
+		$data['grid_sortorder'] = $this->language->get('grid_sortorder');
 
 		if (isset($this->error['warning'])) {
 			$data['error_warning'] = $this->error['warning'];
@@ -67,12 +71,7 @@ class ControllerExtensionModuleGallery extends Controller {
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
 
-		$this->response->setOutput($this->load->view('extension/module/gallery', $data));
-	}
-
-	protected function getList() {
-
-		$this->model_setting_gallery->getGallery('gallery', $this->request->post)
+		$this->response->setOutput($this->load->view('extension/module/gallery',$data));
 	}
 
 	protected function validate() {

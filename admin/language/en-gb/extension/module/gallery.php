@@ -12,3 +12,8 @@ $_['entry_status']     = 'Status';
 
 // Error
 $_['error_permission'] = 'Warning: You do not have permission to modify Gallery module!';
+
+//Table
+$_['grid_image']     = 'Image';
+$_['grid_description']     = 'Description';
+$_['grid_sortorder']     = 'Sort Order';
