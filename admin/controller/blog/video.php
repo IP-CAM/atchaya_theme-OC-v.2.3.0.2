@@ -17,41 +17,41 @@ class ControllerBlogVideo extends Controller
 
     public function add()
     {
-      $this->load->language('blog/videolist');
+      $this->load->language('blog/video');
 
       $this->document->setTitle($this->language->get('heading_title'));
 
-      $this->load->model('blog/videolist');
+      $this->load->model('blog/video');
 
-      if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm())
+      if (($this->request->server['REQUEST_METHOD'] == 'POST'))
       {
-        $article_list_last_id = $this->model_blog_videolist->addArticlesList($this->request->post);
-            $this->model_blog_videolist->addArticleToList($article_list_last_id, $this->request->post['article']);
 
-            $this->session->data['success'] = $this->language->get('text_success');
+        $blogvideo_last_id = $this->model_blog_video->addBlogvideo($this->request->post);
 
-            $url = '';
+        $this->session->data['success'] = $this->language->get('text_success');
 
-            if (isset($this->request->get['page'])) {
-                $url .= '&page=' . $this->request->get['page'];
-            }
+        $url = '';
 
-            $this->response->redirect($this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url, true));
+        if (isset($this->request->get['page'])) {
+            $url .= '&page=' . $this->request->get['page'];
         }
+        $this->response->redirect($this->url->link('blog/video', 'token=' . $this->session->data['token'] . $url, true));
+      }
 
         $this->getForm();
     }
 
     public function edit()
     {
-        $this->load->language('blog/videolist');
+        $this->load->language('blog/video');
 
         $this->document->setTitle($this->language->get('heading_title'));
 
-        $this->load->model('blog/videolist');
+        $this->load->model('blog/video');
 
-        if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {
-            $this->model_blog_videolist->editvideolist($this->request->get['article_list_id'], $this->request->post);
+        if (($this->request->server['REQUEST_METHOD'] == 'POST'))
+        {
+          $this->model_blog_video->editvideo($this->request->get['blogvideo_id'], $this->request->post);
 
             $this->session->data['success'] = $this->language->get('text_success');
 
@@ -61,7 +61,7 @@ class ControllerBlogVideo extends Controller
                 $url .= '&page=' . $this->request->get['page'];
             }
 
-            $this->response->redirect($this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url, true));
+            $this->response->redirect($this->url->link('blog/video', 'token=' . $this->session->data['token'] . $url, true));
         }
 
         $this->getForm();
@@ -125,20 +125,25 @@ class ControllerBlogVideo extends Controller
     {
         $data = array();
 
-        if (isset($this->request->get['page'])) {
-            $page = $this->request->get['page'];
-        } else {
-            $page = 1;
+        if (isset($this->request->get['page']))
+        {
+          $page = $this->request->get['page'];
+        }
+        else
+        {
+          $page = 1;
         }
 
         $url = '';
 
-        if (isset($this->request->get['page'])) {
-            $url .= '&page=' . $this->request->get['page'];
+        if (isset($this->request->get['page']))
+        {
+          $url .= '&page=' . $this->request->get['page'];
         }
 
-        if (isset($this->request->get['module_id'])) {
-            $url .= '&module_id=' . $this->request->get['module_id'];
+        if (isset($this->request->get['module_id']))
+        {
+          $url .= '&module_id=' . $this->request->get['module_id'];
         }
 
         $data['breadcrumbs'] = array();
@@ -160,30 +165,31 @@ class ControllerBlogVideo extends Controller
 
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('heading_title'),
-            'href' => $this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url, true)
+            'href' => $this->url->link('blog/video', 'token=' . $this->session->data['token'] . $url, true)
         );
 
-        $data['add']    = $this->url->link('blog/videolist/add', 'token=' . $this->session->data['token'] . $url, true);
-        $data['copy']   = $this->url->link('blog/videolist/copy', 'token=' . $this->session->data['token'] . $url, true);
-        $data['delete'] = $this->url->link('blog/videolist/delete', 'token=' . $this->session->data['token'] . $url, true);
+        $data['add']    = $this->url->link('blog/video/add', 'token=' . $this->session->data['token'] . $url, true);
+        $data['copy']   = $this->url->link('blog/video/copy', 'token=' . $this->session->data['token'] . $url, true);
+        $data['delete'] = $this->url->link('blog/video/delete', 'token=' . $this->session->data['token'] . $url, true);
 
-        $data['articles_list'] = array();
+        $data['blogvideo_list'] = array();
 
         $filter_data = array(
             'start' => ($page - 1) * $this->config->get('config_limit_admin'),
             'limit' => $this->config->get('config_limit_admin')
         );
 
-        $article_list_total = $this->model_blog_videolist->getTotalArticlesList();
+        $blogvideolist_total = $this->model_blog_video->getTotalBlogvideoList();
 
-        $results = $this->model_blog_videolist->getAllArticlesList($filter_data);
+        $results = $this->model_blog_video->getAllBlogvideoList($filter_data);
 
-        foreach ($results as $result) {
-            $data['articles_list'][] = array(
-                'article_list_id' => $result['article_list_id'],
-                'name' => $result['name'],
-                'status' => ($result['status']) ? $this->language->get('text_enabled') : $this->language->get('text_disabled'),
-                'edit' => $this->url->link('blog/videolist/edit', 'token=' . $this->session->data['token'] . '&article_list_id=' . $result['article_list_id'] . $url, true)
+        foreach ($results as $result)
+        {
+          $data['blogvideo_list'][] = array(
+                'blogvideo_id' => $result['id'],
+                'title'        => $result['title'],
+                'status'       => ($result['status']) ? $this->language->get('text_enabled') : $this->language->get('text_disabled'),
+                'edit'         => $this->url->link('blog/video/edit', 'token=' . $this->session->data['token'] . '&blogvideo_id=' . $result['id'] . $url, true)
             );
         }
 
@@ -237,27 +243,27 @@ class ControllerBlogVideo extends Controller
         }
 
         $pagination        = new Pagination();
-        $pagination->total = $article_list_total;
+        $pagination->total = $blogvideolist_total;
         $pagination->page  = $page;
         $pagination->limit = $this->config->get('config_limit_admin');
-        $pagination->url   = $this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url . '&page={page}', true);
+        $pagination->url   = $this->url->link('blog/video', 'token=' . $this->session->data['token'] . $url . '&page={page}', true);
 
         $data['pagination'] = $pagination->render();
 
-        $data['results'] = sprintf($this->language->get('text_pagination'), ($article_list_total) ? (($page - 1) * $this->config->get('config_limit_admin')) + 1 : 0, ((($page - 1) * $this->config->get('config_limit_admin')) > ($article_list_total - $this->config->get('config_limit_admin'))) ? $article_list_total : ((($page - 1) * $this->config->get('config_limit_admin')) + $this->config->get('config_limit_admin')), $article_list_total, ceil($article_list_total / $this->config->get('config_limit_admin')));
+        $data['results'] = sprintf($this->language->get('text_pagination'), ($blogvideolist_total) ? (($page - 1) * $this->config->get('config_limit_admin')) + 1 : 0, ((($page - 1) * $this->config->get('config_limit_admin')) > ($blogvideolist_total - $this->config->get('config_limit_admin'))) ? $blogvideolist_total : ((($page - 1) * $this->config->get('config_limit_admin')) + $this->config->get('config_limit_admin')), $blogvideolist_total, ceil($blogvideolist_total / $this->config->get('config_limit_admin')));
 
         $data['header']      = $this->load->controller('common/header');
         $data['column_left'] = $this->load->controller('common/column_left');
         $data['footer']      = $this->load->controller('common/footer');
 
-        $this->response->setOutput($this->load->view('blog/videolist.tpl', $data));
+        $this->response->setOutput($this->load->view('blog/video.tpl', $data));
     }
 
     public function getForm()
     {
         $data['heading_title'] = $this->language->get('heading_title');
 
-        $data['text_form']     = !isset($this->request->get['article_list_id']) ? $this->language->get('text_add') : $this->language->get('text_edit');
+        $data['text_form']     = !isset($this->request->get['blogvideo_id']) ? $this->language->get('text_add') : $this->language->get('text_edit');
         $data['text_enabled']  = $this->language->get('text_enabled');
         $data['text_disabled'] = $this->language->get('text_disabled');
         $data['text_none']     = $this->language->get('text_none');
@@ -265,9 +271,12 @@ class ControllerBlogVideo extends Controller
         $data['text_no']       = $this->language->get('text_no');
         $data['text_default']  = $this->language->get('text_default');
 
-        $data['entry_name']         = $this->language->get('entry_name');
-        $data['entry_article_list'] = $this->language->get('entry_article_list');
-        $data['entry_status']       = $this->language->get('entry_status');
+        $data['entry_name']              = $this->language->get('entry_name');
+        $data['entry_url']               = $this->language->get('entry_url');
+        $data['entry_description']       = $this->language->get('entry_description');
+        $data['entry_short_description'] = $this->language->get('entry_short_description');
+        $data['entry_article_list']      = $this->language->get('entry_article_list');
+        $data['entry_status']            = $this->language->get('entry_status');
 
         $data['help_keyword']    = $this->language->get('help_keyword');
         $data['help_category']   = $this->language->get('help_keyword');
@@ -318,23 +327,31 @@ class ControllerBlogVideo extends Controller
 
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('heading_title'),
-            'href' => $this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url, true)
+            'href' => $this->url->link('blog/video', 'token=' . $this->session->data['token'] . $url, true)
         );
 
-        if (!isset($this->request->get['article_list_id'])) {
-            $data['action'] = $this->url->link('blog/videolist/add', 'token=' . $this->session->data['token'] . $url, true);
+        if (!isset($this->request->get['blogvideo_id'])) {
+            $data['action'] = $this->url->link('blog/video/add', 'token=' . $this->session->data['token'] . $url, true);
         } else {
-            $data['action'] = $this->url->link('blog/videolist/edit', 'token=' . $this->session->data['token'] . '&article_list_id=' . $this->request->get['article_list_id'] . $url, true);
+            $data['action'] = $this->url->link('blog/video/edit', 'token=' . $this->session->data['token'] . '&blogvideo_id=' . $this->request->get['blogvideo_id'] . $url, true);
         }
 
-        $data['cancel'] = $this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url, true);
+        $data['cancel'] = $this->url->link('blog/video', 'token=' . $this->session->data['token'] . $url, true);
 
-        if (isset($this->request->get['article_list_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
-            $article_list_info            = $this->model_blog_videolist->getvideolist($this->request->get['article_list_id']);
-            $article_list_info['article'] = $this->model_blog_videolist->getArticleToList($this->request->get['article_list_id']);
+        if (isset($this->request->get['blogvideo_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
+            $blogvideo_info            = $this->model_blog_video->getvideo($this->request->get['blogvideo_id']);
+            $blogvideo_info['blogvideo'] = $this->model_blog_video->getBlogvdieo($this->request->get['blogvideo_id']);
         }
 
         $data['token'] = $this->session->data['token'];
+
+        if (isset($this->request->post['id'])) {
+            $data['id'] = $this->request->post['id'];
+        } elseif (!empty($article_list_info)) {
+            $data['id'] = $article_list_info['id'];
+        } else {
+            $data['id'] = '';
+        }
 
         if (isset($this->request->post['status'])) {
             $data['status'] = $this->request->post['status'];
@@ -344,17 +361,41 @@ class ControllerBlogVideo extends Controller
             $data['status'] = true;
         }
 
-        if (isset($this->request->post['name'])) {
-            $data['name'] = $this->request->post['name'];
-        } elseif (!empty($article_list_info)) {
-            $data['name'] = $article_list_info['name'];
+        if (isset($this->request->post['title'])) {
+            $data['title'] = $this->request->post['title'];
+        } elseif (!empty($blogvideo_info)) {
+            $data['title'] = $blogvideo_info['title'];
         } else {
-            $data['name'] = '';
+            $data['title'] = '';
         }
 
-        $this->load->model('blog/article');
+        if (isset($this->request->post['url'])) {
+            $data['url'] = $this->request->post['url'];
+        } elseif (!empty($blogvideo_info)) {
+            $data['url'] = $blogvideo_info['url'];
+        } else {
+            $data['url'] = '';
+        }
 
-        $data['articles'] = array();
+        if (isset($this->request->post['description'])) {
+            $data['description'] = $this->request->post['description'];
+        } elseif (!empty($blogvideo_info)) {
+            $data['description'] = $blogvideo_info['description'];
+        } else {
+            $data['description'] = '';
+        }
+
+        if (isset($this->request->post['short_description'])) {
+            $data['short_description'] = $this->request->post['short_description'];
+        } elseif (!empty($blogvideo_info)) {
+            $data['short_description'] = $blogvideo_info['short_description'];
+        } else {
+            $data['short_description'] = '';
+        }
+
+        $this->load->model('blog/video');
+
+        $data['blogvideos'] = array();
 
         if (isset($this->request->post['article'])) {
             $articles = $this->request->post['article'];
@@ -379,30 +420,7 @@ class ControllerBlogVideo extends Controller
         $data['column_left'] = $this->load->controller('common/column_left');
         $data['footer']      = $this->load->controller('common/footer');
 
-        $this->response->setOutput($this->load->view('blog/videolist_form.tpl', $data));
-    }
-
-    protected function validateForm()
-    {
-        if (!$this->user->hasPermission('modify', 'blog/videolist')) {
-            $this->error['warning'] = $this->language->get('error_permission');
-        }
-
-        foreach ($this->request->post['article_description'] as $language_id => $value) {
-            if ((utf8_strlen($value['name']) < 3) || (utf8_strlen($value['name']) > 255)) {
-                $this->error['name'][$language_id] = $this->language->get('error_name');
-            }
-
-            if ((utf8_strlen($value['meta_title']) < 3) || (utf8_strlen($value['meta_title']) > 255)) {
-                $this->error['meta_title'][$language_id] = $this->language->get('error_meta_title');
-            }
-        }
-
-        if ($this->error && !isset($this->error['warning'])) {
-            $this->error['warning'] = $this->language->get('error_warning');
-        }
-
-        return !$this->error;
+        $this->response->setOutput($this->load->view('blog/video_form.tpl', $data));
     }
 
     protected function validateDelete()

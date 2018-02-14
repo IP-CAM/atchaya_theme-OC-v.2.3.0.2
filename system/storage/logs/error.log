@@ -2742,3 +2742,46 @@
 2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
 2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
 2018-02-14 18:52:47 - PHP Notice:  Undefined variable: newsletter in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\footer.tpl on line 22
+2018-02-14 19:20:27 - PHP Notice:  Error: Could not load template C:/xampp/htdocs/atchaya_theme/admin/view/template/blog/videolist_form.tpl! in C:\xampp\htdocs\atchaya_theme\system\storage\modification\system\library\template\php.php on line 23
+2018-02-14 19:37:31 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 31
+2018-02-14 19:37:31 - PHP Notice:  Undefined variable: articles in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:37:31 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:38:43 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 31
+2018-02-14 19:38:43 - PHP Notice:  Undefined variable: articles in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:38:43 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:39:06 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 31
+2018-02-14 19:39:06 - PHP Notice:  Undefined variable: articles in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:39:06 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:40:22 - PHP Notice:  Undefined variable: articles in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:40:22 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:40:39 - PHP Notice:  Undefined variable: articles in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:40:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 55
+2018-02-14 19:41:29 - PHP Notice:  Undefined variable: articles in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 62
+2018-02-14 19:41:29 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 62
+2018-02-14 19:44:26 - PHP Notice:  Undefined variable: url in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 38
+2018-02-14 19:44:26 - PHP Notice:  Undefined variable: articles in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 62
+2018-02-14 19:44:26 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 62
+2018-02-14 19:44:57 - PHP Notice:  Undefined variable: articles in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 62
+2018-02-14 19:44:57 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 62
+2018-02-14 19:51:59 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 43
+2018-02-14 19:51:59 - PHP Notice:  Undefined variable: entry_meta_description in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 43
+2018-02-14 19:51:59 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 45
+2018-02-14 19:51:59 - PHP Notice:  Undefined variable: entry_meta_description in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 45
+2018-02-14 19:51:59 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 45
+2018-02-14 19:51:59 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 45
+2018-02-14 19:51:59 - PHP Notice:  Undefined variable: languages in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 73
+2018-02-14 19:51:59 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 73
+2018-02-14 19:53:17 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 43
+2018-02-14 19:53:17 - PHP Notice:  Undefined variable: entry_description in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 43
+2018-02-14 19:53:17 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 45
+2018-02-14 19:53:17 - PHP Notice:  Undefined variable: entry_description in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 45
+2018-02-14 19:53:17 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 45
+2018-02-14 19:53:17 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 45
+2018-02-14 19:53:17 - PHP Notice:  Undefined variable: languages in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 73
+2018-02-14 19:53:17 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\view\template\blog\video_form.tpl on line 73
+2018-02-14 20:23:42 - PHP Notice:  Undefined index: article_description in C:\xampp\htdocs\atchaya_theme\admin\controller\blog\video.php on line 438
+2018-02-14 20:23:42 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\controller\blog\video.php on line 438
+2018-02-14 20:27:05 - PHP Notice:  Undefined index: article_description in C:\xampp\htdocs\atchaya_theme\admin\controller\blog\video.php on line 430
+2018-02-14 20:27:05 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\controller\blog\video.php on line 430
+2018-02-14 20:33:17 - PHP Notice:  Undefined index: article_description in C:\xampp\htdocs\atchaya_theme\admin\controller\blog\video.php on line 437
+2018-02-14 20:33:17 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\admin\controller\blog\video.php on line 437
