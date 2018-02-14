@@ -2742,3 +2742,7 @@
 2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
 2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
 2018-02-14 18:52:47 - PHP Notice:  Undefined variable: newsletter in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\footer.tpl on line 22
+2018-02-14 19:21:03 - PHP Notice:  Undefined variable: token in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2018-02-14 19:22:01 - PHP Notice:  Undefined variable: token in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2018-02-14 19:27:21 - PHP Notice:  Undefined variable: token in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2018-02-14 19:29:53 - PHP Notice:  Undefined variable: token in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
