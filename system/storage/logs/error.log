@@ -2729,3 +2729,15 @@
 2018-02-14 7:39:10 - PHP Notice:  Undefined variable: button_remove in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 56
 2018-02-14 7:39:10 - PHP Notice:  Undefined variable: button_image_add in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 65
 >>>>>>> a33701f451f60c7b2b927bd3bdb6cc11ed3edce9
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 32
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 32
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 32
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 32
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
+2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
