@@ -12,13 +12,20 @@ class ModelBlogVideo extends Model
     return $blogvideo_id;
   }
 
-  //Edit Video Blog
+  // Edit Video Blog
   public function editvideo($blogvideo_id, $data = array())
   {
     $sql = "UPDATE " . DB_PREFIX . "blogvideo SET title = '" . $this->db->escape($data['title']) . "', url = '" . $this->db->escape($data['url']) . "', short_description = '" . $this->db->escape($data['short_description']) . "', description = '" . $this->db->escape($data['description']) . "', status = '" . (int) $data['status'] . "' WHERE id = '" . (int) $blogvideo_id . "'";
     $this->db->query($sql);
     $this->cache->delete('blogvideo');
     return;
+  }
+
+  // Delete Video Blog
+  public function deleteBlogvideo($id)
+  {
+      $this->db->query("DELETE FROM " . DB_PREFIX . "blogvideo WHERE id = '" . (int)$id . "'");
+      $this->cache->delete('blogvideo');
   }
 
     public function BlogvideoList($data)

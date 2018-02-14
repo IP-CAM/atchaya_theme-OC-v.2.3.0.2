@@ -69,15 +69,15 @@ class ControllerBlogVideo extends Controller
 
     public function delete()
     {
-        $this->load->language('blog/videolist');
+        $this->load->language('blog/video');
 
         $this->document->setTitle($this->language->get('heading_title'));
 
-        $this->load->model('blog/videolist');
+        $this->load->model('blog/video');
 
         if (isset($this->request->post['selected']) && $this->validateCopy()) {
-            foreach ($this->request->post['selected'] as $article_list_id) {
-                $this->model_blog_videolist->deleteArticlesList($article_list_id);
+            foreach ($this->request->post['selected'] as $blogvideo_id) {
+                $this->model_blog_video->deleteBlogvideo($blogvideo_id);
             }
 
             $this->session->data['success'] = $this->language->get('text_success');
@@ -88,7 +88,7 @@ class ControllerBlogVideo extends Controller
                 $url .= '&page=' . $this->request->get['page'];
             }
 
-            $this->response->redirect($this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url, true));
+            $this->response->redirect($this->url->link('blog/video', 'token=' . $this->session->data['token'] . $url, true));
         }
 
         $this->getList();
@@ -434,7 +434,7 @@ class ControllerBlogVideo extends Controller
 
     protected function validateCopy()
     {
-        if (!$this->user->hasPermission('modify', 'blog/videolist')) {
+        if (!$this->user->hasPermission('modify', 'blog/video')) {
             $this->error['warning'] = $this->language->get('error_permission');
         }
 
