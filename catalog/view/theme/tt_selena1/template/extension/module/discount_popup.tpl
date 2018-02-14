@@ -118,7 +118,7 @@
         //transition effect
         
 
-        if($.cookie("shownewsletter") == "<?php echo session_id(); ?>"){
+        if($.cookie("shownewsletter") != "<?php echo session_id(); ?>"){
 
         	$('.newletter-popup').bPopup();
 
