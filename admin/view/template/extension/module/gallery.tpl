@@ -41,10 +41,11 @@
                     <?php foreach ($gallery_data as $gallery_datas) { ?>
                     <tr id="image-row<?php echo $image_row; ?>">
                       <td class="text-left">
+                        <input type="hidden" name="gallery_datas[<?php echo $image_row; ?>][id]" value="<?php echo $gallery_datas['id']; ?>">
                       	<a href="" id="thumb-image<?php echo $image_row; ?>" data-toggle="image" class="img-thumbnail">
-                        	<img src="<?php echo $gallery_datas['gallery_image']; ?>" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" />
+                        	<img src="<?php echo $gallery_datas['gallery_image']; ?>" alt="" title="" data-placeholder="" />
                        	</a>
-                        <input type="hidden" name="gallery_datas[<?php echo $image_row; ?>][gallery_image]" value="<?php echo $gallery_datas['gallery_image']; ?>" id="input-image<?php echo $image_row; ?>" />
+                        <input type="hidden" name="gallery_datas[<?php echo $image_row; ?>][image]" value="<?php echo $gallery_datas['gallery_image']; ?>" id="input-image<?php echo $image_row; ?>" />
                       </td>
                       <td class="text-right">
                       	<input type="text" name="gallery_datas[<?php echo $image_row; ?>][description]" value="<?php echo $gallery_datas['description']; ?>" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" />
@@ -53,7 +54,7 @@
                       	<input type="text" name="gallery_datas[<?php echo $image_row; ?>][sort_order]" value="<?php echo $gallery_datas['sort_order']; ?>" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" />
                       </td>
                       <td class="text-left">
-                      	<button type="button" onclick="$('#image-row<?php echo $image_row; ?>').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button>
+                      	<button type="button" onclick="$('#image-row<?php echo $image_row; ?>').remove();" data-toggle="tooltip" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button>
                       </td>
                     </tr>
                     <?php $image_row++; ?>
@@ -62,7 +63,7 @@
                   <tfoot>
                     <tr>
                       <td colspan="3"></td>
-                      <td class="text-left"><button type="button" onclick="addImage();" data-toggle="tooltip" title="<?php echo $button_image_add; ?>" class="btn btn-primary"><i class="fa fa-plus-circle"></i></button></td>
+                      <td class="text-left"><button type="button" onclick="addImage();" data-toggle="tooltip" class="btn btn-primary"><i class="fa fa-plus-circle"></i></button></td>
                     </tr>
                   </tfoot>
                 </table>
@@ -73,4 +74,24 @@
     </div>
   </div>
 </div>
+<script type="text/javascript" src="view/javascript/summernote/summernote.js"></script>
+  <link href="view/javascript/summernote/summernote.css" rel="stylesheet" />
+  <script type="text/javascript" src="view/javascript/summernote/opencart.js"></script>
+<script type="text/javascript">
+var image_row = <?php echo $image_row; ?>;
+  function addImage() {
+    alert(1);
+  html  = '<tr id="image-row' + image_row + '">';
+  html += '  <td class="text-left"><input type="hidden" name="gallery_data[<?php echo $image_row; ?>][id]" value=""><a href="" id="thumb-image' + image_row + '"data-toggle="image" class="img-thumbnail"><img src="" alt="" title="" data-placeholder="" /></a><input type="hidden" name="gallery_data[' + image_row + '][gallery_image]" value="" id="input-image' + image_row + '" /></td>';
+  html += '  <td class="text-right"><input type="text" name="gallery_data[' + image_row + '][description]" value="" placeholder="" class="form-control" /></td>';
+  html += '  <td class="text-center"><input type="text" name="gallery_data[' + image_row + '][sort_order]" value="" placeholder="" class="form-control" /></td>';
+  html += '  <td class="text-left"><button type="button" onclick="$(\'#image-row' + image_row  + '\').remove();" data-toggle="tooltip" title="" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
+  html += '</tr>';
+
+  $('#images tbody').append(html);
+
+  image_row++;
+}
+ </script>
+
 <?php echo $footer; ?>
