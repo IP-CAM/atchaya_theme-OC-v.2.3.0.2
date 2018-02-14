@@ -3,5 +3,13 @@
 system/storage/logs/error.log
 *.log
 *.log
+<<<<<<< HEAD
 system/storage/logs/error.log
+=======
 *.log
+*.log
+*.log
+*.log
+>>>>>>> 591b9c55141185b60c2c57c8392fefdb75a58da7
+*.log
+*.1518634942

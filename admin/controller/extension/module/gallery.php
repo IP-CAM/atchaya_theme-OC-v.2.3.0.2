@@ -13,11 +13,12 @@ class ControllerExtensionModuleGallery extends Controller {
 		$data['gallery_data'] = $this->model_setting_gallery->getGallery();
 
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
-			$this->model_setting_setting->editSetting('category', $this->request->post);
+
+			$this->model_setting_gallery->editSetting('gallery', $this->request->post);
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
-			$this->response->redirect($this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true));
+			$this->response->redirect($this->url->link('extension/module/gallery', 'token=' . $this->session->data['token'] . '&type=module', true));
 		}
 
 		$data['heading_title'] = $this->language->get('heading_title');
