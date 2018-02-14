@@ -1,28 +1,31 @@
 <?php
 
-class ControllerBlogVideolist extends Controller
+class ControllerBlogVideo extends Controller
 {
     private $error = array();
 
-    public function index() {
-        $this->load->language('blog/videolist');
+    public function index()
+    {
+        $this->load->language('blog/video');
 
         $this->document->setTitle($this->language->get('heading_title'));
 
-        $this->load->model('blog/videolist');
+        $this->load->model('blog/video');
 
         $this->getList();
     }
 
-    public function add() {
-        $this->load->language('blog/videolist');
+    public function add()
+    {
+      $this->load->language('blog/videolist');
 
-        $this->document->setTitle($this->language->get('heading_title'));
+      $this->document->setTitle($this->language->get('heading_title'));
 
-        $this->load->model('blog/videolist');
+      $this->load->model('blog/videolist');
 
-        if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {
-            $article_list_last_id = $this->model_blog_videolist->addArticlesList($this->request->post);
+      if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm())
+      {
+        $article_list_last_id = $this->model_blog_videolist->addArticlesList($this->request->post);
             $this->model_blog_videolist->addArticleToList($article_list_last_id, $this->request->post['article']);
 
             $this->session->data['success'] = $this->language->get('text_success');
@@ -39,7 +42,8 @@ class ControllerBlogVideolist extends Controller
         $this->getForm();
     }
 
-    public function edit() {
+    public function edit()
+    {
         $this->load->language('blog/videolist');
 
         $this->document->setTitle($this->language->get('heading_title'));
@@ -63,7 +67,8 @@ class ControllerBlogVideolist extends Controller
         $this->getForm();
     }
 
-    public function delete() {
+    public function delete()
+    {
         $this->load->language('blog/videolist');
 
         $this->document->setTitle($this->language->get('heading_title'));
@@ -89,7 +94,8 @@ class ControllerBlogVideolist extends Controller
         $this->getList();
     }
 
-    public function copy() {
+    public function copy()
+    {
         $this->load->language('blog/videolist');
 
         $this->document->setTitle($this->language->get('heading_title'));
@@ -115,7 +121,8 @@ class ControllerBlogVideolist extends Controller
         $this->getList();
     }
 
-    public function getList() {
+    public function getList()
+    {
         $data = array();
 
         if (isset($this->request->get['page'])) {
@@ -142,13 +149,13 @@ class ControllerBlogVideolist extends Controller
         );
 
         $data['breadcrumbs'][] = array(
-            'text'      => $this->language->get('text_extension'),
-            'href'      => $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true)
+            'text' => $this->language->get('text_extension'),
+            'href' => $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true)
         );
 
         $data['breadcrumbs'][] = array(
-            'text'      => $this->language->get('text_blog'),
-            'href'      => $this->url->link('extension/module/ocblog', 'token=' . $this->session->data['token'] . $url, true)
+            'text' => $this->language->get('text_blog'),
+            'href' => $this->url->link('extension/module/ocblog', 'token=' . $this->session->data['token'] . $url, true)
         );
 
         $data['breadcrumbs'][] = array(
@@ -156,15 +163,15 @@ class ControllerBlogVideolist extends Controller
             'href' => $this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url, true)
         );
 
-        $data['add'] = $this->url->link('blog/videolist/add', 'token=' . $this->session->data['token'] . $url, true);
-        $data['copy'] = $this->url->link('blog/videolist/copy', 'token=' . $this->session->data['token'] . $url, true);
+        $data['add']    = $this->url->link('blog/videolist/add', 'token=' . $this->session->data['token'] . $url, true);
+        $data['copy']   = $this->url->link('blog/videolist/copy', 'token=' . $this->session->data['token'] . $url, true);
         $data['delete'] = $this->url->link('blog/videolist/delete', 'token=' . $this->session->data['token'] . $url, true);
 
         $data['articles_list'] = array();
 
         $filter_data = array(
-            'start'           => ($page - 1) * $this->config->get('config_limit_admin'),
-            'limit'           => $this->config->get('config_limit_admin')
+            'start' => ($page - 1) * $this->config->get('config_limit_admin'),
+            'limit' => $this->config->get('config_limit_admin')
         );
 
         $article_list_total = $this->model_blog_videolist->getTotalArticlesList();
@@ -174,9 +181,9 @@ class ControllerBlogVideolist extends Controller
         foreach ($results as $result) {
             $data['articles_list'][] = array(
                 'article_list_id' => $result['article_list_id'],
-                'name'       => $result['name'],
-                'status'     => ($result['status']) ? $this->language->get('text_enabled') : $this->language->get('text_disabled'),
-                'edit'       => $this->url->link('blog/videolist/edit', 'token=' . $this->session->data['token'] . '&article_list_id=' . $result['article_list_id'] . $url, true)
+                'name' => $result['name'],
+                'status' => ($result['status']) ? $this->language->get('text_enabled') : $this->language->get('text_disabled'),
+                'edit' => $this->url->link('blog/videolist/edit', 'token=' . $this->session->data['token'] . '&article_list_id=' . $result['article_list_id'] . $url, true)
             );
         }
 
@@ -184,23 +191,23 @@ class ControllerBlogVideolist extends Controller
 
         $data['heading_title'] = $this->language->get('heading_title');
 
-        $data['text_list'] = $this->language->get('text_list');
-        $data['text_enabled'] = $this->language->get('text_enabled');
-        $data['text_disabled'] = $this->language->get('text_disabled');
+        $data['text_list']       = $this->language->get('text_list');
+        $data['text_enabled']    = $this->language->get('text_enabled');
+        $data['text_disabled']   = $this->language->get('text_disabled');
         $data['text_no_results'] = $this->language->get('text_no_results');
-        $data['text_confirm'] = $this->language->get('text_confirm');
+        $data['text_confirm']    = $this->language->get('text_confirm');
 
-        $data['column_name'] = $this->language->get('column_name');
+        $data['column_name']   = $this->language->get('column_name');
         $data['column_status'] = $this->language->get('column_status');
         $data['column_action'] = $this->language->get('column_action');
 
-        $data['entry_name'] = $this->language->get('entry_name');
+        $data['entry_name']     = $this->language->get('entry_name');
         $data['entry_quantity'] = $this->language->get('entry_quantity');
-        $data['entry_status'] = $this->language->get('entry_status');
+        $data['entry_status']   = $this->language->get('entry_status');
 
-        $data['button_copy'] = $this->language->get('button_copy');
-        $data['button_add'] = $this->language->get('button_add');
-        $data['button_edit'] = $this->language->get('button_edit');
+        $data['button_copy']   = $this->language->get('button_copy');
+        $data['button_add']    = $this->language->get('button_add');
+        $data['button_edit']   = $this->language->get('button_edit');
         $data['button_delete'] = $this->language->get('button_delete');
 
         if (isset($this->error['warning'])) {
@@ -218,7 +225,7 @@ class ControllerBlogVideolist extends Controller
         }
 
         if (isset($this->request->post['selected'])) {
-            $data['selected'] = (array)$this->request->post['selected'];
+            $data['selected'] = (array) $this->request->post['selected'];
         } else {
             $data['selected'] = array();
         }
@@ -229,43 +236,44 @@ class ControllerBlogVideolist extends Controller
             $url .= '&page=' . $this->request->get['page'];
         }
 
-        $pagination = new Pagination();
+        $pagination        = new Pagination();
         $pagination->total = $article_list_total;
-        $pagination->page = $page;
+        $pagination->page  = $page;
         $pagination->limit = $this->config->get('config_limit_admin');
-        $pagination->url = $this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url . '&page={page}', true);
+        $pagination->url   = $this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url . '&page={page}', true);
 
         $data['pagination'] = $pagination->render();
 
         $data['results'] = sprintf($this->language->get('text_pagination'), ($article_list_total) ? (($page - 1) * $this->config->get('config_limit_admin')) + 1 : 0, ((($page - 1) * $this->config->get('config_limit_admin')) > ($article_list_total - $this->config->get('config_limit_admin'))) ? $article_list_total : ((($page - 1) * $this->config->get('config_limit_admin')) + $this->config->get('config_limit_admin')), $article_list_total, ceil($article_list_total / $this->config->get('config_limit_admin')));
 
-        $data['header'] = $this->load->controller('common/header');
+        $data['header']      = $this->load->controller('common/header');
         $data['column_left'] = $this->load->controller('common/column_left');
-        $data['footer'] = $this->load->controller('common/footer');
+        $data['footer']      = $this->load->controller('common/footer');
 
         $this->response->setOutput($this->load->view('blog/videolist.tpl', $data));
     }
 
-    public function getForm() {
+    public function getForm()
+    {
         $data['heading_title'] = $this->language->get('heading_title');
 
-        $data['text_form'] = !isset($this->request->get['article_list_id']) ? $this->language->get('text_add') : $this->language->get('text_edit');
-        $data['text_enabled'] = $this->language->get('text_enabled');
+        $data['text_form']     = !isset($this->request->get['article_list_id']) ? $this->language->get('text_add') : $this->language->get('text_edit');
+        $data['text_enabled']  = $this->language->get('text_enabled');
         $data['text_disabled'] = $this->language->get('text_disabled');
-        $data['text_none'] = $this->language->get('text_none');
-        $data['text_yes'] = $this->language->get('text_yes');
-        $data['text_no'] = $this->language->get('text_no');
-        $data['text_default'] = $this->language->get('text_default');
+        $data['text_none']     = $this->language->get('text_none');
+        $data['text_yes']      = $this->language->get('text_yes');
+        $data['text_no']       = $this->language->get('text_no');
+        $data['text_default']  = $this->language->get('text_default');
 
-        $data['entry_name'] = $this->language->get('entry_name');
+        $data['entry_name']         = $this->language->get('entry_name');
         $data['entry_article_list'] = $this->language->get('entry_article_list');
-        $data['entry_status'] = $this->language->get('entry_status');
+        $data['entry_status']       = $this->language->get('entry_status');
 
-        $data['help_keyword'] = $this->language->get('help_keyword');
-        $data['help_category'] = $this->language->get('help_keyword');
+        $data['help_keyword']    = $this->language->get('help_keyword');
+        $data['help_category']   = $this->language->get('help_keyword');
         $data['help_intro_text'] = $this->language->get('help_intro_text');
 
-        $data['button_save'] = $this->language->get('button_save');
+        $data['button_save']   = $this->language->get('button_save');
         $data['button_cancel'] = $this->language->get('button_cancel');
         $data['button_remove'] = $this->language->get('button_remove');
 
@@ -299,13 +307,13 @@ class ControllerBlogVideolist extends Controller
         );
 
         $data['breadcrumbs'][] = array(
-            'text'      => $this->language->get('text_extension'),
-            'href'      => $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true)
+            'text' => $this->language->get('text_extension'),
+            'href' => $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true)
         );
 
         $data['breadcrumbs'][] = array(
-            'text'      => $this->language->get('text_blog'),
-            'href'      => $this->url->link('extension/module/ocblog', 'token=' . $this->session->data['token'] . $url, true),
+            'text' => $this->language->get('text_blog'),
+            'href' => $this->url->link('extension/module/ocblog', 'token=' . $this->session->data['token'] . $url, true)
         );
 
         $data['breadcrumbs'][] = array(
@@ -322,7 +330,7 @@ class ControllerBlogVideolist extends Controller
         $data['cancel'] = $this->url->link('blog/videolist', 'token=' . $this->session->data['token'] . $url, true);
 
         if (isset($this->request->get['article_list_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
-            $article_list_info = $this->model_blog_videolist->getvideolist($this->request->get['article_list_id']);
+            $article_list_info            = $this->model_blog_videolist->getvideolist($this->request->get['article_list_id']);
             $article_list_info['article'] = $this->model_blog_videolist->getArticleToList($this->request->get['article_list_id']);
         }
 
@@ -362,19 +370,20 @@ class ControllerBlogVideolist extends Controller
             if ($article_info) {
                 $data['articles'][] = array(
                     'article_id' => $article_info['article_id'],
-                    'name'       => $article_info['name']
+                    'name' => $article_info['name']
                 );
             }
         }
 
-        $data['header'] = $this->load->controller('common/header');
+        $data['header']      = $this->load->controller('common/header');
         $data['column_left'] = $this->load->controller('common/column_left');
-        $data['footer'] = $this->load->controller('common/footer');
+        $data['footer']      = $this->load->controller('common/footer');
 
         $this->response->setOutput($this->load->view('blog/videolist_form.tpl', $data));
     }
 
-    protected function validateForm() {
+    protected function validateForm()
+    {
         if (!$this->user->hasPermission('modify', 'blog/videolist')) {
             $this->error['warning'] = $this->language->get('error_permission');
         }
@@ -396,7 +405,8 @@ class ControllerBlogVideolist extends Controller
         return !$this->error;
     }
 
-    protected function validateDelete() {
+    protected function validateDelete()
+    {
         if (!$this->user->hasPermission('modify', 'blog/videolist')) {
             $this->error['warning'] = $this->language->get('error_permission');
         }
@@ -404,7 +414,8 @@ class ControllerBlogVideolist extends Controller
         return !$this->error;
     }
 
-    protected function validateCopy() {
+    protected function validateCopy()
+    {
         if (!$this->user->hasPermission('modify', 'blog/videolist')) {
             $this->error['warning'] = $this->language->get('error_permission');
         }

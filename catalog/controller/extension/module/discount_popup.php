@@ -38,13 +38,12 @@ class ControllerExtensionModuleDiscountPopup extends Controller {
 		$product_rotator_status = 0;
 
 		$filter_data = array(
-			'sort'  => 'pd.name',
-			'order' => 'ASC',
+			'order' => 'DESC',
 			'start' => 0,
 			'limit' => 1
 		);
 
-		$results = $this->model_catalog_product->getProductSpecials($filter_data);
+		$results = $this->model_catalog_product->getProductSpecialspop($filter_data);
 
 		if ($results) {
 			foreach ($results as $result) {

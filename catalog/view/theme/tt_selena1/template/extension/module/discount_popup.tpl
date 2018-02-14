@@ -77,7 +77,7 @@
 						<div class="actions-link">
 							<a class="btn-compare" data-toggle="tooltip" title="<?php echo $button_compare; ?>"  onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="icon-refresh" aria-hidden="true"></i></a>
 							
-							<a class="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-basket"></i><span class="button">Show Offers --></span></a>
+							<a class="button" href="<?php echo HTTPS_SERVER.'index.php?route=product/special'; ?>"></i><span class="button">Show Offers --></span></a>
 							
 							<a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>"  onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="icon-heart" aria-hidden="true"></i></a>
 						</div>						
@@ -116,21 +116,17 @@
 		  		$('#subscribe_pname').val(name);
 		});
         //transition effect
-        <?php $_SESSION['dis_pop'] = session_id(); ?>
+        
 
-        sessionid = "<?php $_SESSION['dis_pop'] ?>";
+        if($.cookie("shownewsletter") == "<?php echo session_id(); ?>"){
 
-        if(sessionid != "<?php echo session_id(); ?>"){
-        	
-			$('.newletter-popup').bPopup();
+        	$('.newletter-popup').bPopup();
+
+        	$.cookie("shownewsletter","<?php echo session_id(); ?>")
+
+        	var sessionid = "<?php $_SESSION['dis_pop'] = session_id(); ?>";
         }
-		$('.newsletter_popup_dont_show_again').on('click', function(){
-			if($.cookie("shownewsletter") != 1){   
-				$.cookie("shownewsletter",'1')
-			}else{
-				$.cookie("shownewsletter",'0')
-			}
-		}); 
+	 
     });
 </script>
 </div><!-- /.box -->

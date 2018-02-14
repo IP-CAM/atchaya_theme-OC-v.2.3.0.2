@@ -4,3 +4,5 @@ system/storage/logs/error.log
 *.log
 *.log
 *.log
+*.log
+*.log
