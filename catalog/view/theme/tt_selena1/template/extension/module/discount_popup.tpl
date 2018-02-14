@@ -116,21 +116,17 @@
 		  		$('#subscribe_pname').val(name);
 		});
         //transition effect
-        <?php $_SESSION['dis_pop'] = session_id(); ?>
+        
 
-        sessionid = "<?php $_SESSION['dis_pop'] ?>";
+        if($.cookie("shownewsletter") == "<?php echo session_id(); ?>"){
 
-        if(sessionid != "<?php echo session_id(); ?>"){
-        	
-			$('.newletter-popup').bPopup();
+        	$('.newletter-popup').bPopup();
+
+        	$.cookie("shownewsletter","<?php echo session_id(); ?>")
+
+        	var sessionid = "<?php $_SESSION['dis_pop'] = session_id(); ?>";
         }
-		$('.newsletter_popup_dont_show_again').on('click', function(){
-			if($.cookie("shownewsletter") != 1){   
-				$.cookie("shownewsletter",'1')
-			}else{
-				$.cookie("shownewsletter",'0')
-			}
-		}); 
+	 
     });
 </script>
 </div><!-- /.box -->

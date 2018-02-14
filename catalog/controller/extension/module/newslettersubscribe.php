@@ -238,7 +238,7 @@ class ControllerExtensionModuleNewslettersubscribe extends Controller {
 		$this->id = 'newslettersubscribe';
 
 		
-		return $this->load->view('extension/module/newslettersubscribe.tpl', $data);
+		//return $this->load->view('extension/module/newslettersubscribe.tpl', $data);
 	}
 }
 ?>

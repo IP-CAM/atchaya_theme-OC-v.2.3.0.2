@@ -2538,3 +2538,8 @@
 2018-02-13 19:40:06 - PHP Notice:  Undefined variable: option_unsubscribe in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 19
 2018-02-13 19:40:06 - PHP Notice:  Undefined variable: entry_show_again in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl on line 26
 >>>>>>> 572e3c1d8dafb4fd14d0cdc00909117afba5580a
+2018-02-13 19:58:46 - PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\discount_popup.tpl on line 119
+2018-02-13 20:04:20 - PHP Notice:  Undefined index: dis_pop in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\discount_popup.tpl on line 120
+2018-02-13 20:05:39 - PHP Notice:  Undefined index: dis_pop in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\discount_popup.tpl on line 120
+2018-02-13 20:06:32 - PHP Notice:  Undefined index: dis_pop in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\discount_popup.tpl on line 120
+2018-02-14 16:28:10 - PHP Notice:  Undefined index: dis_pop in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\discount_popup.tpl on line 120
