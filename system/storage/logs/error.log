@@ -2741,3 +2741,4 @@
 2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 32
 2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
 2018-02-14 18:03:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
+2018-02-14 18:52:47 - PHP Notice:  Undefined variable: newsletter in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\footer.tpl on line 22

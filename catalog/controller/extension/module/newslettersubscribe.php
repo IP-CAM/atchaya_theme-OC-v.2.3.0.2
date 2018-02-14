@@ -25,9 +25,11 @@ class ControllerExtensionModuleNewslettersubscribe extends Controller {
 		$data['text_subscribe'] = $this->language->get('text_subscribe');	
 		
 		$this->id = 'newslettersubscribe';
-	  
-		return $this->load->view('extension/module/newslettersubscribe', $data);
-		
+	    if(isset($setting['popup']) && $setting['popup']==1) {
+			return $this->load->view('extension/module/newsletterpopup', $data);
+		}else {
+			return $this->load->view('extension/module/newslettersubscribe', $data);
+		}
 		
 	 
 	   	$this->load->model('account/newslettersubscribe');
