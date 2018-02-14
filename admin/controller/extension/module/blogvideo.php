@@ -5,41 +5,39 @@ class ControllerExtensionModuleBlogvideo extends Controller
 	private $error = array();
 
 	public function index()
-  	{
-  		$blog_video = $this->load->language('extension/module/blogvideo');
+  {
+		$blog_video = $this->load->language('extension/module/blogvideo');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 
 		$data['heading_title'] = $this->language->get('heading_title');
 		$data['text_edit']     = $this->language->get('text_edit');
-		$data['entry_name']    = $this->language->get('entry_name');
+		$data['text_enabled']  = $this->language->get('text_enabled');
+		$data['text_disabled'] = $this->language->get('text_disabled');
+		$data['entry_status']  = $this->language->get('entry_status');
 		$data['button_save']   = $this->language->get('button_save');
+		$data['button_cancel'] = $this->language->get('button_cancel');
 
 		if (isset($this->error['warning']))
 		{
 			$data['error_warning'] = $this->error['warning'];
 		}
 		else
-    	{
-    		$data['error_warning'] = '';
-		}
-
-		if (isset($this->error['name'])) {
-			$data['error_name'] = $this->error['name'];
-		} else {
-			$data['error_name'] = '';
+    {
+			$data['error_warning'] = '';
 		}
 
 		$this->load->model('setting/setting');
 
-		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
+		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate())
+		{
 			$this->model_setting_setting->editSetting('blogvideo', $this->request->post);
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
 			$this->response->redirect($this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true));
 		}
-    
+
 		$data['breadcrumbs'] = array();
 
 		$data['breadcrumbs'][] = array(
@@ -56,15 +54,18 @@ class ControllerExtensionModuleBlogvideo extends Controller
 			'text' => $this->language->get('heading_title'),
 			'href' => $this->url->link('extension/module/blogvideo', 'token=' . $this->session->data['token'], true)
 		);
-    
+
 		$data['action'] = $this->url->link('extension/module/blogvideo', 'token=' . $this->session->data['token'], true);
-    
+
 		$data['cancel'] = $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true);
 
-		if (isset($this->request->post['blogvideo_url'])) {
-			$data['blogvideo_url'] = $this->request->post['blogvideo_url'];
-		} else {
-			$data['blogvideo_url'] = $this->config->get('blogvideo_url');
+		if (isset($this->request->post['blogvideo_url_status']))
+		{
+			$data['blogvideo_url_status'] = $this->request->post['blogvideo_url_status'];
+		}
+		else
+		{
+			$data['blogvideo_url_status'] = $this->config->get('blogvideo_url_status');
 		}
 
 		$data['header']      = $this->load->controller('common/header');
@@ -82,11 +83,5 @@ class ControllerExtensionModuleBlogvideo extends Controller
 		}
 		return !$this->error;
 	}
-
-  // function install()
-  // {
-  //   $this->load->model('setting/setting');
-  //   $this->model_setting_setting->editSetting('module_blogvideo', array('module_video_status' => 1));
-  // }
 }
 ?>

@@ -1,0 +1,5 @@
+
+*.log
+system/storage/logs/error.log
+*.log
+*.log
