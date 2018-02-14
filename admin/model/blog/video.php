@@ -1,19 +1,21 @@
 <?php
 
-class ModelBlogVideolist extends Model
+class ModelBlogVideo extends Model
 {
-    public function addArticlesList($data) {
-        $this->db->query("INSERT INTO " . DB_PREFIX . "article_list SET name = '" . $this->db->escape($data['name']) . "', status = '" . (int)$data['status'] . "'");
+    public function BlogvideoList($data)
+    {
+        $this->db->query("INSERT INTO " . DB_PREFIX . "blogvideo SET name = '" . $this->db->escape($data['name']) . "', status = '" . (int)$data['status'] . "'");
 
-        $article_list_id = $this->db->getLastId();
+        $blogvideo_id = $this->db->getLastId();
 
-        $this->cache->delete('article_list');
+        $this->cache->delete('blogvideo');
 
-        return $article_list_id;
+        return $blogvideo_list_id;
     }
 
-    public function addArticleToList($article_list_id, $articleIds) {
-        foreach($articleIds as $articleId) {
+    public function addBlogvideoToList($blogvideo_list_id, $blogvideoIds)
+    {
+        foreach($blogvideoIds as $blogvideoId) {
             $sql = "INSERT INTO " . DB_PREFIX . "article_to_list SET article_list_id = '". (int) $article_list_id . "', article_id = '" . (int) $articleId . "'";
 
             $this->db->query($sql);
