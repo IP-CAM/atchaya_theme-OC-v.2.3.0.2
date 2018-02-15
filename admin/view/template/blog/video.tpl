@@ -42,15 +42,15 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php if ($articles_list) { ?>
-                                    <?php foreach ($articles_list as $list) { ?>
+                                <?php if ($blogvideo_list) { ?>
+                                    <?php foreach ($blogvideo_list as $list) {?>
                                     <tr>
-                                        <td class="text-center"><?php if (in_array($list['article_list_id'], $selected)) { ?>
-                                            <input type="checkbox" name="selected[]" value="<?php echo $list['article_list_id']; ?>" checked="checked" />
+                                        <td class="text-center"><?php if (in_array($list['blogvideo_id'], $selected)) { ?>
+                                            <input type="checkbox" name="selected[]" value="<?php echo $list['blogvideo_id']; ?>" checked="checked" />
                                             <?php } else { ?>
-                                            <input type="checkbox" name="selected[]" value="<?php echo $list['article_list_id']; ?>" />
+                                            <input type="checkbox" name="selected[]" value="<?php echo $list['blogvideo_id']; ?>" />
                                             <?php } ?></td>
-                                        <td class="text-left"><?php echo $list['name']; ?></td>
+                                        <td class="text-left"><?php echo $list['title']; ?></td>
                                         <td class="text-left"><?php echo $list['status']; ?></td>
                                         <td class="text-right"><a href="<?php echo $list['edit']; ?>" data-toggle="tooltip" title="<?php echo $button_edit; ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
                                     </tr>
