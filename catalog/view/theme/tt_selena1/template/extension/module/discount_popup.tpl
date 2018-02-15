@@ -116,9 +116,9 @@
 		  		$('#subscribe_pname').val(name);
 		});
         //transition effect
-        
+        $('.newletter-popup').bPopup();
 
-        if($.cookie("shownewsletter") == "<?php echo session_id(); ?>"){
+        if($.cookie("shownewsletter") != "<?php echo session_id(); ?>"){
 
         	$('.newletter-popup').bPopup();
 
