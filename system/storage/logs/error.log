@@ -2988,3 +2988,14 @@
 >>>>>>> 0e7ffad5331abcfff5c855fe5ac7c733efbb8666
 >>>>>>> 8d35840a413340e2221e468380c27a015203c4df
 >>>>>>> 591b9c55141185b60c2c57c8392fefdb75a58da7
+2018-02-15 6:22:36 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
+2018-02-15 6:22:36 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+2018-02-15 6:24:02 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
+2018-02-15 6:24:02 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+2018-02-15 6:30:39 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
+2018-02-15 6:30:39 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+2018-02-15 6:30:54 - PHP Notice:  Undefined index: gallery_image in C:\xampp\htdocs\atchaya_theme\admin\model\setting\gallery.php on line 22
+2018-02-15 6:31:00 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
+2018-02-15 6:31:00 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+2018-02-15 6:31:21 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
+2018-02-15 6:31:21 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
