@@ -271,3 +271,6 @@ catalog\view\theme\default\template\checkout\register.tpl
 catalog\model\localisation\zone.php
 catalog\language\en-gb\mail\customer.php
 system\library\mail.php
+admin\controller\catalog\information.php
+admin\language\en-gb\catalog\information.php
+admin\view\template\catalog\information_list.tpl
