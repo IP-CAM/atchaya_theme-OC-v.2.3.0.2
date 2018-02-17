@@ -2999,3 +2999,5 @@
 2018-02-15 6:31:00 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
 2018-02-15 6:31:21 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
 2018-02-15 6:31:21 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+2018-02-17 17:20:14 - PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\atchaya_theme\system\library\mail.php on line 167
+2018-02-17 17:20:14 - PHP Warning:  fsockopen(): unable to connect to smtp.gmail.com:587 (php_network_getaddresses: getaddrinfo failed: No such host is known. ) in C:\xampp\htdocs\atchaya_theme\system\library\mail.php on line 167

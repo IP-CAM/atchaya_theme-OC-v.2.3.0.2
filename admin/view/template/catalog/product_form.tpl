@@ -796,7 +796,7 @@
                     <?php } ?>
                   </tbody>
                   <tfoot>
-                    <tr>
+                    <tr> 
                       <td colspan="5"></td>
                       <td class="text-left"><button type="button" onclick="addSpecial();" data-toggle="tooltip" title="<?php echo $button_special_add; ?>" class="btn btn-primary"><i class="fa fa-plus-circle"></i></button></td>
                     </tr>
