@@ -1,11 +1,11 @@
 <?php
-class ControllerBlogBlog extends Controller 
+class ControllerBlogBlog extends Controller
 {
-	public function index() {
+	public function index() {	
 		$this->load->model('blog/article');
         $this->load->language('blog/blog');
 		$data['text_post_by'] = $this->language->get('text_post_by');
-		
+
 		if (file_exists('catalog/view/theme/' . $this->config->get($this->config->get('config_theme') . '_directory') . '/stylesheet/opentheme/ocblog.css')) {
 			$this->document->addStyle('catalog/view/theme/' . $this->config->get($this->config->get('config_theme') . '_directory') . '/stylesheet/opentheme/ocblog.css');
 		} else {
@@ -55,7 +55,7 @@ class ControllerBlogBlog extends Controller
 			'text' => $this->language->get('text_home'),
 			'href' => $this->url->link('common/home')
 		);
-		
+
 		$data['breadcrumbs'][] = array(
 			'text' => $this->language->get('text_blog'),
 			'href' => $this->url->link('blog/blog')
@@ -92,9 +92,9 @@ class ControllerBlogBlog extends Controller
 		$article_total = $this->model_blog_article->getTotalArticles($filter_data);
 
 		$results = $this->model_blog_article->getArticles($filter_data);
-		
+
 		$this->load->model('tool/image');
-		
+
 		foreach ($results as $result) {
 			$data['articles'][] = array(
 				'article_id'  => $result['article_id'],
