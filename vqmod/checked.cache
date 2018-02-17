@@ -111,6 +111,7 @@ catalog\view\theme\tt_selena1\template\extension\module\ocslideshow.tpl
 catalog\controller\extension\module\occmsblock.php
 catalog\model\cmsblock\info.php
 catalog\view\theme\tt_selena1\template\extension\module\occmsblock.tpl
+<<<<<<< HEAD
 catalog\controller\extension\module\ocfeaturedcategory.php
 catalog\language\en-gb\extension\module\ocfeaturedcategory.php
 catalog\model\extension\module\ocfeaturedcategory.php
@@ -118,6 +119,12 @@ catalog\model\catalog\category.php
 catalog\controller\extension\module\octabcategoryslider.php
 catalog\language\en-gb\extension\module\octabcategoryslider.php
 system\storage\modification\catalog\model\catalog\product.php
+=======
+catalog\controller\extension\module\octabcategoryslider.php
+catalog\language\en-gb\extension\module\octabcategoryslider.php
+system\storage\modification\catalog\model\catalog\product.php
+catalog\model\catalog\category.php
+>>>>>>> 0772760e0bf6a8c19a79d6dfc87c8e5e8d6406ea
 catalog\model\catalog\ocproductrotator.php
 catalog\view\theme\tt_selena1\template\extension\module\octabcategoryslider.tpl
 catalog\controller\extension\module\octestimonial.php
@@ -133,7 +140,10 @@ catalog\language\en-gb\blog\blog.php
 catalog\view\theme\tt_selena1\template\blog\blog_home.tpl
 system\storage\modification\catalog\controller\extension\module\carousel.php
 catalog\model\design\banner.php
+<<<<<<< HEAD
 system\library\image.php
+=======
+>>>>>>> 0772760e0bf6a8c19a79d6dfc87c8e5e8d6406ea
 catalog\view\theme\tt_selena1\template\extension\module\carousel.tpl
 catalog\view\theme\tt_selena1\template\common\layout_content_built.tpl
 catalog\view\theme\default\template\common\content_top.tpl
@@ -163,7 +173,10 @@ catalog\controller\extension\module\ochozmegamenu.php
 catalog\language\en-gb\extension\module\ochozmegamenu.php
 catalog\model\hozmegamenu\menu.php
 catalog\view\theme\tt_selena1\template\extension\module\ochozmegamenu.tpl
+<<<<<<< HEAD
 catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl
+=======
+>>>>>>> 0772760e0bf6a8c19a79d6dfc87c8e5e8d6406ea
 catalog\controller\extension\module\discount_popup.php
 catalog\language\en-gb\extension\module\ocspecialproductslider.php
 catalog\view\theme\tt_selena1\template\extension\module\discount_popup.tpl
@@ -196,6 +209,7 @@ catalog\model\tool\upload.php
 catalog\view\theme\tt_selena1\template\common\cart.tpl
 catalog\view\theme\tt_selena1\template\common\header.tpl
 catalog\view\theme\tt_selena1\template\common\home.tpl
+<<<<<<< HEAD
 catalog\controller\extension\module\ocquickview.php
 catalog\language\en-gb\extension\module\ocquickview.php
 catalog\view\theme\tt_selena1\template\extension\module\ocquickview\qvcontainer.tpl
@@ -256,6 +270,20 @@ admin\language\en-gb\extension\module\latest.php
 admin\language\en-gb\extension\module\laybuy_layout.php
 admin\language\en-gb\extension\module\newslettersubscribe.php
 admin\language\en-gb\extension\module\oc_page_builder.php
+=======
+admin\controller\common\login.php
+admin\language\en-gb\common\login.php
+admin\view\template\common\login.tpl
+admin\controller\extension\module\oc_page_builder.php
+admin\language\en-gb\extension\module\oc_page_builder.php
+admin\model\extension\module.php
+admin\model\extension\extension.php
+admin\language\en-gb\extension\module\banner.php
+admin\language\en-gb\extension\module\blogvideo.php
+admin\language\en-gb\extension\module\carousel.php
+admin\language\en-gb\extension\module\discount_popup.php
+admin\language\en-gb\extension\module\newslettersubscribe.php
+>>>>>>> 0772760e0bf6a8c19a79d6dfc87c8e5e8d6406ea
 admin\language\en-gb\extension\module\ocajaxlogin.php
 admin\language\en-gb\extension\module\ocbestproductslider.php
 admin\language\en-gb\extension\module\occategorythumbnail.php
@@ -276,6 +304,7 @@ admin\language\en-gb\extension\module\ocspecialproductslider.php
 admin\language\en-gb\extension\module\octabcategoryslider.php
 admin\language\en-gb\extension\module\octestimonial.php
 admin\language\en-gb\extension\module\ocvermegamenu.php
+<<<<<<< HEAD
 admin\language\en-gb\extension\module\pilibaba_button.php
 admin\language\en-gb\extension\module\pp_button.php
 admin\language\en-gb\extension\module\pp_login.php
@@ -310,6 +339,13 @@ catalog\language\en-gb\blog\article.php
 catalog\view\theme\tt_selena1\template\blog\article.tpl
 admin\controller\setting\store.php
 admin\language\en-gb\setting\store.php
+=======
+admin\view\template\extension\module\ocpagebuilder\oc_page_builder.tpl
+admin\view\template\catalog\product_import.tpl
+admin\controller\setting\store.php
+admin\language\en-gb\setting\store.php
+admin\model\setting\setting.php
+>>>>>>> 0772760e0bf6a8c19a79d6dfc87c8e5e8d6406ea
 admin\view\template\setting\store_list.tpl
 admin\controller\setting\setting.php
 admin\language\en-gb\setting\setting.php
@@ -323,6 +359,7 @@ admin\model\localisation\return_status.php
 admin\view\template\setting\setting.tpl
 admin\controller\localisation\country.php
 admin\model\localisation\zone.php
+<<<<<<< HEAD
 admin\controller\common\filemanager.php
 admin\language\en-gb\common\filemanager.php
 admin\view\template\common\filemanager.tpl
@@ -380,3 +417,38 @@ admin\controller\tool\backup.php
 admin\language\en-gb\tool\backup.php
 admin\model\tool\backup.php
 admin\view\template\tool\backup.tpl
+=======
+catalog\controller\extension\module\ocquickview.php
+catalog\language\en-gb\extension\module\ocquickview.php
+catalog\view\theme\tt_selena1\template\extension\module\ocquickview\qvcontainer.tpl
+system\storage\modification\catalog\controller\product\special.php
+catalog\language\en-gb\product\special.php
+catalog\controller\extension\module\ocajaxlogin.php
+catalog\language\en-gb\extension\module\ocajaxlogin.php
+catalog\view\theme\tt_selena1\template\extension\module\ocajaxlogin\ocajaxlogin.tpl
+catalog\view\theme\tt_selena1\template\product\special.tpl
+system\storage\modification\catalog\controller\checkout\cart.php
+catalog\language\en-gb\checkout\cart.php
+system\storage\modification\catalog\controller\product\product.php
+catalog\language\en-gb\product\product.php
+catalog\model\catalog\manufacturer.php
+catalog\model\catalog\review.php
+catalog\view\theme\tt_selena1\template\product\product.tpl
+catalog\view\theme\default\template\product\review.tpl
+catalog\controller\checkout\checkout.php
+catalog\language\en-gb\checkout\checkout.php
+catalog\view\theme\default\template\checkout\checkout.tpl
+catalog\controller\checkout\login.php
+catalog\view\theme\default\template\checkout\login.tpl
+catalog\controller\checkout\register.php
+catalog\model\account\customer_group.php
+catalog\model\localisation\country.php
+catalog\model\account\custom_field.php
+catalog\view\theme\default\template\checkout\register.tpl
+catalog\model\localisation\zone.php
+catalog\language\en-gb\mail\customer.php
+system\library\mail.php
+admin\controller\catalog\information.php
+admin\language\en-gb\catalog\information.php
+admin\view\template\catalog\information_list.tpl
+>>>>>>> 0772760e0bf6a8c19a79d6dfc87c8e5e8d6406ea

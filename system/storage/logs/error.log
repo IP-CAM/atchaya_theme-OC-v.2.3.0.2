@@ -2999,6 +2999,7 @@
 2018-02-15 6:31:00 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
 2018-02-15 6:31:21 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
 2018-02-15 6:31:21 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+<<<<<<< HEAD
 2018-02-17 17:29:23 - PHP Notice:  Undefined variable: content_bottom in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\home.tpl on line 5
 2018-02-17 17:29:38 - PHP Notice:  Undefined variable: content_top in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\home.tpl on line 4
 2018-02-17 17:56:39 - PHP Warning:  copy(C:/xampp/htdocs/atchaya_theme/image/cache/catalog/blog/blog_1.1-465x450-465x450.jpg): failed to open stream: Invalid argument in C:\xampp\htdocs\atchaya_theme\catalog\model\tool\image.php on line 37
@@ -3006,3 +3007,7 @@
 2018-02-17 18:16:10 - PHP Notice:  Undefined variable: module_data in C:\xampp\htdocs\atchaya_theme\catalog\controller\common\content_top.php on line 61
 2018-02-17 18:24:06 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\atchaya_theme\catalog\controller\common\content_top.php on line 46
 2018-02-17 18:25:08 - PHP Warning:  copy(C:/xampp/htdocs/atchaya_theme/image/cache/catalog/blog/blog_1.1-465x450-465x450.jpg): failed to open stream: Invalid argument in C:\xampp\htdocs\atchaya_theme\catalog\model\tool\image.php on line 37
+=======
+2018-02-17 17:20:14 - PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\atchaya_theme\system\library\mail.php on line 167
+2018-02-17 17:20:14 - PHP Warning:  fsockopen(): unable to connect to smtp.gmail.com:587 (php_network_getaddresses: getaddrinfo failed: No such host is known. ) in C:\xampp\htdocs\atchaya_theme\system\library\mail.php on line 167
+>>>>>>> 0772760e0bf6a8c19a79d6dfc87c8e5e8d6406ea
