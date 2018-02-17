@@ -15,5 +15,6 @@ $_['error_permission'] = 'Warning: You do not have permission to modify Gallery 
 
 //Table
 $_['grid_image']     = 'Image';
+$_['grid_name']     = 'Name';
 $_['grid_description']     = 'Description';
 $_['grid_sortorder']     = 'Sort Order';

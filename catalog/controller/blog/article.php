@@ -1,26 +1,35 @@
 <?php
-class ControllerBlogArticle extends Controller {
-	public function index() {
+class ControllerBlogArticle extends Controller
+{
+	public function index()
+	{
 		$this->load->language('blog/article');
 		$this->load->language('blog/blog');
 		$data['text_post_by'] = $this->language->get('text_post_by');
-		if (file_exists('catalog/view/theme/' . $this->config->get($this->config->get('config_theme') . '_directory') . '/stylesheet/opentheme/ocblog.css')) {
+		if (file_exists('catalog/view/theme/' . $this->config->get($this->config->get('config_theme') . '_directory') . '/stylesheet/opentheme/ocblog.css'))
+		{
 			$this->document->addStyle('catalog/view/theme/' . $this->config->get($this->config->get('config_theme') . '_directory') . '/stylesheet/opentheme/ocblog.css');
-		} else {
+		}
+		else
+		{
 			$this->document->addStyle('catalog/view/theme/default/stylesheet/opentheme/ocblog.css');
 		}
 
 		$this->load->model('blog/article');
 
-		if (isset($this->request->get['article_id'])) {
+		if (isset($this->request->get['article_id']))
+		{
 			$article_id = (int)$this->request->get['article_id'];
-		} else {
+		}
+		else
+		{
 			$article_id = 0;
 		}
 
 		$article_info = $this->model_blog_article->getArticle($article_id);
 
-		if ($article_info) {
+		if ($article_info)
+		{
 			$data['breadcrumbs'] = array();
 
 			$data['breadcrumbs'][] = array(
@@ -47,7 +56,7 @@ class ControllerBlogArticle extends Controller {
 			$data['author'] = $article_info['author'];
             $data['date'] = date($this->language->get('date_format_short'), strtotime($article_info['date_added']));
 			$data['article_id'] = (int)$this->request->get['article_id'];
-			
+
 			$data['description'] = html_entity_decode($article_info['description'], ENT_QUOTES, 'UTF-8');
 
 			$this->load->model('tool/image');

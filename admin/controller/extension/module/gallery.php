@@ -12,6 +12,11 @@ class ControllerExtensionModuleGallery extends Controller {
 
 		$data['gallery_data'] = $this->model_setting_gallery->getGallery();
 
+		if(isset($_POST['daleteid']))
+		{
+			echo "123"; die;
+		}
+
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 
 			$this->model_setting_gallery->editSetting('gallery', $this->request->post);
@@ -32,6 +37,7 @@ class ControllerExtensionModuleGallery extends Controller {
 		$data['button_save'] = $this->language->get('button_save');
 		$data['button_cancel'] = $this->language->get('button_cancel');
 		$data['grid_image'] = $this->language->get('grid_image');
+		$data['grid_name'] = $this->language->get('grid_name');
 		$data['grid_description'] = $this->language->get('grid_description');
 		$data['grid_sortorder'] = $this->language->get('grid_sortorder');
 

@@ -272,7 +272,14 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
 2018-02-17 18:55:40 - MOD: Modification Default
+=======
+<<<<<<< HEAD
+2018-02-17 19:03:31 - MOD: Modification Default
+=======
+2018-02-17 18:31:54 - MOD: Modification Default
+>>>>>>> 3e2f6379c72d2b20e0b665c92e72101f04687973
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
@@ -546,7 +553,12 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
 2018-02-17 18:58:41 - MOD: Modification Default
+=======
+2018-02-17 18:32:21 - MOD: Modification Default
+>>>>>>> c16395bfbe211432aef118a686a74594dc3d7fb4
+>>>>>>> 3e2f6379c72d2b20e0b665c92e72101f04687973
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
