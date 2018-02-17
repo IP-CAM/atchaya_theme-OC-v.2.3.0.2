@@ -2986,6 +2986,16 @@
 2018-02-14 19:29:53 - PHP Notice:  Undefined variable: token in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
 =======
 >>>>>>> 0e7ffad5331abcfff5c855fe5ac7c733efbb8666
+<<<<<<< HEAD
+2018-02-17 18:41:45 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
+2018-02-17 18:41:45 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+2018-02-17 18:41:45 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
+2018-02-17 18:41:45 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+2018-02-17 19:03:17 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
+2018-02-17 19:03:17 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+2018-02-17 19:03:17 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
+2018-02-17 19:03:17 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 54
+=======
 >>>>>>> 8d35840a413340e2221e468380c27a015203c4df
 >>>>>>> 591b9c55141185b60c2c57c8392fefdb75a58da7
 2018-02-15 6:22:36 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 51
@@ -3011,3 +3021,4 @@
 2018-02-17 17:20:14 - PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\atchaya_theme\system\library\mail.php on line 167
 2018-02-17 17:20:14 - PHP Warning:  fsockopen(): unable to connect to smtp.gmail.com:587 (php_network_getaddresses: getaddrinfo failed: No such host is known. ) in C:\xampp\htdocs\atchaya_theme\system\library\mail.php on line 167
 >>>>>>> 0772760e0bf6a8c19a79d6dfc87c8e5e8d6406ea
+>>>>>>> c16395bfbe211432aef118a686a74594dc3d7fb4
