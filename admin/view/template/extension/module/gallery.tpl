@@ -74,13 +74,9 @@
     </div>
   </div>
 </div>
-<script type="text/javascript" src="view/javascript/summernote/summernote.js"></script>
-  <link href="view/javascript/summernote/summernote.css" rel="stylesheet" />
-  <script type="text/javascript" src="view/javascript/summernote/opencart.js"></script>
 <script type="text/javascript">
 var image_row = <?php echo $image_row; ?>;
   function addImage() {
-    alert(1);
   html  = '<tr id="image-row' + image_row + '">';
   html += '  <td class="text-left"><input type="hidden" name="gallery_data[<?php echo $image_row; ?>][id]" value=""><a href="" id="thumb-image' + image_row + '"data-toggle="image" class="img-thumbnail"><img src="" alt="" title="" data-placeholder="" /></a><input type="hidden" name="gallery_data[' + image_row + '][gallery_image]" value="" id="input-image' + image_row + '" /></td>';
   html += '  <td class="text-right"><input type="text" name="gallery_data[' + image_row + '][description]" value="" placeholder="" class="form-control" /></td>';

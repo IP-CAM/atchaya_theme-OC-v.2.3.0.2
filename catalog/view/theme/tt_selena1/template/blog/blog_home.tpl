@@ -19,9 +19,9 @@
 			  <div class="col col-md-6 col-xs-12"> <div class="articles-image"><img src="<?php echo $article['image']; ?>" alt="<?php echo $article['name']; ?>"/></div></div>
 			   <div class="col col-md-6 col-xs-12">
 					<div class="aritcles-content">
-						<div class="articles-date">				
+						<div class="articles-date">
 							<?php echo $text_post_by.'<span class="author-name">'.$article['author'].'</span>'; ?>
-							<?php echo $article['date_added']; ?><?php if($article['author'] != null && $article['author'] != ""): ?>					
+							<?php echo $article['date_added']; ?><?php if($article['author'] != null && $article['author'] != ""): ?>
 					   <?php endif; ?>
 					   </div>
 					   <a class="articles-name" href="<?php echo $article['href']; ?>"><?php echo $article['name']; ?></a>
@@ -37,13 +37,13 @@
       </div>
       </div>
       <?php } ?>
-	  
+
       <?php if (!$articles) { ?>
       <p><?php echo $text_empty; ?></p>
       <?php } ?>
 	  </div>
  <script>
- $(document).ready(function() { 
+ $(document).ready(function() {
 	  $(".articles-container").owlCarousel({
 			autoPlay : <?php if($slide['auto']) { echo 'true' ;} else { echo 'false'; } ?>,
 			items : <?php echo $slide['items'] ?>,

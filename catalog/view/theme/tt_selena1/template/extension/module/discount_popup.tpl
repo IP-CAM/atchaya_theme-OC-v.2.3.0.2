@@ -1,11 +1,13 @@
-<div class="newletter-popup">
+<div class="newletter-popup bgimg_popup">
 <div id="boxes" class="newletter-container">
  <div id="dialog" class="window">
  <div id="popup2">
 	<span class="b-close"><span>X</span></span>
 </div>
 	<div class="box">
-		<div class="newletter-title"><h2>Special Offer</h2></div>
+		<div class="newletter-title"><h2>Special Offer</h2>
+        <hr  />
+        </div>
 	  <div class="box-content newleter-content">
 		<div class="special-product-slider special-button-owl">
 	  <div class="special-products-slider">
@@ -77,7 +79,7 @@
 						<div class="actions-link">
 							<a class="btn-compare" data-toggle="tooltip" title="<?php echo $button_compare; ?>"  onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="icon-refresh" aria-hidden="true"></i></a>
 							
-							<a class="button" href="<?php echo HTTPS_SERVER.'index.php?route=product/special'; ?>"></i><span class="button">Show Offers --></span></a>
+							<a class="button show_offers" href="<?php echo HTTPS_SERVER.'index.php?route=product/special'; ?>"></i><span class="button">Show Offers</span></a>
 							
 							<a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>"  onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="icon-heart" aria-hidden="true"></i></a>
 						</div>						
@@ -116,9 +118,9 @@
 		  		$('#subscribe_pname').val(name);
 		});
         //transition effect
-        
+        $('.newletter-popup').bPopup();
 
-        if($.cookie("shownewsletter") == "<?php echo session_id(); ?>"){
+        if($.cookie("shownewsletter") != "<?php echo session_id(); ?>"){
 
         	$('.newletter-popup').bPopup();
 
