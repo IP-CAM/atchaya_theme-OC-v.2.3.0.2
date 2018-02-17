@@ -463,3 +463,6 @@ admin\controller\extension\modification.php
 admin\language\en-gb\extension\modification.php
 admin\model\extension\modification.php
 admin\view\template\extension\modification.tpl
+admin\controller\extension\module\gallery.php
+admin\model\setting\gallery.php
+admin\view\template\extension\module\gallery.tpl
