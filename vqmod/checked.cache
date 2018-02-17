@@ -452,3 +452,14 @@ admin\controller\catalog\information.php
 admin\language\en-gb\catalog\information.php
 admin\view\template\catalog\information_list.tpl
 >>>>>>> 0772760e0bf6a8c19a79d6dfc87c8e5e8d6406ea
+admin\controller\extension\extension\theme.php
+admin\view\template\extension\extension\theme.tpl
+system\storage\modification\admin\controller\extension\theme\theme_default.php
+system\storage\modification\admin\view\template\extension\theme\theme_default.tpl
+admin\controller\extension\event.php
+admin\language\en-gb\extension\event.php
+admin\view\template\extension\event.tpl
+admin\controller\extension\modification.php
+admin\language\en-gb\extension\modification.php
+admin\model\extension\modification.php
+admin\view\template\extension\modification.tpl

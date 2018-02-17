@@ -87,7 +87,6 @@ class ControllerCommonHeader extends Controller {
 		$data['telephone'] = $this->config->get('config_telephone');
 
 				$data['block1'] = $this->load->controller('common/block1');			
-				$data['block4'] = $this->load->controller('common/block4');			
 				$data['block5'] = $this->load->controller('common/block5');			
 				if ($this->customer->isLogged()) {
 					$data['text_message'] = sprintf($this->language->get('text_message2'),$this->customer->getFirstName());
