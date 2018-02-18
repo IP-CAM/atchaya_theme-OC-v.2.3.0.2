@@ -3086,3 +3086,26 @@
 2018-02-17 20:51:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-17 20:51:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-17 20:51:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
+2018-02-18 9:31:04 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/catalog/model): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:04 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/catalog): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:09 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:31:09 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:31:09 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:31:55 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/admin/controller/common): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:55 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/admin/controller): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:55 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/admin): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:57 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:31:57 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:31:57 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:32:03 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:32:03 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:32:03 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:32:34 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:32:34 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:32:34 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:32:35 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:32:35 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:32:35 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:32:56 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:32:56 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:32:56 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112

@@ -481,3 +481,16 @@ admin\model\customer\customer_group.php
 admin\model\catalog\download.php
 admin\model\design\layout.php
 system\storage\modification\admin\view\template\catalog\product_form.tpl
+admin\controller\common\header.php
+admin\model\catalog\product.php
+admin\controller\common\column_left.php
+catalog\model\catalog\product.php
+catalog\controller\extension\module\carousel.php
+catalog\controller\common\footer.php
+catalog\controller\common\header.php
+catalog\controller\common\search.php
+catalog\language\en-gb\common\search.php
+catalog\view\theme\default\template\common\search.tpl
+catalog\controller\common\cart.php
+admin\controller\extension\module\discount_popup.php
+admin\view\template\extension\module\discount_popup.tpl
