@@ -494,3 +494,10 @@ catalog\view\theme\default\template\common\search.tpl
 catalog\controller\common\cart.php
 admin\controller\extension\module\discount_popup.php
 admin\view\template\extension\module\discount_popup.tpl
+catalog\controller\extension\module\gallery.php
+catalog\model\catalog\gallery.php
+catalog\view\theme\tt_selena1\template\extension\module\gallery.tpl
+catalog\controller\extension\module\ocvermegamenu.php
+catalog\language\en-gb\extension\module\ocvermegamenu.php
+catalog\model\vermegamenu\menu.php
+catalog\view\theme\tt_selena1\template\extension\module\ocvermegamenu.tpl
