@@ -3209,4 +3209,9 @@
 2018-02-18 9:49:48 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-18 9:50:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-18 9:50:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
+<<<<<<< HEAD
+2018-02-18 9:52:06 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
+2018-02-18 9:52:06 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
+=======
 >>>>>>> 96c281981a6d3badeafbd04e0ce2379d53b29b75
+>>>>>>> 4c8af4486bc4a7b54356ff1ac8dc08bf768b3680
