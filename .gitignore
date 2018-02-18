@@ -19,3 +19,5 @@ system/storage/logs/error.log
 system/storage/cache/cache.product.bestseller.1.0.1.12.1518716876
 system/storage/cache/cache.product.bestseller.1.0.1.12.1518716660
 >>>>>>> 05beed53d9f94d74e9a585ab32afe2b07ac5a2f7
+*.1518945534
+*.log

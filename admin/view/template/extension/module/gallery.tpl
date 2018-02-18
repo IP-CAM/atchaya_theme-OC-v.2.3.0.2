@@ -43,7 +43,7 @@
                     <tr id="image-row<?php echo $image_row; ?>">
                       <td class="text-left">
                       	<a href="" id="thumb-image<?php echo $image_row; ?>" data-toggle="image" class="img-thumbnail">
-                        	<img src="<?php echo $gallery_datas['gallery_image']; ?>" alt="" title="" data-placeholder="" />
+                        	<img width="100" height="50" src="<?php echo HTTPS_CATALOG.'image/'.$gallery_datas['gallery_image']; ?>" alt="" title="" data-placeholder="" />
                        	</a>
                         <input type="hidden" name="gallery_datas[<?php echo $image_row; ?>][image]" value="<?php echo $gallery_datas['gallery_image']; ?>" id="input-image<?php echo $image_row; ?>" />
                       </td>
@@ -58,7 +58,7 @@
                       	<input type="text" name="gallery_datas[<?php echo $image_row; ?>][sort_order]" value="<?php echo $gallery_datas['sort_order']; ?>" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" />
                       </td>
                       <td class="text-left">
-                      	<button type="button" onclick="removerow('<?php echo $image_row; ?>')" data-toggle="tooltip" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button>
+                      	<button type="button" onclick="return removerow('<?php echo $image_row; ?>','<?php echo $gallery_datas['id']; ?>')" data-toggle="tooltip" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button>
                       </td>
                     </tr>
                     <?php $image_row++; ?>
@@ -79,18 +79,20 @@
   </div>
 </div>
 <script type="text/javascript">
-  function removerow(id)
+  function removerow(id,deleteid)
   {
-    $('#image-row'+id).remove();
-
-    $.ajax({
-        url: '<?php echo $action; ?>',
+    var result = confirm("Are you sure you want to delete");
+    if(result)
+    {
+      $.ajax({
+        url: 'index.php?route=extension/module/gallery/ajaxrequest&token=<?php echo $token; ?>',
         type: 'post',
-        data: {deleteid:id},
+        data: {deleteid:deleteid},
         success: function(data) {
-          alert(data);
+          $('#image-row'+id).remove();
         },
       });
+    }
   }
 var image_row = <?php echo $image_row; ?>;
   function addImage() {
