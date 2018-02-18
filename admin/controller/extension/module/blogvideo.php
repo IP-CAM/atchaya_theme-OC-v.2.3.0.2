@@ -1,31 +1,13 @@
 <?php
-
 class ControllerExtensionModuleBlogvideo extends Controller
 {
 	private $error = array();
 
 	public function index()
-  {
-		$blog_video = $this->load->language('extension/module/blogvideo');
+	{
+		$this->load->language('extension/module/blogvideo');
 
 		$this->document->setTitle($this->language->get('heading_title'));
-
-		$data['heading_title'] = $this->language->get('heading_title');
-		$data['text_edit']     = $this->language->get('text_edit');
-		$data['text_enabled']  = $this->language->get('text_enabled');
-		$data['text_disabled'] = $this->language->get('text_disabled');
-		$data['entry_status']  = $this->language->get('entry_status');
-		$data['button_save']   = $this->language->get('button_save');
-		$data['button_cancel'] = $this->language->get('button_cancel');
-
-		if (isset($this->error['warning']))
-		{
-			$data['error_warning'] = $this->error['warning'];
-		}
-		else
-    {
-			$data['error_warning'] = '';
-		}
 
 		$this->load->model('setting/setting');
 
@@ -36,6 +18,26 @@ class ControllerExtensionModuleBlogvideo extends Controller
 			$this->session->data['success'] = $this->language->get('text_success');
 
 			$this->response->redirect($this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true));
+		}
+
+		$data['heading_title'] = $this->language->get('heading_title');
+
+		$data['text_edit'] = $this->language->get('text_edit');
+		$data['text_enabled'] = $this->language->get('text_enabled');
+		$data['text_disabled'] = $this->language->get('text_disabled');
+
+		$data['entry_status'] = $this->language->get('entry_status');
+
+		$data['button_save'] = $this->language->get('button_save');
+		$data['button_cancel'] = $this->language->get('button_cancel');
+
+		if (isset($this->error['warning']))
+		{
+			$data['error_warning'] = $this->error['warning'];
+		}
+		else
+		{
+			$data['error_warning'] = '';
 		}
 
 		$data['breadcrumbs'] = array();
@@ -59,29 +61,29 @@ class ControllerExtensionModuleBlogvideo extends Controller
 
 		$data['cancel'] = $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true);
 
-		if (isset($this->request->post['blogvideo_url_status']))
+		if (isset($this->request->post['blogvideo_status']))
 		{
-			$data['blogvideo_url_status'] = $this->request->post['blogvideo_url_status'];
+			$data['blogvideo_status'] = $this->request->post['blogvideo_status'];
 		}
 		else
 		{
-			$data['blogvideo_url_status'] = $this->config->get('blogvideo_url_status');
+			$data['blogvideo_status'] = $this->config->get('blogvideo_status');
 		}
 
-		$data['header']      = $this->load->controller('common/header');
+		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
-		$data['footer']      = $this->load->controller('common/footer');
+		$data['footer'] = $this->load->controller('common/footer');
 
 		$this->response->setOutput($this->load->view('extension/module/blogvideo', $data));
 	}
 
 	protected function validate()
-  {
-    if (!$this->user->hasPermission('modify', 'extension/module/account'))
-    {
+	{
+		if (!$this->user->hasPermission('modify', 'extension/module/blogvideo'))
+		{
 			$this->error['warning'] = $this->language->get('error_permission');
 		}
+		
 		return !$this->error;
 	}
 }
-?>

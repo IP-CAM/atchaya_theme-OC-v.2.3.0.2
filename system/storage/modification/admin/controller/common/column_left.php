@@ -433,6 +433,14 @@ class ControllerCommonColumnLeft extends Controller {
                     );
                 }
 
+                if ($this->user->hasPermission('access', 'blog/video')) {
+                    $blog_menu[] = array(
+                        'name' => $this->language->get('Blog video'),
+                        'href' => $this->url->link('blog/video', 'token=' . $this->session->data['token'], true),
+                        'children' => array()
+                    );
+                }
+
                 if($blog_menu) {
                     $data['menus'][] = array(
                         'id'       => 'menu-blog',

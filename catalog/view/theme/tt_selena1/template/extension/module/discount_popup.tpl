@@ -24,19 +24,19 @@
 								<?php endif; ?>
 								<img class="lazy" src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" />
 							</a>
-								
+
 								  <div class="label-product l-new">
 									  <span><?php echo $text_new; ?></span>
 								  </div>
 								  <div class="label-product">
 									  <span><?php echo $text_sale; ?></span>
 								  </div>
-								  
-							
+
+
 							</div><!-- image -->
 					<div class="product-inner">
-					
-					
+
+
 						<div class="product-caption">
 							<?php if ($product['tags']) { ?>
 						  <p class="tags-product">
@@ -59,48 +59,48 @@
 											<?php if ($product['rating'] == $i) {
 												$class_r= "rating".$i;
 												echo '<div class="'.$class_r.'">rating</div>';
-											} 
+											}
 										}  ?>
-									</div>									
+									</div>
 								</div>
 							<?php } ?>
-					
+
 						<p class="product-des"><?php echo substr($product['description'], 0, 50).'...'; ?></p>
-					
-					
+
+
 						<p class="price">
-						  
+
 								<span class="price-new"><?php echo $product['special']; ?></span>
 								<span class="price-old"><?php echo $product['price']; ?></span>
-						  
+
 						</p>
 						
 					<div class="product-intro">
 						<div class="actions-link">
 							<a class="btn-compare" data-toggle="tooltip" title="<?php echo $button_compare; ?>"  onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="icon-refresh" aria-hidden="true"></i></a>
-							
+
 							<a class="button show_offers" href="<?php echo HTTPS_SERVER.'index.php?route=product/special'; ?>"></i><span class="button">Show Offers</span></a>
-							
+
 							<a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>"  onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="icon-heart" aria-hidden="true"></i></a>
-						</div>						
+						</div>
 					</div>
 				</div>
-				
+
 				</div><!-- product-inner -->
 			</div>
 		</div>
-				</div>				
 				</div>
-			
+				</div>
+
 			</div>
-			
+
 			<?php } ?>
-		
+
 		<?php endif; ?>
    </div>
 </div>
  </div>
-</div>	
+</div>
 <script type="text/javascript">
     $(document).ready(function() {
 
@@ -128,7 +128,7 @@
 
         	var sessionid = "<?php $_SESSION['dis_pop'] = session_id(); ?>";
         }
-	 
+
     });
 </script>
 </div><!-- /.box -->

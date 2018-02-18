@@ -3263,6 +3263,7 @@
 2018-02-18 10:09:59 - PHP Notice:  Undefined index: USD in C:\xampp\htdocs\atchaya_theme\system\library\cart\currency.php on line 26
 2018-02-18 10:09:59 - PHP Notice:  Undefined index: USD in C:\xampp\htdocs\atchaya_theme\system\library\cart\currency.php on line 27
 2018-02-18 10:09:59 - PHP Notice:  Undefined index: USD in C:\xampp\htdocs\atchaya_theme\system\library\cart\currency.php on line 30
+<<<<<<< HEAD
 2018-02-18 17:12:03 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 32
 2018-02-18 17:12:03 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
 2018-02-18 17:12:03 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 36
@@ -3575,3 +3576,5 @@
 2018-02-18 18:01:44 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
 2018-02-18 18:01:44 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
 2018-02-18 18:01:44 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+=======
+>>>>>>> db602ee8757dc6a2434dd28386c307c3878359dc
