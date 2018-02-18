@@ -3086,6 +3086,31 @@
 2018-02-17 20:51:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-17 20:51:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-17 20:51:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
+<<<<<<< HEAD
+2018-02-18 9:31:04 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/catalog/model): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:04 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/catalog): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:09 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:31:09 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:31:09 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:31:55 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/admin/controller/common): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:55 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/admin/controller): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:55 - PHP Warning:  rmdir(C:/xampp/htdocs/atchaya_theme/system/storage/modification/admin): Directory not empty in C:\xampp\htdocs\atchaya_theme\admin\controller\extension\modification.php on line 490
+2018-02-18 9:31:57 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:31:57 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:31:57 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:32:03 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:32:03 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:32:03 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:32:34 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:32:34 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:32:34 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:32:35 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:32:35 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:32:35 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+2018-02-18 9:32:56 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 86
+2018-02-18 9:32:56 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 105
+2018-02-18 9:32:56 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 112
+=======
 2018-02-18 8:03:53 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-18 8:03:53 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-18 8:03:53 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
@@ -3184,5 +3209,9 @@
 2018-02-18 9:49:48 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-18 9:50:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-18 9:50:12 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
+<<<<<<< HEAD
 2018-02-18 9:52:06 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-18 9:52:06 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
+=======
+>>>>>>> 96c281981a6d3badeafbd04e0ce2379d53b29b75
+>>>>>>> 4c8af4486bc4a7b54356ff1ac8dc08bf768b3680
