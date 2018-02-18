@@ -96,4 +96,18 @@ class ControllerExtensionModuleGallery extends Controller {
 			$this->model_setting_gallery->deleteSetting($_POST['deleteid']);
 		}
 	}
+
+	public function install()
+	{
+		$this->db->query("CREATE TABLE IF NOT EXIXTS ".DB_PREFIX."gallery (
+      `id` int(11) NOT NULL AUTO_INCREMENT,
+      `gallery_image` varchar(255) NOT NULL,
+      `name` varchar(255) NOT NULL,
+      `description` text NOT NULL,
+      `sort_order` int(11) NOT NULL,
+      `created_date` varchar(30) NOT NULL,
+      `updated_date` timestamp NOT NULL,
+      PRIMARY KEY (`id`)
+    ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=0;");
+	}
 }
