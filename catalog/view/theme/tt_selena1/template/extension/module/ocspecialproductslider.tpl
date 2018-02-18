@@ -1,3 +1,5 @@
+&nbsp;
+&nbsp;
 <div class="special-product-slider special-button-owl">
    <div class="module-title">
 	  <h2>
@@ -28,7 +30,7 @@
 								<?php endif; ?>
 								<img class="lazy" src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" />
 							</a>
-							<?php if($config_slide['f_show_label']): ?>
+							<!-- <?php if($config_slide['f_show_label']): ?>
 								<?php if($product['is_new'] && !$product['special']){ ?>
 								  <div class="label-product l-new">
 									  <span><?php echo $text_new; ?></span>
@@ -39,7 +41,7 @@
 								  </div>
 								  <?php }?>
 							<?php endif; ?>
-							
+							 -->
 							</div><!-- image -->
 					<div class="product-inner">
 					
