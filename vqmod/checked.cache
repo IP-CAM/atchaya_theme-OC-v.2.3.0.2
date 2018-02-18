@@ -556,3 +556,7 @@ catalog\controller\common\cart.php
 admin\controller\extension\module\discount_popup.php
 admin\view\template\extension\module\discount_popup.tpl
 >>>>>>> 5b13c69333b33c58df0d1cc4bdf22af364915235
+catalog\controller\blog\video.php
+catalog\model\blog\video.php
+catalog\language\en-gb\blog\video.php
+catalog\view\theme\tt_selena1\template\blog\video.tpl

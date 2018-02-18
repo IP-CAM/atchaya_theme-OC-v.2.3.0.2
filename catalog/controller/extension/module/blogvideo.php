@@ -10,11 +10,10 @@ class ControllerExtensionModuleBlogvideo extends Controller
 
 		$data = array();
 		$data['heading_title'] = $this->language->get('heading_title');
-		$data['button_read_more'] = $this->language->get('button_read_more');
 
 		$data['blogvideos'] = array();
 
-		$data['blogvideos'][] = $this->model_extension_module_blogvideo->getBloghome();
+		$data['blogvideos'] = $this->model_extension_module_blogvideo->getBloghome();
 
 		if(!empty($data['blogvideos']) && $this->config->get('blogvideo_status') == 1)
 		{
