@@ -70,7 +70,7 @@
 			<div class="col-md-3 col-xs-12 logo-container">
 				<div id="logo">
 					<?php if ($logo) { ?>
-					<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" height="60" width="150"/></a>
+					<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
 					<?php } else { ?>
 				<h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
 				<?php } ?>
