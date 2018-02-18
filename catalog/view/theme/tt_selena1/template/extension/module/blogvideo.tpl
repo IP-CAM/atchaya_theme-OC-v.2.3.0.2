@@ -35,7 +35,7 @@
 					   </div>
 					   <a class="articles-name" href="#"><?php echo $blogvideo['title']; ?></a>
 					   <div class="articles-intro"><?php echo html_entity_decode($blogvideo['short_description'], ENT_QUOTES, 'UTF-8');?></div>
-					  
+
 					</div>
 			   </div>
           </div>
