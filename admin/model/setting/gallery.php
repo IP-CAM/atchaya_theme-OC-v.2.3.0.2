@@ -32,9 +32,9 @@ class ModelSettingGallery extends Model {
 		}
 	}
 
-	public function deleteSetting() {
-		echo "dfsfsd"; die;
-		$this->db->query("DELETE FROM " . DB_PREFIX . "setting WHERE store_id = '" . (int)$store_id . "' AND `code` = '" . $this->db->escape($code) . "'");
+	public function deleteSetting($id) {
+
+		$this->db->query("DELETE FROM " . DB_PREFIX . "gallery WHERE id = '".$id."'");
 	}
 	
 	public function getSettingValue($key, $store_id = 0) {

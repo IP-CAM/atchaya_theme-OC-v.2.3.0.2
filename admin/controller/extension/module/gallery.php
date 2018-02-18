@@ -12,11 +12,6 @@ class ControllerExtensionModuleGallery extends Controller {
 
 		$data['gallery_data'] = $this->model_setting_gallery->getGallery();
 
-		if(isset($_POST['daleteid']))
-		{
-			echo "123"; die;
-		}
-
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 
 			$this->model_setting_gallery->editSetting('gallery', $this->request->post);
@@ -66,6 +61,8 @@ class ControllerExtensionModuleGallery extends Controller {
 
 		$data['action'] = $this->url->link('extension/module/gallery', 'token=' . $this->session->data['token'], true);
 
+		$data['ajaxaction'] = $this->url->link('extension/module/gallery/ajaxrequest');
+
 		$data['cancel'] = $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true);
 
 		if (isset($this->request->post['category_status'])) {
@@ -74,6 +71,7 @@ class ControllerExtensionModuleGallery extends Controller {
 			$data['category_status'] = $this->config->get('category_status');
 		}
 
+		$data['token'] = $this->session->data['token'];
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
@@ -87,5 +85,15 @@ class ControllerExtensionModuleGallery extends Controller {
 		}
 
 		return !$this->error;
+	}
+
+	public function ajaxrequest() {
+		
+		$this->load->model('setting/gallery');
+			
+		if(isset($_POST['deleteid']))
+		{
+			$this->model_setting_gallery->deleteSetting($_POST['deleteid']);
+		}
 	}
 }
