@@ -19,21 +19,22 @@ class ModelSettingGallery extends Model {
 			foreach($value as $values){
 
 				$id = $values['id'];
-				echo $values['gallery_image']; die;
+				$createddate = date('d-m-Y');
 
 				if($id != ""){
-					$this->db->query("UPDATE ".DB_PREFIX."gallery SET gallery_image = '".$values['gallery_image']."', description = '".$values['description']."', sort_order = '".$values['sort_order']."' WHERE id = '".$id."'");
+					$this->db->query("UPDATE ".DB_PREFIX."gallery SET gallery_image = '".$values['image']."',name = '".$values['name']."', description = '".$values['description']."', sort_order = '".$values['sort_order']."' WHERE id = '".$id."'");
 				}
 				else
 				{
-					$this->db->query("INSERT INTO ".DB_PREFIX."gallery SET gallery_image = '".$values['gallery_image']."', description = '".$values['description']."', sort_order = '".$values['sort_order']."'");
+					$this->db->query("INSERT INTO ".DB_PREFIX."gallery SET gallery_image = '".$values['image']."',name = '".$values['name']."', description = '".$values['description']."', sort_order = '".$values['sort_order']."',created_date='".$createddate."'");
 				}
 			}
 		}
 	}
 
-	public function deleteSetting($code, $store_id = 0) {
-		$this->db->query("DELETE FROM " . DB_PREFIX . "setting WHERE store_id = '" . (int)$store_id . "' AND `code` = '" . $this->db->escape($code) . "'");
+	public function deleteSetting($id) {
+
+		$this->db->query("DELETE FROM " . DB_PREFIX . "gallery WHERE id = '".$id."'");
 	}
 	
 	public function getSettingValue($key, $store_id = 0) {

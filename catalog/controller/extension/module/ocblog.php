@@ -1,4 +1,4 @@
-<?php  
+<?php
 class ControllerExtensionModuleOcblog extends Controller
 {
 	public function index($setting) {
@@ -10,7 +10,7 @@ class ControllerExtensionModuleOcblog extends Controller
 		} else {
 			$data['text_headingtitle'] = $this->language->get('text_headingtitle');
 		}
-		
+
 		$data['heading_title2'] = $this->language->get('heading_title2');
 		$data['text_post_by'] = $this->language->get('text_post_by');
 		$data['text_all_blog'] = $this->language->get('text_all_blog');
