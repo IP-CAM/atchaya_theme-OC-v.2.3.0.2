@@ -231,30 +231,30 @@ html[xmlns] .oc-banner7-container .slides {display: block;}
 	transform: translateY(-50%);
 }
 .banner7-content.slider-1 .title1 {
-	font-size: 48px;
+	font-size: 30px;
     color: #333;
-    font-weight: 800;
+    font-weight: 600;
     margin: 0;
 	font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
+	line-height:48px;
 }
 .banner7-content.slider-1 .sub-title {
-	font-size: 48px;
+	font-size: 30px;
     color: #333;
-    font-weight: 800;
+    font-weight: 600;
     margin: 0;
-    text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
+	line-height:48px;
 }
 .banner7-content.slider-1 .banner7-des .title1{
-	font-size: 48px;
+	font-size: 30px;
     color: #333;
-    font-weight: 800;
+    font-weight: 600;
     margin: 0 0 20px;
 	line-height: 48px;
 	padding: 0;
-    text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
+	line-height:48px;
 }
 .banner7-content.slider-1 .banner7-des .title2{
 	font-size: 20px;
@@ -263,35 +263,36 @@ html[xmlns] .oc-banner7-container .slides {display: block;}
 	font-family: 'Raleway', sans-serif;
 }
 .banner7-content.slider-2 .title1 {
-	font-size: 48px;
-    color: #333;
-    font-weight: 800;
-    margin: 0;
-	font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
+font-size: 30px;
+color: #333;
+font-weight: 600;
+margin: 0;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+line-height: 48px;
 }
 .banner7-content.slider-2 .sub-title{
-	font-size: 48px;
-    color: #333;
-    font-weight: 800;
-    margin: 0;
-	font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
+font-size: 30px;
+color: #333;
+font-weight: 600;
+margin: 0;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+line-height: 48px;
 }
 .banner7-content.slider-2 .banner7-des .title1{
-	font-size: 48px;
-    color: #333;
-    font-weight: 800;
-	padding: 0;
-	line-height: 48px;
-    margin: 0;
-	font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
+font-size: 30px;
+color: #333;
+font-weight: 600;
+margin: 0;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+line-height: 48px;
 }
 .banner7-content.slider-2 .banner7-des .title2{
-	font-size: 48px;
+	font-size: 30px;
     color: #333;
-    font-weight: 800;
+    font-weight: 600;
 	padding: 0;
 	line-height: 48px;
     margin: 0;
@@ -321,8 +322,8 @@ html[xmlns] .oc-banner7-container .slides {display: block;}
 	z-index: 10;
 }
 .banner7-readmore a:hover{
-	background-color: #333;
-	border-color: #333;
+	background-color: #67BD45;
+	border-color: #67BD45;
 	color: #fff;
 	transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -330,17 +331,17 @@ html[xmlns] .oc-banner7-container .slides {display: block;}
 }
 .banner7-readmore a{
 	position: relative;
-    font-size: 14px;
-	line-height: 16px;
-    color: #62d2a2;
-    padding: 13px 26px;
-    margin-top: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-radius: 3px;
-    font-family: 'Raleway', sans-serif;
-    display: inline-block;
-    border: 1px solid #62d2a2;
+font-size: 14px;
+line-height: 16px;
+color: #67BD45;
+padding: 10px 26px;
+margin-top: 40px;
+font-weight: 600;
+text-transform: uppercase;
+border-radius: 43px;
+font-family: 'Raleway', sans-serif;
+display: inline-block;
+border: 1px solid #67BD45;
 }
 .banner7-content.slider-1 h1.title1{ 
 	animation: zoomInRight 600ms ease-out; 
@@ -516,14 +517,13 @@ html[xmlns] .oc-banner7-container .slides {display: block;}
     cursor: pointer;
     font-size: 0;
     z-index: 9;
-    background: #fff;
+    background: #67BD45;
     box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.08);
     border-radius: 100%;
     line-height: 60px;
     text-align: center;
-    color: #000;
+    color: #fff;
 }
-.nivo-directionNav a:hover{color: #62d2a2;}
 .oc-banner7-container .flex-direction-nav .flex-next,
 .oc-banner7-container .nivo-directionNav a.nivo-nextNav { 
 	opacity: 0; 
@@ -540,7 +540,6 @@ html[xmlns] .oc-banner7-container .slides {display: block;}
 	opacity:1;
 }
 .oc-banner7-container .flexslider .flex-next:hover, 
-.oc-banner7-container .nivo-directionNav a.nivo-nextNav:hover,
 .oc-banner7-container .flexslider .flex-prev:hover, 
 .oc-banner7-container .nivo-directionNav a.nivo-prevNav:hover { 
 	background: rgba(255, 255, 255, 0.36);

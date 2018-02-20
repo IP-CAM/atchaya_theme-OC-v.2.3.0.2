@@ -1,4 +1,4 @@
-<footer>
+<footer class="custom_organic">
   <div class="container">
 	<div class="footer-border"></div>
     <div class="row">
@@ -40,14 +40,14 @@
   <div class="footer-botton">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-sm-6 col-xs-12">
+			<div class="col-md-12 col-sm-12 col-xs-12">
 				<p class="text-powered">
 					<?php echo $powered; ?>
 				</p>
 			</div>
-			<div class="col-md-6 col-sm-6 col-xs-12">
+			<!--<div class="col-md-6 col-sm-6 col-xs-12">
 				<div class="payment"><img src="image/catalog/cmsblock/payment.png" alt="" class="img-responsive"></div>
-			</div>
+			</div>-->
 		</div>
 	</div>
 	</div>
