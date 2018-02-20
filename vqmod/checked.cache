@@ -443,3 +443,6 @@ catalog\view\theme\tt_selena1\template\blog\video.tpl
 >>>>>>> db602ee8757dc6a2434dd28386c307c3878359dc
 >>>>>>> 5054d2cc5d94a5988a07f593ba0f777fef9992a3
 >>>>>>> 9f0813afacb65f105027b0f59a8ce5085a38860c
+catalog\controller\extension\module\ocfeaturedcategory.php
+catalog\language\en-gb\extension\module\ocfeaturedcategory.php
+catalog\model\extension\module\ocfeaturedcategory.php
