@@ -60,6 +60,16 @@
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
+<script type='text/javascript' src='catalog/view/javascript/opentheme/bug-min.js'></script>
+<script type='text/javascript'>
+	// default fruit fly bug:
+	new BugController({
+	});
+
+	// default spiders:
+	new SpiderController({
+	});
+</script>
 </head>
 <body class="<?php echo $class; ?> home1">
 <nav id="top">
