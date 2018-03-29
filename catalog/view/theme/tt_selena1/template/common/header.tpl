@@ -63,12 +63,12 @@
 <script type='text/javascript' src='catalog/view/javascript/opentheme/bug-min.js'></script>
 <script type='text/javascript'>
 	// default fruit fly bug:
-	new BugController({
-	});
+	// new BugController({
+	// });
 
-	// default spiders:
-	new SpiderController({
-	});
+	// // default spiders:
+	// new SpiderController({
+	// });
 </script>
 </head>
 <body class="<?php echo $class; ?> home1">

@@ -881,9 +881,11 @@ padding-bottom: 0px;
 }
 .banner-top {
 padding: 20px 0px;
+background-color: #64bd45;
 width: 100%;
 margin: 0px;
 display: table;
+border-radius: 10px;
 }
 .banner-top .banner-warper {
 	border-right: 1px solid #a2dac2;
@@ -3347,4 +3349,127 @@ footer .footer-top {
 	padding:0px;
 	margin:0px;
 	background-color:#2A2A2A;
+}
+
+/** Discount Popup **/
+
+.b-close {
+	display: block;
+}
+.discount-popup {
+	background: #fff;
+	top: 50% !important;
+	margin-top: -179px;
+	position: fixed !important;
+	padding: 25px 20px;
+	text-align: center;
+	display: none;
+}
+.discount-popup hr {
+	padding: 0px;
+	margin: 0px auto 25px;
+	width: 80px;
+	border-top: 3px solid #67BD45;
+}
+#boxes .discount-title h2 {
+	font-size: 30px;
+	color: #333;
+	font-weight: 400;
+	letter-spacing: 3px;
+	margin: 0 0 12px;
+}
+#boxes .box-content label {
+	font-weight: 400;
+}
+#boxes #frm_subscribe .required {
+	color: #f00;
+	padding-right: 5px;
+}
+#boxes #frm_subscribe a {
+	cursor: pointer;
+	border: 1px solid #c2c2c2;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 20px;
+}
+#boxes #frm_subscribe a:hover {
+	border-color: #62d2a2;
+	background-color: #62d2a2;
+	color: #fff;
+}
+#boxes #frm_subscribe #subscribe_pemail {
+	background: #EBEBEB none repeat scroll 0% 0%;
+	border: medium none;
+	height: 40px;
+	width: 50%;
+	margin: 20px 0 10px 0;
+	padding-left: 15px;
+}
+#boxes .box-content .subscribe-bottom {
+	margin-top: 20px;
+}
+#boxes .box-content .subscribe-bottom label {
+	margin: 0;
+}
+#boxes .box-content .subscribe-bottom #newsletter_popup_dont_show_again {
+	display: inline-block;
+	margin: 0;
+}
+#boxes #frm_subscribe #notification {
+	color: #f00;
+}
+#boxes #frm_subscribe #notification .success {
+	color: #67D7BB;
+}
+#popup2 {
+	position: absolute;
+	right: -12px;
+	top: -12px;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background: #67BD45;
+	border-radius: 100%;
+	cursor: pointer;
+	color: #fff;
+}
+/* newsllter */
+body:not(.common-home) .discount-subscribe-container {
+	margin-bottom: 0;
+}
+.footer-newsletter {
+	background: #f2f4f6;
+	padding: 69px 0;
+	margin-top: 40px;
+}
+#dialog-normal .discount-title h3 {
+	position: relative;
+	display: block;
+	color: #fff;
+	margin: 0 0 30px 0;
+	text-transform: uppercase;
+	border: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+#dialog-normal .discount-content label {
+	font-size: 12px;
+	color: #999999;
+}
+#dialog-normal .discount-title label {
+	font-size: 13px;
+	color: #828282;
+	line-height: 25px;
+	font-weight:600;
+}
+#dialog-normal .discount-title {
+}
+#dialog-normal .discount-content {
+	vertical-align: middle;
+	position: relative;
+	display: inline-block;
+	width: 268px;
+	margin-top: 30px;
 }
