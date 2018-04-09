@@ -99,7 +99,10 @@ $(document).ready(function() {
 					<p class="product-des"><?php echo $product['description']; ?></p>
 					<?php } ?>
 				  
-				  <?php if (isset($product['rating'])) { ?>
+				 
+				  <h2 class="product-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h2>
+                  
+                   <?php if (isset($product['rating'])) { ?>
 					  <div class="ratings">
 						  <div class="rating-box">
 							  <?php for ($i = 0; $i <= 5; $i++) { ?>
@@ -111,7 +114,6 @@ $(document).ready(function() {
 						  </div>
 					  </div>
 				  <?php } ?>
-				  <h2 class="product-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h2>
 				  <?php if($config_slide['tab_cate_show_price']) { ?>
 				  <?php if ($product['price']) { ?>
 					<p class="price">
