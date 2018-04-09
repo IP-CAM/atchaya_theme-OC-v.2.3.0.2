@@ -21,7 +21,7 @@
 			<?php foreach ($products as $product) { ?>
 			<?php  if($count % $rows == 0 ) { echo '<div class="row_items">'; } $count++; ?>
 			<div class="product-layout product-grid">
-					<div class="product-thumb layout2">
+					<div class="product-thumb layout2 spacal_offers_product">
                     
 						<div class="offers_images">
 							<a class="product-image" href="<?php echo $product['href']; ?>">

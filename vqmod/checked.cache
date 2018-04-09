@@ -425,3 +425,12 @@ admin\model\jacklb\newslettersubscribe.php
 admin\view\template\extension\module\newslettersubscribe.tpl
 catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl
 >>>>>>> c7ded63b9fdaa05b53046dd026cd72bdd57b1711
+catalog\view\theme\default\template\extension\module\ocbestproductslider.tpl
+catalog\view\theme\default\template\extension\module\ocnewproductslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\blog\blog_home.tpl
+catalog\controller\account\register.php
+catalog\language\en-gb\account\register.php
+catalog\view\theme\default\template\account\register.tpl
