@@ -345,3 +345,7 @@ admin\controller\common\filemanager.php
 admin\language\en-gb\common\filemanager.php
 admin\view\template\common\filemanager.tpl
 >>>>>>> 6f1e482b8d970f66a00f1336ed98f6f3dc1527b9
+admin\controller\localisation\language.php
+admin\language\en-gb\localisation\language.php
+system\storage\modification\admin\model\localisation\language.php
+admin\view\template\localisation\language_list.tpl
