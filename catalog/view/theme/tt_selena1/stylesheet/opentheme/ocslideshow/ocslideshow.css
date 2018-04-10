@@ -542,7 +542,7 @@ border: 1px solid #67BD45;
 .oc-banner7-container .flexslider .flex-next:hover, 
 .oc-banner7-container .flexslider .flex-prev:hover, 
 .oc-banner7-container .nivo-directionNav a.nivo-prevNav:hover { 
-	background: rgba(255, 255, 255, 0.36);
+	background: #67BD45;
 }
 .oc-banner7-container .flex-direction-nav .flex-disabled {
 	opacity: .3!important; 

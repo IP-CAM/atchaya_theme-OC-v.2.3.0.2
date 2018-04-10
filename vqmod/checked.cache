@@ -425,6 +425,7 @@ admin\model\jacklb\newslettersubscribe.php
 admin\view\template\extension\module\newslettersubscribe.tpl
 catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl
 >>>>>>> c7ded63b9fdaa05b53046dd026cd72bdd57b1711
+<<<<<<< HEAD
 catalog\controller\account\register.php
 catalog\language\en-gb\account\register.php
 catalog\view\theme\default\template\account\register.tpl
@@ -463,3 +464,36 @@ catalog\language\en-gb\account\login.php
 catalog\view\theme\default\template\account\login.tpl
 catalog\controller\account\logout.php
 catalog\language\en-gb\account\logout.php
+=======
+<<<<<<< HEAD
+admin\controller\extension\modification.php
+admin\language\en-gb\extension\modification.php
+admin\model\extension\modification.php
+admin\view\template\extension\modification.tpl
+system\storage\modification\admin\language\en-gb\common\column_left.php
+admin\controller\extension\module\gallery.php
+admin\model\setting\gallery.php
+admin\model\user\user_group.php
+system\storage\modification\catalog\view\theme\tt_selena1\template\common\header.tpl
+admin\view\template\extension\module\gallery.tpl
+admin\controller\extension\module\blogvideo.php
+admin\view\template\extension\module\blogvideo.tpl
+admin\language\en-gb\extension\module\gallerymodule.php
+admin\controller\extension\module\gallerymodule.php
+admin\view\template\extension\module\gallerymodule.tpl
+catalog\controller\checkout\register.php
+catalog\view\theme\default\template\checkout\register.tpl
+catalog\language\en-gb\mail\customer.php
+system\library\mail.php
+=======
+catalog\view\theme\default\template\extension\module\ocbestproductslider.tpl
+catalog\view\theme\default\template\extension\module\ocnewproductslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\blog\blog_home.tpl
+catalog\controller\account\register.php
+catalog\language\en-gb\account\register.php
+catalog\view\theme\default\template\account\register.tpl
+>>>>>>> 17a32ec22eb044e30cc280e06f61f14c31d81807
+>>>>>>> be762ff6b6327633e0a0a776bd9e71c9922e1891

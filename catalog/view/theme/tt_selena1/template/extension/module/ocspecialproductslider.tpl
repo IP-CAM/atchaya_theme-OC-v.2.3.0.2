@@ -21,7 +21,7 @@
 			<?php foreach ($products as $product) { ?>
 			<?php  if($count % $rows == 0 ) { echo '<div class="row_items">'; } $count++; ?>
 			<div class="product-layout product-grid">
-					<div class="product-thumb layout2">
+					<div class="product-thumb layout2 spacal_offers_product">
                     
 						<div class="offers_images">
 							<a class="product-image" href="<?php echo $product['href']; ?>">
@@ -43,9 +43,7 @@
 							<?php endif; ?>
 							 -->
 							</div><!-- image -->
-                            
-
-					
+       
 					<div class="offer_pro_details">
 						<div class="product-caption">
 							<?php if ($product['tags']) { ?>
@@ -92,7 +90,7 @@
 						<div class="actions-link">
 							<a class="btn-compare" data-toggle="tooltip" title="<?php echo $button_compare; ?>"  onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="icon-refresh" aria-hidden="true"></i></a>
 							<?php if($config_slide['f_show_addtocart']) { ?>
-							<a class="btn-cart" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-basket"></i><span class="button"><?php echo $button_cart; ?></span></a>
+							<a class="btn-cart" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="icon ion-bag"></i><span class="button"><?php echo $button_cart; ?></span></a>
 							<?php } ?>
 							<a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>"  onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="icon-heart" aria-hidden="true"></i></a>
 						</div>						

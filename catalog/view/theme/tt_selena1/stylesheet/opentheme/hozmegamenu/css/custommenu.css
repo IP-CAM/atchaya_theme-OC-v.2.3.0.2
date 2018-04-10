@@ -372,7 +372,7 @@ body:not(.common-home) #pt_custommenu {
     box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
     float: left;
     width: 100%;
-    border-top: 2px solid #5dc297;
+    border-top: 2px solid #67BD45;
 }
 .pt_custommenu div.popup .block1 {
     overflow: hidden !important;
@@ -382,7 +382,7 @@ body:not(.common-home) #pt_custommenu {
     
 }
 .pt_custommenu .popup a:hover {
-    color: #62d2a2 !important;
+    color:#67BD45 !important;
 }
 .pt_custommenu .itemMenu.level1 a.itemMenuName.level0.actParent:hover{
 	/* color: #fff !important; */

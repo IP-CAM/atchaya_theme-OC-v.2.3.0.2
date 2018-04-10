@@ -1,6 +1,8 @@
 <footer class="custom_organic">
   <div class="container">
-	<div class="footer-border"></div>
+	<!--<div class="footer-border"></div>-->
+ 
+          
     <div class="row">
 		<div class="footer-top">
 		  <?php if ($informations) { ?>
@@ -24,16 +26,19 @@
 			  <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
 			</ul>
 		  </div>
-		  <div class="col-md-4 col-sm-6 col-footer">
-				<?php if(isset($block3)){ ?>
-					<?php echo $block3; ?>
-				<?php } ?>
-		  </div>
-		  <div class="col-md-3 col-sm-6 col-footer">
+              <div class="col-md-3 col-sm-6 col-footer">
+                    <?php if(isset($block3)){ ?>
+                        <?php echo $block3; ?>
+                    <?php } ?>
+              </div>
+              
+                 
+    <div class="col-md-4 col-sm-6 col-footer">
 			<?php if(isset($block2)){ ?>
 					<?php echo $block2; ?>
 				<?php } ?>
 		  </div>
+		  
 		</div>
 	</div>
   </div>
