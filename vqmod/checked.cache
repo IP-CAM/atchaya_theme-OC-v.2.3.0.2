@@ -426,6 +426,46 @@ admin\view\template\extension\module\newslettersubscribe.tpl
 catalog\view\theme\tt_selena1\template\extension\module\newsletterpopup.tpl
 >>>>>>> c7ded63b9fdaa05b53046dd026cd72bdd57b1711
 <<<<<<< HEAD
+catalog\controller\account\register.php
+catalog\language\en-gb\account\register.php
+catalog\view\theme\default\template\account\register.tpl
+catalog\language\en-gb\mail\customer.php
+system\library\mail.php
+catalog\controller\account\success.php
+catalog\language\en-gb\account\success.php
+catalog\model\account\wishlist.php
+catalog\view\theme\default\template\common\success.tpl
+catalog\language\en-gb\account\account.php
+catalog\view\theme\default\template\account\account.tpl
+catalog\controller\checkout\payment_address.php
+catalog\model\account\address.php
+catalog\view\theme\default\template\checkout\payment_address.tpl
+catalog\controller\checkout\shipping_address.php
+catalog\view\theme\default\template\checkout\shipping_address.tpl
+catalog\controller\checkout\shipping_method.php
+catalog\model\extension\shipping\flat.php
+catalog\language\en-gb\extension\shipping\flat.php
+catalog\view\theme\default\template\checkout\shipping_method.tpl
+catalog\controller\checkout\payment_method.php
+catalog\model\extension\payment\cod.php
+catalog\language\en-gb\extension\payment\cod.php
+catalog\model\extension\payment\free_checkout.php
+catalog\language\en-gb\extension\payment\free_checkout.php
+catalog\view\theme\default\template\checkout\payment_method.tpl
+catalog\controller\extension\payment\cod.php
+catalog\view\theme\default\template\extension\payment\cod.tpl
+catalog\view\theme\default\template\checkout\confirm.tpl
+catalog\language\en-gb\mail\order.php
+catalog\view\theme\default\template\mail\order.tpl
+catalog\controller\checkout\success.php
+catalog\language\en-gb\checkout\success.php
+catalog\controller\account\login.php
+catalog\language\en-gb\account\login.php
+catalog\view\theme\default\template\account\login.tpl
+catalog\controller\account\logout.php
+catalog\language\en-gb\account\logout.php
+=======
+<<<<<<< HEAD
 admin\controller\extension\modification.php
 admin\language\en-gb\extension\modification.php
 admin\model\extension\modification.php
@@ -456,3 +496,4 @@ catalog\controller\account\register.php
 catalog\language\en-gb\account\register.php
 catalog\view\theme\default\template\account\register.tpl
 >>>>>>> 17a32ec22eb044e30cc280e06f61f14c31d81807
+>>>>>>> be762ff6b6327633e0a0a776bd9e71c9922e1891

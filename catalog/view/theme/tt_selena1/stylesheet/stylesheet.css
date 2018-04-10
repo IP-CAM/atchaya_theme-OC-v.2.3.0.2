@@ -3510,6 +3510,116 @@ box-shadow: 0px 0px 3px 0px #d5d5d5;
 	padding:0px;
 	margin:0px;
 }
+<<<<<<< HEAD
+/* Blog video */
+.organic_blog
+{
+	padding:0px;
+	margin:0px;
+	border: 1px solid #ececec;
+}
+.organic_blog .img_video
+{
+padding: 0px;
+margin: 0px;
+display: block;
+overflow: hidden;
+height: 270px;
+}
+.organic_blog .img_video img
+{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	display: table;
+	transition: all 0.7s ease 0s;
+}
+.organic_blog:hover a img {
+    transform: scale(1.1);
+}
+.organic_blog h3
+{
+font-size: 18px;
+color: #2e2e2e;
+font-weight: 500;
+padding: 0px;
+margin: 0px 0px 15px;
+text-align: left;
+letter-spacing: 1px;
+}
+.organic_blog .date_username
+{
+	padding:0px 0px 15px;
+	margin:0px;
+	display:table;
+	width:100%;
+}
+.organic_blog .date_username li
+{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	float:left;
+	width:50%;
+}
+.organic_blog .date_username li p
+{
+padding: 0px;
+margin: 0px;
+font-size: 14px;
+font-weight: 400;
+color: #9c9c9c;
+}
+
+.organic_blog .date_username li p i
+{ 
+	padding:0px 10px 0px 0px;
+	margin:0px;
+}
+.organic_blog p
+{ 
+padding: 0px 0px 15px;
+margin: 0px;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #4c4c4c;
+}
+.organic_blog .read_more
+{ 
+padding: 8px;
+margin: 0px;
+display: block;
+width: 130px;
+border: 1px solid #ccc;
+text-align: center;
+border-radius: 30px;
+color: #67BD45;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 1px;
+}
+.organic_blog h3:hover
+{
+	color:#67BD45;
+}
+.organic_blog .read_more:hover
+{
+	color: #fff;
+	background-color:#67BD45;
+	border: 1px solid #67BD45;
+}
+.single_blog_details
+{
+	padding:30px;
+	margin:0px;
+}
+
+
+
+
+
+=======
 .offer_pro_details .product-caption
 {
 	padding:0px;
@@ -3558,6 +3668,7 @@ font-size: 18px;
 	color:#fff;
 	border:1px solid #67BD45;
 }
+>>>>>>> be762ff6b6327633e0a0a776bd9e71c9922e1891
 
 
 
