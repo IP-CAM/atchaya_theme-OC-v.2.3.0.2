@@ -703,15 +703,6 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 			
-
-			if ($this->user->hasPermission('access', 'tool/export_import')) {
-				$tool[] = array(
-					'name'	   => $this->language->get('text_export_import'),
-					'href'     => $this->url->link('tool/export_import', 'token=' . $this->session->data['token'], true),
-					'children' => array()		
-				);
-			}
-			
 			if ($this->user->hasPermission('access', 'tool/log')) {
 				$tool[] = array(
 					'name'	   => $this->language->get('text_log'),
