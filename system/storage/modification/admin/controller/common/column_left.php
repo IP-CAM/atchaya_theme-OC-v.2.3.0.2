@@ -412,19 +412,6 @@ class ControllerCommonColumnLeft extends Controller {
 			// Marketing
 			$marketing = array();
 
-			$this->load->language('extension/module/ocblog');
-
-
-
-								if ($this->user->hasPermission('access', 'blog/video')) {
-									 $blog_menu[] = array(
-											 'name' => $this->language->get('Blog video'),
-											 'href' => $this->url->link('blog/video', 'token=' . $this->session->data['token'], true),
-											 'children' => array()
-									 );
-							 }
-
-                
 
                 $this->load->language('extension/module/ocblog');
 

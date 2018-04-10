@@ -364,13 +364,6 @@ class ControllerCommonColumnLeft extends Controller {
 			// Marketing
 			$marketing = array();
 
-			$this->load->language('extension/module/ocblog');
-
-
-
-								
-
-
 			if ($this->user->hasPermission('access', 'marketing/marketing')) {
 				$marketing[] = array(
 					'name'	   => $this->language->get('text_marketing'),
