@@ -497,3 +497,5 @@ catalog\language\en-gb\account\register.php
 catalog\view\theme\default\template\account\register.tpl
 >>>>>>> 17a32ec22eb044e30cc280e06f61f14c31d81807
 >>>>>>> be762ff6b6327633e0a0a776bd9e71c9922e1891
+admin\controller\common\header.php
+admin\controller\common\column_left.php

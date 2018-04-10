@@ -702,7 +702,11 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()
 				);
 			}
+<<<<<<< HEAD
+			
+=======
 
+>>>>>>> 3c0db534b20c5304ca1dba1cb06599bed76a8221
 			if ($this->user->hasPermission('access', 'tool/log')) {
 				$tool[] = array(
 					'name'	   => $this->language->get('text_log'),
