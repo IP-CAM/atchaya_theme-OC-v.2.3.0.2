@@ -107,13 +107,13 @@ class ControllerCommonColumnLeft extends Controller {
 					);
 				}
 			
-			/*if ($this->user->hasPermission('access', 'catalog/recurring')) {
+			if ($this->user->hasPermission('access', 'catalog/recurring')) {
 				$catalog[] = array(
 					'name'	   => $this->language->get('text_recurring'),
 					'href'     => $this->url->link('catalog/recurring', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);
-			}*/
+			}
 			
 			if ($this->user->hasPermission('access', 'catalog/filter')) {
 				$catalog[] = array(
@@ -166,13 +166,13 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 			
-			/*if ($this->user->hasPermission('access', 'catalog/download')) {
+			if ($this->user->hasPermission('access', 'catalog/download')) {
 				$catalog[] = array(
 					'name'	   => $this->language->get('text_download'),
 					'href'     => $this->url->link('catalog/download', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);
-			}*/
+			}
 			
 			if ($this->user->hasPermission('access', 'catalog/review')) {		
 				$catalog[] = array(
@@ -211,7 +211,7 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()		
 				);					
 			}
-			
+			*/
 			if ($this->user->hasPermission('access', 'extension/installer')) {		
 				$extension[] = array(
 					'name'	   => $this->language->get('text_installer'),
@@ -219,7 +219,7 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()		
 				);					
 			}	
-			*/
+			
 			if ($this->user->hasPermission('access', 'extension/extension')) {		
 				$extension[] = array(
 					'name'	   => $this->language->get('text_extension'),
@@ -228,13 +228,13 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 					
-			/*if ($this->user->hasPermission('access', 'extension/modification')) {
+			if ($this->user->hasPermission('access', 'extension/modification')) {
 				$extension[] = array(
 					'name'	   => $this->language->get('text_modification'),
 					'href'     => $this->url->link('extension/modification', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);
-			}*/
+			}
 			
 			if ($this->user->hasPermission('access', 'extension/event')) {
 				$extension[] = array(
@@ -319,13 +319,13 @@ class ControllerCommonColumnLeft extends Controller {
 				);	
 			}
 			
-			/*if ($this->user->hasPermission('access', 'sale/recurring')) {	
+			if ($this->user->hasPermission('access', 'sale/recurring')) {	
 				$sale[] = array(
 					'name'	   => $this->language->get('text_recurring'),
 					'href'     => $this->url->link('sale/recurring', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);	
-			}*/
+			}
 			
 			if ($this->user->hasPermission('access', 'sale/return')) {
 				$sale[] = array(
@@ -346,13 +346,13 @@ class ControllerCommonColumnLeft extends Controller {
 				);	
 			}
 			
-			/*if ($this->user->hasPermission('access', 'sale/voucher_theme')) {
+			if ($this->user->hasPermission('access', 'sale/voucher_theme')) {
 				$voucher[] = array(
 					'name'	   => $this->language->get('text_voucher_theme'),
 					'href'     => $this->url->link('sale/voucher_theme', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);	
-			}*/
+			}
 			
 			if ($voucher) {
 				$sale[] = array(
@@ -433,14 +433,6 @@ class ControllerCommonColumnLeft extends Controller {
                     );
                 }
 
-                if ($this->user->hasPermission('access', 'blog/video')) {
-                    $blog_menu[] = array(
-                        'name' => $this->language->get('Blog video'),
-                        'href' => $this->url->link('blog/video', 'token=' . $this->session->data['token'], true),
-                        'children' => array()
-                    );
-                }
-
                 if($blog_menu) {
                     $data['menus'][] = array(
                         'id'       => 'menu-blog',
@@ -459,7 +451,7 @@ class ControllerCommonColumnLeft extends Controller {
 				);	
 			}
 			
-			/*if ($this->user->hasPermission('access', 'marketing/affiliate')) {
+			if ($this->user->hasPermission('access', 'marketing/affiliate')) {
 				$marketing[] = array(
 					'name'	   => $this->language->get('text_affiliate'),
 					'href'     => $this->url->link('marketing/affiliate', 'token=' . $this->session->data['token'], true),
@@ -473,7 +465,7 @@ class ControllerCommonColumnLeft extends Controller {
 					'href'     => $this->url->link('marketing/coupon', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);	
-			}*/
+			}
 			
 			if ($this->user->hasPermission('access', 'marketing/contact')) {
 				$marketing[] = array(
@@ -707,6 +699,15 @@ class ControllerCommonColumnLeft extends Controller {
 				$tool[] = array(
 					'name'	   => $this->language->get('text_backup'),
 					'href'     => $this->url->link('tool/backup', 'token=' . $this->session->data['token'], true),
+					'children' => array()		
+				);
+			}
+			
+
+			if ($this->user->hasPermission('access', 'tool/export_import')) {
+				$tool[] = array(
+					'name'	   => $this->language->get('text_export_import'),
+					'href'     => $this->url->link('tool/export_import', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);
 			}
