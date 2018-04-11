@@ -11,6 +11,7 @@ class ControllerBlogVideo extends Controller
         $this->document->setTitle($this->language->get('heading_title'));
 
         $this->load->model('blog/video');
+        $this->load->model('blog/ocblog');
 
         $this->getList();
     }
