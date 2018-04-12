@@ -1626,7 +1626,7 @@ border-radius: 10px;
 
 .product-tabs-category-container-slider {
 	display: inline-block;
-	margin-top: 80px;
+	margin: 50px 0px;
 	width: 100%;
 	position: relative;
 }
@@ -1902,12 +1902,9 @@ border-radius: 10px;
 .blog {
 	overflow: hidden;
 }
-.blog .container {
-	width: 100%;
-	padding: 0;
-}
+
 #blog_home {
-	margin-top: 80px;
+	margin: 80px 0px;
 }
 #blog_home .owl-buttons > div {
 	display: none;
@@ -1930,22 +1927,32 @@ border-radius: 10px;
 	margin: 0 0 15px;
 }
 #blog_home .aritcles-content .articles-intro {
-	line-height: 24px;
-	margin-top: 20px;
-	margin-bottom: 30px;
-	font-size: 14px;
+line-height: 24px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 14px;
 }
 #blog_home .aritcles-content .readmore .button {
-	height: 40px;
-	line-height: 40px;
-	padding: 0 0 0 45px;
-	font-size: 15px;
-	text-transform: uppercase;
-	color: #333;
-	font-weight: 600;
-	position: relative;
+padding: 9px;
+font-size: 13px;
+text-transform: uppercase;
+color: #67BD45;
+font-weight: 600;
+position: relative;
+margin: 15px 0px 0px;
+display: block;
+border: 1px solid #e1e1e1;
+width: 130px;
+text-align: center;
+border-radius: 40px;
 }
-#blog_home .aritcles-content .readmore .button:after {
+#blog_home .aritcles-content .readmore .button:hover
+{
+	color:#fff;
+	background:#67BD45;
+	border:1px solid #67BD45;
+}
+/*#blog_home .aritcles-content .readmore .button:after {
 	width: 30px;
 	height: 1px;
 	content: "";
@@ -1953,7 +1960,7 @@ border-radius: 10px;
 	position: absolute;
 	left: 0;
 	top: 8px;
-}
+}*/
 #blog_home .aritcles-content .articles-name {
 	font-weight: 600;
 	font-size: 16px;
@@ -1974,14 +1981,15 @@ border-radius: 10px;
 	text-transform: capitalize;
 }
 #blog_home .articles-inner {
-	background: #f3f6f5;
-	display: inline-block;
-	float: right;
+background: #f7f7f7;
+display: inline-block;
+float: right;
+border: 1px solid #ebebeb;
+padding: 10px;
 }
 #blog_home .aritcles-content {
 	text-align: left;
-	padding-left: 30px;
-	padding-top: 65px;
+	padding: 0px 0px 0px 20px;
 }
 footer .footer-top {
 	padding: 78px 0 80px;
@@ -2835,10 +2843,8 @@ button.btn-compare:hover, button.btn-wishlist:hover {
 	padding-top: 40px;
 }
 .testimonial-banner {
-	background: #f3f6f5;
-	padding: 80px 0;
-	margin-top: 40px;
-	margin-bottom: 60px;
+background: #f3f6f5;
+padding: 50px 0;
 }
 .banner-home .module-title {
 	margin-bottom: 40px;
@@ -3510,8 +3516,11 @@ box-shadow: 0px 0px 3px 0px #d5d5d5;
 	padding:0px;
 	margin:0px;
 }
-<<<<<<< HEAD
-/* Blog video */
+.organic_blog_videos
+{
+	padding:50px 0px;
+	margin:0px;
+}
 .organic_blog
 {
 	padding:0px;
@@ -3568,7 +3577,7 @@ padding: 0px;
 margin: 0px;
 font-size: 14px;
 font-weight: 400;
-color: #9c9c9c;
+color: #898989;
 }
 
 .organic_blog .date_username li p i
@@ -3611,15 +3620,9 @@ letter-spacing: 1px;
 }
 .single_blog_details
 {
-	padding:30px;
+	padding:15px;
 	margin:0px;
 }
-
-
-
-
-
-=======
 .offer_pro_details .product-caption
 {
 	padding:0px;
@@ -3668,7 +3671,7 @@ font-size: 18px;
 	color:#fff;
 	border:1px solid #67BD45;
 }
->>>>>>> be762ff6b6327633e0a0a776bd9e71c9922e1891
+
 
 
 

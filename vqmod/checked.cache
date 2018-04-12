@@ -499,3 +499,8 @@ catalog\view\theme\default\template\account\register.tpl
 >>>>>>> be762ff6b6327633e0a0a776bd9e71c9922e1891
 admin\controller\common\header.php
 admin\controller\common\column_left.php
+admin\controller\blog\article.php
+admin\language\en-gb\blog\article.php
+admin\model\blog\article.php
+admin\model\blog\ocblog.php
+admin\view\template\blog\article_list.tpl
