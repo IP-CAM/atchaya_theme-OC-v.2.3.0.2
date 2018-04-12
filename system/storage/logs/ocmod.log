@@ -3233,7 +3233,11 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
+2018-04-11 18:54:59 - MOD: Modification Default
+=======
 2018-04-10 21:43:46 - MOD: Modification Default
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
@@ -3271,7 +3275,11 @@ MOD: Blog For Opencart 2.3.x
 
 FILE: admin/controller/common/column_left.php
 CODE: if ($this->user->hasPermission('access', 'marketing/marketing')) {
+<<<<<<< HEAD
+LINE: 397
+=======
 LINE: 420
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: admin/controller/extension/theme/theme_default.php
 CODE: $this->load->language('extension/theme/theme_default');
@@ -3297,6 +3305,21 @@ LINE: 71
 CODE: if ($this->user->hasPermission('access', 'catalog/product')) {
 LINE: 90
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Export/Import Tool (V3.20) for OpenCart 2.x
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 703
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/fr-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+=======
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 MOD: Google Translate Full
 
 FILE: catalog/view/theme/default/template/common/header.tpl
@@ -3354,6 +3377,17 @@ CODE: if (!empty($data['filter_manufacturer_id'])) {
 LINE: 161
 LINE: 578
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+=======
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 MOD: Product Rotator Image by Plaza Themes
 
 FILE: admin/controller/catalog/product.php
@@ -3529,7 +3563,11 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
+2018-04-11 18:55:01 - MOD: Modification Default
+=======
 2018-04-10 21:45:18 - MOD: Modification Default
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
@@ -3567,7 +3605,11 @@ MOD: Blog For Opencart 2.3.x
 
 FILE: admin/controller/common/column_left.php
 CODE: if ($this->user->hasPermission('access', 'marketing/marketing')) {
+<<<<<<< HEAD
+LINE: 397
+=======
 LINE: 412
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: admin/controller/extension/theme/theme_default.php
 CODE: $this->load->language('extension/theme/theme_default');
@@ -3593,6 +3635,21 @@ LINE: 71
 CODE: if ($this->user->hasPermission('access', 'catalog/product')) {
 LINE: 90
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Export/Import Tool (V3.20) for OpenCart 2.x
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 703
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/fr-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+=======
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 MOD: Google Translate Full
 
 FILE: catalog/view/theme/default/template/common/header.tpl
@@ -3650,6 +3707,17 @@ CODE: if (!empty($data['filter_manufacturer_id'])) {
 LINE: 161
 LINE: 578
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+=======
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 MOD: Product Rotator Image by Plaza Themes
 
 FILE: admin/controller/catalog/product.php
@@ -3825,7 +3893,11 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
+2018-04-11 19:01:33 - MOD: Modification Default
+=======
 2018-04-10 21:45:24 - MOD: Modification Default
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
@@ -3863,7 +3935,11 @@ MOD: Blog For Opencart 2.3.x
 
 FILE: admin/controller/common/column_left.php
 CODE: if ($this->user->hasPermission('access', 'marketing/marketing')) {
+<<<<<<< HEAD
+LINE: 397
+=======
 LINE: 412
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: admin/controller/extension/theme/theme_default.php
 CODE: $this->load->language('extension/theme/theme_default');
@@ -3889,6 +3965,21 @@ LINE: 71
 CODE: if ($this->user->hasPermission('access', 'catalog/product')) {
 LINE: 90
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Export/Import Tool (V3.20) for OpenCart 2.x
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 703
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/fr-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+=======
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 MOD: Google Translate Full
 
 FILE: catalog/view/theme/default/template/common/header.tpl
@@ -3946,6 +4037,17 @@ CODE: if (!empty($data['filter_manufacturer_id'])) {
 LINE: 161
 LINE: 578
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+=======
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 MOD: Product Rotator Image by Plaza Themes
 
 FILE: admin/controller/catalog/product.php
@@ -4121,7 +4223,11 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
+2018-04-11 19:01:42 - MOD: Modification Default
+=======
 2018-04-11 18:57:58 - MOD: Modification Default
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
@@ -4159,7 +4265,11 @@ MOD: Blog For Opencart 2.3.x
 
 FILE: admin/controller/common/column_left.php
 CODE: if ($this->user->hasPermission('access', 'marketing/marketing')) {
+<<<<<<< HEAD
+LINE: 397
+=======
 LINE: 398
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: admin/controller/extension/theme/theme_default.php
 CODE: $this->load->language('extension/theme/theme_default');
@@ -4185,6 +4295,21 @@ LINE: 71
 CODE: if ($this->user->hasPermission('access', 'catalog/product')) {
 LINE: 90
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Export/Import Tool (V3.20) for OpenCart 2.x
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 703
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/fr-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+=======
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 MOD: Google Translate Full
 
 FILE: catalog/view/theme/default/template/common/header.tpl
@@ -4242,6 +4367,17 @@ CODE: if (!empty($data['filter_manufacturer_id'])) {
 LINE: 161
 LINE: 578
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+=======
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 MOD: Product Rotator Image by Plaza Themes
 
 FILE: admin/controller/catalog/product.php
@@ -4417,7 +4553,11 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
+2018-04-11 19:23:11 - MOD: Modification Default
+=======
 2018-04-11 18:58:09 - MOD: Modification Default
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
@@ -4455,7 +4595,11 @@ MOD: Blog For Opencart 2.3.x
 
 FILE: admin/controller/common/column_left.php
 CODE: if ($this->user->hasPermission('access', 'marketing/marketing')) {
+<<<<<<< HEAD
+LINE: 397
+=======
 LINE: 398
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 
 FILE: admin/controller/extension/theme/theme_default.php
 CODE: $this->load->language('extension/theme/theme_default');
@@ -4481,6 +4625,21 @@ LINE: 71
 CODE: if ($this->user->hasPermission('access', 'catalog/product')) {
 LINE: 90
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Export/Import Tool (V3.20) for OpenCart 2.x
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 703
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/fr-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+=======
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 MOD: Google Translate Full
 
 FILE: catalog/view/theme/default/template/common/header.tpl
@@ -4538,6 +4697,15 @@ CODE: if (!empty($data['filter_manufacturer_id'])) {
 LINE: 161
 LINE: 578
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+=======
 MOD: Product Rotator Image by Plaza Themes
 
 FILE: admin/controller/catalog/product.php
@@ -6609,6 +6777,7 @@ FILE: catalog/model/catalog/product.php
 CODE: if (!empty($data['filter_manufacturer_id'])) {
 LINE: 161
 LINE: 578
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
 ----------------------------------------------------------------
 MOD: Product Rotator Image by Plaza Themes
 
@@ -6785,5 +6954,8 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> ee8748e757debaee98bacaffbf217792a09fc4ad
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
