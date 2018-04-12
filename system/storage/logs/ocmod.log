@@ -1380,6 +1380,7 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
 2018-04-09 18:57:07 - MOD: Modification Default
 
 FILE: system/engine/action.php
@@ -6784,3 +6785,5 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+=======
+>>>>>>> ee8748e757debaee98bacaffbf217792a09fc4ad

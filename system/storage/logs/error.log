@@ -3969,6 +3969,7 @@
 2018-02-19 6:55:29 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 2018-02-19 6:55:29 - PHP Notice:  Undefined variable: entry_sort_order in C:\xampp\htdocs\atchaya_theme\admin\view\template\extension\module\gallery.tpl on line 58
 <<<<<<< HEAD
+<<<<<<< HEAD
 2018-02-25 6:42:05 - PHP Notice:  Undefined index: tamil in C:\xampp\htdocs\atchaya_theme\catalog\controller\extension\module\ocspecialproductslider.php on line 17
 2018-02-25 6:42:06 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
 2018-02-25 6:42:06 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
@@ -14947,3 +14948,5 @@ error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify faile
 2018-04-12 8:54:11 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 97
 2018-04-12 8:54:11 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 116
 2018-04-12 8:54:11 - PHP Notice:  Undefined variable: use_ajax_login in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\header.tpl on line 123
+=======
+>>>>>>> ee8748e757debaee98bacaffbf217792a09fc4ad
