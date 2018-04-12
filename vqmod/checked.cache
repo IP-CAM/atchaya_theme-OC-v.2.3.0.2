@@ -499,3 +499,5 @@ catalog\view\theme\default\template\account\register.tpl
 >>>>>>> be762ff6b6327633e0a0a776bd9e71c9922e1891
 admin\controller\common\header.php
 admin\controller\common\column_left.php
+admin\controller\tool\log.php
+admin\language\en-gb\tool\log.php
