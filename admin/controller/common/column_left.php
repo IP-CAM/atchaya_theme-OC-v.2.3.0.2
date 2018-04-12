@@ -364,12 +364,6 @@ class ControllerCommonColumnLeft extends Controller {
 			// Marketing
 			$marketing = array();
 
-			$this->load->language('extension/module/ocblog');
-
-
-
-								
-
 
 			if ($this->user->hasPermission('access', 'marketing/marketing')) {
 				$marketing[] = array(
@@ -794,6 +788,45 @@ class ControllerCommonColumnLeft extends Controller {
 					'name'	   => $this->language->get('text_report_customer'),
 					'href'     => '',
 					'children' => $report_customer
+				);
+			}
+
+			// Blog
+			$this->load->language('extension/module/ocblog');
+
+			$blog_menu = array();
+
+			if ($this->user->hasPermission('access', 'blog/article')) {
+				$blog_menu[] = array(
+					'name' => $this->language->get('text_blog_article'),
+					'href' => $this->url->link('blog/article', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+				);
+			}
+
+			if ($this->user->hasPermission('access', 'blog/articlelist')) {
+				$blog_menu[] = array(
+					'name' => $this->language->get('text_blog_article_list'),
+					'href' => $this->url->link('blog/articlelist', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+				);
+			}
+			
+			if ($this->user->hasPermission('access', 'blog/video')) {
+				$blog_menu[] = array(
+					'name' => $this->language->get('Blog video'),
+					'href' => $this->url->link('blog/video', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+				);
+			}
+
+			if($blog_menu) {
+				$data['menus'][] = array(
+					'id'       => 'menu-blog',
+					'icon'     => 'fa-pencil-square-o', 
+					'name'     => $this->language->get('text_blog'),
+					'href'     => '',
+					'children' => $blog_menu
 				);
 			}
 

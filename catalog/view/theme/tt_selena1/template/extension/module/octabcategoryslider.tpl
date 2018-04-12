@@ -21,6 +21,7 @@ $(document).ready(function() {
 	$row = $config_slide['f_rows'];
 	if(!$row) {$row=1;}
 ?>
+
 <div class="product-tabs-category-container-slider <?php echo $cateogry_alias;?>">
     <div class="tab-title module-title">
         <h2>
@@ -155,6 +156,7 @@ $(document).ready(function() {
 			</div>
 		<?php } ?>
 		</div>
+
 	 <!-- .tab_container_category -->
 	 </div>
 </div><!-- <?php echo $cateogry_alias;?> -->
