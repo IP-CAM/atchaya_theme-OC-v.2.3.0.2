@@ -702,11 +702,16 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()
 				);
 			}
-<<<<<<< HEAD
-			
-=======
 
->>>>>>> 3c0db534b20c5304ca1dba1cb06599bed76a8221
+
+			if ($this->user->hasPermission('access', 'tool/export_import')) {
+				$tool[] = array(
+					'name'	   => $this->language->get('text_export_import'),
+					'href'     => $this->url->link('tool/export_import', 'token=' . $this->session->data['token'], true),
+					'children' => array()		
+				);
+			}
+			
 			if ($this->user->hasPermission('access', 'tool/log')) {
 				$tool[] = array(
 					'name'	   => $this->language->get('text_log'),

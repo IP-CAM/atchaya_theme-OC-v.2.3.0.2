@@ -1,15 +1,20 @@
-<?php echo $header; ?>
-<div class="popup-gallery">
-	<?php
-    foreach($galleries as $gallery)
-    {
-    	?>
-    	<a href="<?php echo 'image/'.$gallery['image']; ?>" title="<?php echo $gallery['name']; ?>" data-source="<?php echo $gallery['description']; ?>"">
-    		<img src="<?php echo 'image/'.$gallery['image']; ?>" width="75" height="75">
-    	</a>
-        <?php
-    }
-    ?>
+<div class="container">
+	<div class="row">
+		<div class="popup-gallery">
+			<?php
+    		foreach($galleries as $gallery)
+    		{
+    			?>
+    			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    				<a href="<?php echo 'image/'.$gallery['image']; ?>" title="<?php echo 	$gallery['name']; ?>" data-source="<?php echo $gallery['description']; ?>"">
+    					<img src="<?php echo 'image/'.$gallery['image']; ?>" width="75" height="75">
+    				</a>
+    			</div>
+        		<?php
+    		}
+    		?>
+    	</div>
+	</div>
 </div>
 
 <script>
@@ -39,4 +44,3 @@
   		});
 	});
 </script>
-<?php echo $footer ?>

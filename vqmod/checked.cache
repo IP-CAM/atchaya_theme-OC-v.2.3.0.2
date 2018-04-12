@@ -556,3 +556,11 @@ catalog\language\tamil\checkout\checkout.php
 admin\controller\common\header.php
 admin\controller\common\column_left.php
 >>>>>>> 8b210fbebe8cb9a90c8743c35389d087fcfbd802
+admin\controller\extension\extension\feed.php
+admin\language\en-gb\extension\feed\google_base.php
+admin\language\en-gb\extension\feed\google_sitemap.php
+admin\language\en-gb\extension\feed\openbaypro.php
+admin\view\template\extension\extension\feed.tpl
+catalog\controller\extension\module\gallerymodule.php
+catalog\model\catalog\gallerymodule.php
+catalog\view\theme\tt_selena1\template\extension\module\gallerymodule.tpl
