@@ -5,7 +5,7 @@
 		<?php echo $content_bottom; ?>
 		<?php echo $column_right; ?>
 	</div>
-	<?php
+	<!--<?php
 // keys from your app
 $oauth_access_token = "2644316399-LmM1IMjnG8a4C90IxnUU5FnQovXcloZ7YGxOSDS";
 $oauth_access_token_secret = "mOc74P0vFYrgGJGiFmDlp5mPnYRCtFeblJFgNXNsUoCqy";
@@ -162,5 +162,5 @@ foreach($tweets as $tweet){
     echo "</div>";
     echo "<hr />";
 }
-?>
+?>-->
 <?php echo $footer; ?>
