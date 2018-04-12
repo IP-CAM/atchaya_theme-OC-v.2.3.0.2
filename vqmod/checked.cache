@@ -611,6 +611,16 @@ catalog\view\theme\default\template\common\search.tpl
 catalog\controller\common\cart.php
 =======
 >>>>>>> 8b210fbebe8cb9a90c8743c35389d087fcfbd802
+<<<<<<< HEAD
+admin\controller\extension\extension\feed.php
+admin\language\en-gb\extension\feed\google_base.php
+admin\language\en-gb\extension\feed\google_sitemap.php
+admin\language\en-gb\extension\feed\openbaypro.php
+admin\view\template\extension\extension\feed.tpl
+catalog\controller\extension\module\gallerymodule.php
+catalog\model\catalog\gallerymodule.php
+catalog\view\theme\tt_selena1\template\extension\module\gallerymodule.tpl
+=======
 >>>>>>> 3bd3da4742957a8a7e783aea77e115ebaddd8ac8
 catalog\controller\extension\module\carousel.php
 catalog\controller\product\search.php
@@ -685,3 +695,4 @@ admin\language\en-gb\extension\openbay.php
 >>>>>>> 5433e354ab87c9f93741382319c2d6551b6e88a8
 catalog\language\en-gb\blog\video_article.php
 >>>>>>> faf2fa9998405a8de25e7843afb946bd4c1d6838
+>>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
