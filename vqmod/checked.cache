@@ -679,3 +679,4 @@ catalog\model\account\api.php
 admin\view\template\sale\order_history.tpl
 admin\language\en-gb\extension\openbay.php
 >>>>>>> 5433e354ab87c9f93741382319c2d6551b6e88a8
+catalog\language\en-gb\blog\video_article.php
