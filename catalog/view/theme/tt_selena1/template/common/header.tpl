@@ -31,6 +31,7 @@
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&amp;subset=latin-ext" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
 <script src="catalog/view/javascript/opentheme/hozmegamenu/custommenu.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/opentheme/hozmegamenu/mobile_menu.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/jquery.plugin.js" type="text/javascript"></script>
@@ -60,6 +61,16 @@
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
+<script type='text/javascript' src='catalog/view/javascript/opentheme/bug-min.js'></script>
+<script type='text/javascript'>
+	// default fruit fly bug:
+	// new BugController({
+	// });
+
+	// // default spiders:
+	// new SpiderController({
+	// });
+</script>
 </head>
 <body class="<?php echo $class; ?> home1">
 <nav id="top">

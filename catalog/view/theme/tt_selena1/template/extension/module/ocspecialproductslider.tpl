@@ -1,5 +1,4 @@
-&nbsp;
-&nbsp;
+<div class="product-tabs-category-container-slider">
 <div class="special-product-slider special-button-owl">
    <div class="module-title">
 	  <h2>
@@ -9,7 +8,7 @@
 				$j=$i+1;
 				echo $j>2 ? "<span class='word2'> ".$title2[$i]." </span>" : "<span> ".$title2[$i]." </span>";
 			}
-		?>
+		?> 
 		</h2>
    </div>
    <?php 
@@ -22,8 +21,9 @@
 			<?php foreach ($products as $product) { ?>
 			<?php  if($count % $rows == 0 ) { echo '<div class="row_items">'; } $count++; ?>
 			<div class="product-layout product-grid">
-					<div class="product-thumb layout2">
-						<div class="image">
+					<div class="product-thumb layout2 spacal_offers_product">
+                    
+						<div class="offers_images">
 							<a class="product-image" href="<?php echo $product['href']; ?>">
 								<?php if($product['rotator_image']): ?>
 								<img class="img-r lazy" src="<?php echo $product['rotator_image']; ?>" alt="<?php echo $product['name']; ?>" />
@@ -43,9 +43,8 @@
 							<?php endif; ?>
 							 -->
 							</div><!-- image -->
-					<div class="product-inner">
-					
-					
+       
+					<div class="offer_pro_details">
 						<div class="product-caption">
 							<?php if ($product['tags']) { ?>
 						  <p class="tags-product">
@@ -91,14 +90,15 @@
 						<div class="actions-link">
 							<a class="btn-compare" data-toggle="tooltip" title="<?php echo $button_compare; ?>"  onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="icon-refresh" aria-hidden="true"></i></a>
 							<?php if($config_slide['f_show_addtocart']) { ?>
-							<a class="btn-cart" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-basket"></i><span class="button"><?php echo $button_cart; ?></span></a>
+							<a class="btn-cart" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="icon ion-bag"></i><span class="button"><?php echo $button_cart; ?></span></a>
 							<?php } ?>
 							<a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>"  onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="icon-heart" aria-hidden="true"></i></a>
 						</div>						
 					</div>
 				</div>
-				
-				</div><!-- product-inner -->
+					</div>
+			<!-- product-inner -->
+                
 				</div>				
 				</div>
 			<?php if($count % $rows == 0 || $count == count($products)): ?>
@@ -108,6 +108,7 @@
 		<?php else: ?>
 			<p><?php echo $text_empty; ?></p>
 		<?php endif; ?>
+   </div>
    </div>
 </div>
 <script type="text/javascript">

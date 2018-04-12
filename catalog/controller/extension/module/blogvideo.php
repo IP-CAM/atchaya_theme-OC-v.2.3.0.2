@@ -13,7 +13,18 @@ class ControllerExtensionModuleBlogvideo extends Controller
 
 		$data['blogvideos'] = array();
 
-		$data['blogvideos'] = $this->model_extension_module_blogvideo->getBloghome();
+		$results = $this->model_extension_module_blogvideo->getBloghome();
+
+		foreach ($results as $result) {
+			$data['blogvideos'][] = array(
+				'url'  				=> $result['url'],
+				'title'        		=> $result['title'],
+				'author'	  		=> "Atchaya's Traditional Farms & Foods",
+				'created_at'  		=> date("m/d/Y", strtotime($result['created_at'])),
+				'short_description'	=> html_entity_decode($result['short_description'], ENT_QUOTES, 'UTF-8'),
+				'href'        		=> $this->url->link('blog/video_article', 'video_id=' . $result['id'])
+			);
+		}
 
 		if(!empty($data['blogvideos']) && $this->config->get('blogvideo_status') == 1)
 		{

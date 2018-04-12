@@ -1,3 +1,4 @@
+
 <div id="blog_home" class="menu-recent owl-style3">
 	 <div>
 		  <div class="blog-title module-title">
@@ -42,6 +43,7 @@
       <p><?php echo $text_empty; ?></p>
       <?php } ?>
 	  </div>
+
  <script>
  $(document).ready(function() {
 	  $(".articles-container").owlCarousel({

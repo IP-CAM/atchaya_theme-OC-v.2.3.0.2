@@ -65,12 +65,6 @@ class ControllerExtensionModuleGallery extends Controller {
 
 		$data['cancel'] = $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true);
 
-		if (isset($this->request->post['category_status'])) {
-			$data['category_status'] = $this->request->post['category_status'];
-		} else {
-			$data['category_status'] = $this->config->get('category_status');
-		}
-
 		$data['token'] = $this->session->data['token'];
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
@@ -99,7 +93,7 @@ class ControllerExtensionModuleGallery extends Controller {
 
 	public function install()
 	{
-		$this->db->query("CREATE TABLE IF NOT EXIXTS ".DB_PREFIX."gallery (
+		$this->db->query("CREATE TABLE IF NOT EXISTS ".DB_PREFIX."gallery (
       `id` int(11) NOT NULL AUTO_INCREMENT,
       `gallery_image` varchar(255) NOT NULL,
       `name` varchar(255) NOT NULL,
