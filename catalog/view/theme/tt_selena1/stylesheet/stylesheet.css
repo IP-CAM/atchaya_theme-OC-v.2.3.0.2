@@ -134,16 +134,17 @@ div.required .control-label:before {
 #button-guest:hover, #button-search:hover, #button-review:hover, #button-account:hover, #button-login:hover, #button-confirm:hover, #button-payment-method:hover, #button-register:hover, #button-shipping-method:hover, #button-quote:hover, #button-coupon:hover, #button-guest, #button-search, #button-review, #button-account, #button-login, #button-confirm, #button-payment-method, #button-shipping-method, #button-quote, #button-coupon, #button-register, .form-horizontal input.btn, a.btn, input[type='submit'] {
 	position: relative;
 	display: inline-block;
-	border: 1px solid #62d2a2;
+	border: 1px solid #67BD45;
 	text-transform: capitalize;
 	vertical-align: top;
 	font-size: 16px;
 	font-weight: normal;
-	background: #fff;
-	color: #62d2a2;
+	background: #67BD45;
+	color: #fff;
 	text-align: center;
 	opacity: 1;
 }
+
 input.btn:hover {
 	background: #62d2a2 !important;
 	color: #fff !important;
@@ -2546,7 +2547,7 @@ button.btn-compare:hover, button.btn-wishlist:hover {
 .alert.alert-success {
 	text-align: center;
 	font-size: 14px;
-	margin: 0;
+	margin: 0px 0px 20px;
 }
 .account-login .well {
 	background: none;
@@ -3671,7 +3672,37 @@ font-size: 18px;
 	color:#fff;
 	border:1px solid #67BD45;
 }
-
+.socialmedia_scrollbar
+{
+	padding: 0px;
+	margin: 0px;
+	max-height: 280px;
+	min-height: 280px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.gallery_homepage
+{
+	padding: 50px 0px;
+	margin: 0px;
+}
+.gall_image
+{
+	padding: 0px;
+	margin: 0px;
+}
+.gall_image a
+{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+.gall_image a img
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
 
 
 

@@ -78,11 +78,16 @@
 <div class="container">
 	<div class="header-border">
 		<div class="row">
-			
-			<div class="row col-header">
-			
-				
-				<div class="col-md-5 col-sm-12">
+			<div class="col-md-3 col-xs-12 logo-container">
+				<div id="logo">
+					<?php if ($logo) { ?>
+					<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+					<?php } else { ?>
+				<h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
+				<?php } ?>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-header">
 				<div class="header-link">
 					<ul class="list-unstyled pull-left">
 						<li>
@@ -130,21 +135,7 @@
 						<li><?php echo $language; ?></li>
 					</ul>
 			   </div>
-				
-			</div>
-			<div class="col-md-3 col-sm-12 logo-container">
-				<div id="logo">
-					<?php if ($logo) { ?>
-					<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
-					<?php } else { ?>
-				<h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-				<?php } ?>
-				</div>
-			</div>
-
-			<div class="col-md-3 col-sm-12">
 				<?php echo $search; ?>
-			</div>
 				<div class="cart-container"><?php echo $cart; ?></div>
 			</div>
 			<div class="clearfix"></div>
