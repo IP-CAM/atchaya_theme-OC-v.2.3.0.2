@@ -713,6 +713,10 @@ class ControllerCommonColumnLeft extends Controller {
 <<<<<<< HEAD
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1eb29f2aa1531b45ef884644699ceb9a86c358bd
 			if ($this->user->hasPermission('access', 'tool/export_import')) {
 				$tool[] = array(
 					'name'	   => $this->language->get('text_export_import'),
@@ -720,8 +724,11 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()		
 				);
 			}
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
+>>>>>>> 1eb29f2aa1531b45ef884644699ceb9a86c358bd
 			
 			if ($this->user->hasPermission('access', 'tool/log')) {
 				$tool[] = array(
