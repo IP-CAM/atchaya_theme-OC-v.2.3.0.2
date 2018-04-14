@@ -68,6 +68,10 @@ line-height: 30px;
 	float: left;
 	margin-right: 30px;
 }
+.article-container video{
+	float: left;
+	margin-right: 30px;
+}
 .article-description p{
 
 }
