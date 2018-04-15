@@ -520,3 +520,6 @@ system\storage\modification\catalog\controller\product\search.php
 catalog\language\en-gb\product\search.php
 catalog\view\theme\tt_selena1\template\product\search.tpl
 >>>>>>> b555d7d56dd6017e68ef07cb6b7f96e76b61060b
+catalog\controller\extension\module\gallerymodule.php
+catalog\model\catalog\gallerymodule.php
+catalog\view\theme\tt_selena1\template\extension\module\gallerymodule.tpl
