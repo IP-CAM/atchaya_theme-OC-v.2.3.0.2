@@ -114,7 +114,6 @@
 									<?php } else { ?>
 									<li>
 										<?php if($use_ajax_login): ?> 
-                                        <p>Teste</p>
 											<a id="a-register-link" href="<?php echo $register; ?>"><?php echo $text_register; ?></a>
 										<?php else: ?>
 											<a href="<?php echo $register; ?>"><?php echo $text_register; ?></a> 

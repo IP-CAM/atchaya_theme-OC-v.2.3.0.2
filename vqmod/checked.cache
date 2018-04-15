@@ -528,5 +528,22 @@ catalog\view\theme\tt_selena1\template\blog\blog.tpl
 system\storage\modification\catalog\controller\product\search.php
 catalog\language\en-gb\product\search.php
 catalog\view\theme\tt_selena1\template\product\search.tpl
+<<<<<<< HEAD
+catalog\controller\product\octestimonial.php
+catalog\view\theme\default\template\product\octestimonial.tpl
+catalog\view\theme\default\template\product\octestimonial.tpl
+=======
 >>>>>>> b555d7d56dd6017e68ef07cb6b7f96e76b61060b
+<<<<<<< HEAD
+catalog\controller\extension\module\gallerymodule.php
+catalog\model\catalog\gallerymodule.php
+catalog\view\theme\tt_selena1\template\extension\module\gallerymodule.tpl
+=======
 >>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
+>>>>>>> fbe09f100b385feb7452fc7764eb026e55f1c6dc
+admin\controller\extension\modification.php
+admin\language\en-gb\extension\modification.php
+admin\model\extension\modification.php
+admin\view\template\extension\modification.tpl
+catalog\controller\account\logout.php
+catalog\language\en-gb\account\logout.php

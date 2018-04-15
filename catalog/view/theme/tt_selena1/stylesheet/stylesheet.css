@@ -3790,6 +3790,11 @@ font-size: 18px;
 	margin: 0px;
 	width: 100%;
 }
+.boxshadow 
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px 25px;
+}
 .common_space_bt
 {
 	padding: 50px 0px;
@@ -3891,5 +3896,6 @@ font-size: 18px;
 	color: #67BD45;
 	border: 1px solid #67BD45;
 }
+>>>>>>> fbe09f100b385feb7452fc7764eb026e55f1c6dc
 
 

@@ -18,8 +18,8 @@
     <?php } ?>
     
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-    	
-        <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4">
+    	<div class="row">
+        <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 boxshadow">
           <h2><?php echo $text_my_account; ?></h2>
           <ul class="list-unstyled">
             <li><a href="<?php echo $edit; ?>"><?php echo $text_edit; ?></a></li>
@@ -30,18 +30,18 @@
     	</div>
       
       <?php if ($credit_cards) { ?>
-      <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4">
+      <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 boxshadow">
       	<h2><?php echo $text_credit_card; ?></h2>
-      	<ul class="list-unstyled col-xs-12 col-sm-4 col-lg-4 col-md-4">
+      	<ul class="list-unstyled">
         	<?php foreach ($credit_cards as $credit_card) { ?>
         	<li><a href="<?php echo $credit_card['href']; ?>"><?php echo $credit_card['name']; ?></a></li>
         	<?php } ?>
       	</ul>
       </div>     
       <?php } ?>
-      <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4">
+      <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 boxshadow">
       	  <h2><?php echo $text_my_orders; ?></h2>
-          <ul class="list-unstyled col-xs-12 col-sm-4 col-lg-4 col-md-4">
+          <ul class="list-unstyled">
             <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
             <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
             <?php if ($reward) { ?>
@@ -53,12 +53,13 @@
           </ul>
       </div>
       
-      <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4">
+      <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 boxshadow">
       <h2><?php echo $text_my_newsletter; ?></h2>
       <ul class="list-unstyled">
         <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
       </ul>
       </div>
+    </div>
       
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
