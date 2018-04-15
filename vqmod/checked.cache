@@ -499,3 +499,6 @@ catalog\view\theme\tt_selena1\template\blog\blog.tpl
 system\storage\modification\catalog\controller\product\search.php
 catalog\language\en-gb\product\search.php
 catalog\view\theme\tt_selena1\template\product\search.tpl
+catalog\controller\product\octestimonial.php
+catalog\view\theme\default\template\product\octestimonial.tpl
+catalog\view\theme\default\template\product\octestimonial.tpl
