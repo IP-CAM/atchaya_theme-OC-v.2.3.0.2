@@ -31,6 +31,17 @@ class ControllerExtensionModuleGallerymodule extends Controller {
 			}
 		}
 
-		return $this->load->view('extension/module/gallerymodule', $data);
+		if(isset($_REQUEST['id']) && $_REQUEST['id'])
+		{
+			$data['footer'] = $this->load->controller('common/footer');
+			$data['header'] = $this->load->controller('common/header');
+			echo $this->load->view('extension/module/gallerymodule', $data);
+		}
+		else
+		{
+			$data['footer'] = '';
+			$data['header'] = '';
+			return $this->load->view('extension/module/gallerymodule', $data);
+		}
 	}
 }

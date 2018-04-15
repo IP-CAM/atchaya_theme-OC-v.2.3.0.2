@@ -414,35 +414,71 @@ class ControllerCommonColumnLeft extends Controller {
 
 
 
+
                 $this->load->language('extension/module/ocblog');
+
+
 
                 $blog_menu = array();
 
+
+
                 if ($this->user->hasPermission('access', 'blog/article')) {
+
                     $blog_menu[] = array(
+
                         'name' => $this->language->get('text_blog_article'),
+
                         'href' => $this->url->link('blog/article', 'token=' . $this->session->data['token'], true),
+
                         'children' => array()
+
                     );
+
                 }
+
+
 
                 if ($this->user->hasPermission('access', 'blog/articlelist')) {
+
                     $blog_menu[] = array(
+
                         'name' => $this->language->get('text_blog_article_list'),
+
                         'href' => $this->url->link('blog/articlelist', 'token=' . $this->session->data['token'], true),
+
                         'children' => array()
+
                     );
+
                 }
 
+if ($this->user->hasPermission('access', 'blog/video')) {
+				$blog_menu[] = array(
+					'name' => $this->language->get('Blog video'),
+					'href' => $this->url->link('blog/video', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+				);
+			}
+
                 if($blog_menu) {
+
                     $data['menus'][] = array(
+
                         'id'       => 'menu-blog',
+
                         'icon'     => 'fa-pencil-square-o', 
+
                         'name'     => $this->language->get('text_blog'),
+
                         'href'     => '',
+
                         'children' => $blog_menu
+
                     );
+
                 }
+
             
 			if ($this->user->hasPermission('access', 'marketing/marketing')) {
 				$marketing[] = array(
@@ -704,6 +740,15 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 
+
+			if ($this->user->hasPermission('access', 'tool/export_import')) {
+				$tool[] = array(
+					'name'	   => $this->language->get('text_export_import'),
+					'href'     => $this->url->link('tool/export_import', 'token=' . $this->session->data['token'], true),
+					'children' => array()		
+				);
+			}
+			
 			if ($this->user->hasPermission('access', 'tool/log')) {
 				$tool[] = array(
 					'name'	   => $this->language->get('text_log'),

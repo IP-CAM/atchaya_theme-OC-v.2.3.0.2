@@ -18,9 +18,9 @@
 		  <div class="col-md-3 col-sm-6 col-footer">
 			<div class="title-footer"><?php echo $text_contact; ?></div>
 			<div class="list-unstyled footer-contact text-content">
-			  <p class="address">Address: <span>110-114 W George St, City Centre, Glasgow G2 1NF, USA</span></p>
-			  <p class="phone">Call Us Now: <span>+0123 - 456 - 78 - 89<br>+0123 - 567 - 78 - 89</span></p>
-			  <p class="email">Email: <span><a href="#">support@plazathemes.com</a></span></p>
+			  <p class="address">Address: <span>No. 157 Main Road, Kammapuram Post, Vriddhachalam TK, Cuddalore Dt. - 606 103</span></p>
+			  <p class="phone">Call Us Now: <span><a href="tel:+918754541030"> +91 87545 41030</a></span></p>
+			  <p class="email">Email: <span><a href="mailto:atfandfoods@gmail.com">atfandfoods@gmail.com</a></span></p>
 			</div>
 		  </div>
 		  <?php } ?>
@@ -62,8 +62,8 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 
 
-				<p class="text-powered">
-					<?php echo $powered; ?>
+				<p class="text-powered">					
+					Copyright &copy; <a href="http://www.atfandfoods.com">www.atfandfoods.com</a>. All Rights Reserved		
 				</p>
 			</div>
 			<!--<div class="col-md-6 col-sm-6 col-xs-12">
