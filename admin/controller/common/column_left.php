@@ -790,12 +790,6 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => $report_customer
 				);
 			}
-
-<<<<<<< HEAD
-=======
-			
-
->>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 			// Report Marketing
 			$report_marketing = array();
 
