@@ -100,7 +100,7 @@
           </table>
         </div>
       </form>
-      <?php if ($modules) { ?>
+      <?php /*<?php if ($modules) { ?>
       <h2><?php echo $text_next; ?></h2>
       <p><?php echo $text_next_choice; ?></p>
       <div class="panel-group" id="accordion">
@@ -108,7 +108,7 @@
         <?php echo $module; ?>
         <?php } ?>
       </div>
-      <?php } ?>
+      <?php } ?> */?>
       <br />
       <div class="row">
         <div class="col-sm-4 col-sm-offset-8">

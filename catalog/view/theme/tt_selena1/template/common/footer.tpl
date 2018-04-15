@@ -32,8 +32,8 @@
 			  <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
 			  <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
 			  <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
-			  <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-			  <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+			  <!--<li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>-->
+			  <!--<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>-->
 			</ul>
 		  </div>
               <div class="col-md-3 col-sm-6 col-footer">

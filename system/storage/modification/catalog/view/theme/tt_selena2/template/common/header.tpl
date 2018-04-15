@@ -20,7 +20,7 @@
 <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
-<link href="catalog/view/theme/tt_selena1/stylesheet/opentheme/oclayerednavigation/css/oclayerednavigation.css" rel="stylesheet">
+<link href="catalog/view/theme/tt_selena2/stylesheet/opentheme/oclayerednavigation/css/oclayerednavigation.css" rel="stylesheet">
 <script src="catalog/view/javascript/opentheme/oclayerednavigation/oclayerednavigation.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
@@ -31,23 +31,22 @@
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&amp;subset=latin-ext" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
-
 <script src="catalog/view/javascript/opentheme/hozmegamenu/custommenu.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/opentheme/hozmegamenu/mobile_menu.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/jquery.plugin.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/opentheme/ocslideshow/jquery.nivo.slider.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/opentheme/vermegamenu/ver_menu.js" type="text/javascript"></script>
-<link href="catalog/view/theme/tt_selena1/stylesheet/opentheme/vermegamenu/css/ocvermegamenu.css" rel="stylesheet" />
-<link href="catalog/view/theme/tt_selena1/stylesheet/opentheme/ocslideshow/ocslideshow.css" rel="stylesheet" />
-<link href="catalog/view/theme/tt_selena1/stylesheet/opentheme/hozmegamenu/css/custommenu.css" rel="stylesheet" />
-<link href="catalog/view/theme/tt_selena1/stylesheet/opentheme/css/animate.css" rel="stylesheet" />
-<link href="catalog/view/theme/tt_selena1/stylesheet/opentheme/categorytabslider.css" rel="stylesheet" />
-<link href="catalog/view/theme/tt_selena1/stylesheet/opentheme/css/owl.carousel.css" rel="stylesheet" />
+<link href="catalog/view/theme/tt_selena2/stylesheet/opentheme/vermegamenu/css/ocvermegamenu.css" rel="stylesheet" />
+<link href="catalog/view/theme/tt_selena2/stylesheet/opentheme/ocslideshow/ocslideshow.css" rel="stylesheet" />
+<link href="catalog/view/theme/tt_selena2/stylesheet/opentheme/hozmegamenu/css/custommenu.css" rel="stylesheet" />
+<link href="catalog/view/theme/tt_selena2/stylesheet/opentheme/css/animate.css" rel="stylesheet" />
+<link href="catalog/view/theme/tt_selena2/stylesheet/opentheme/categorytabslider.css" rel="stylesheet" />
+<link href="catalog/view/theme/tt_selena2/stylesheet/opentheme/css/owl.carousel.css" rel="stylesheet" />
 <script src="catalog/view/javascript/jquery/elevatezoom/jquery.elevatezoom.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/opentheme/ocquickview/ocquickview.js" type="text/javascript"></script>
-<link href="catalog/view/theme/tt_selena1/stylesheet/opentheme/ocquickview/css/ocquickview.css" rel="stylesheet">
-<link href="catalog/view/theme/tt_selena1/stylesheet/stylesheet.css" rel="stylesheet">
+<link href="catalog/view/theme/tt_selena2/stylesheet/opentheme/ocquickview/css/ocquickview.css" rel="stylesheet">
+<link href="catalog/view/theme/tt_selena2/stylesheet/stylesheet.css" rel="stylesheet">
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
@@ -61,16 +60,6 @@
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
-<script type='text/javascript' src='catalog/view/javascript/opentheme/bug-min.js'></script>
-<script type='text/javascript'>
-	// default fruit fly bug:
-	// new BugController({
-	// });
-
-	// // default spiders:
-	// new SpiderController({
-	// });
-</script>
 </head>
 <body class="<?php echo $class; ?> home1">
 <nav id="top">
@@ -114,7 +103,6 @@
 									<?php } else { ?>
 									<li>
 										<?php if($use_ajax_login): ?> 
-                                        <p>Teste</p>
 											<a id="a-register-link" href="<?php echo $register; ?>"><?php echo $text_register; ?></a>
 										<?php else: ?>
 											<a href="<?php echo $register; ?>"><?php echo $text_register; ?></a> 
@@ -134,6 +122,33 @@
 						</li>
 						<li><?php echo $currency; ?></li>
 						<li><?php echo $language; ?></li>
+
+			
+			<style>
+		div#google_translate_element div.goog-te-gadget-simple{background-color: #FFFFFF; border-color: transparent;}
+		div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span{color: #000000;}
+		div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover{color: #000000;}
+		div#google_translate_element div.goog-logo-link{display:  none ;}
+		div#google_translate_element div.goog-te-gadget{color: transparent; height: 14px;}
+				div#google_translate_element div.goog-te-gadget .goog-te-combo{color: #FF0000; background-color: #FFFFFF; border-color: #000000;}
+				body {position: static !important; top:0px !important;}
+		iframe.goog-te-banner-frame{ display: none !important;}
+				</style>
+				
+			<div class="pull-left" style="width:140px; ">
+			<div id="google_translate_element" ></div>
+<span><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'it',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+</script>
+		</span></div>
+			
 					</ul>
 			   </div>
 				<?php echo $search; ?>
