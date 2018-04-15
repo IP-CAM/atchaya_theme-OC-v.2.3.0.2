@@ -18,7 +18,7 @@
     <?php } ?>
     
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-    	
+    	<div class="row">
         <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 boxshadow">
           <h2><?php echo $text_my_account; ?></h2>
           <ul class="list-unstyled">
@@ -59,6 +59,7 @@
         <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
       </ul>
       </div>
+    </div>
       
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
