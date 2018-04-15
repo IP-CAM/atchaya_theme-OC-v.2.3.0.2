@@ -696,3 +696,19 @@ admin\language\en-gb\extension\openbay.php
 catalog\language\en-gb\blog\video_article.php
 >>>>>>> faf2fa9998405a8de25e7843afb946bd4c1d6838
 >>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
+system\storage\modification\catalog\controller\product\manufacturer.php
+catalog\language\en-gb\product\manufacturer.php
+catalog\view\theme\default\template\product\manufacturer_list.tpl
+catalog\controller\account\newsletter.php
+catalog\controller\account\order.php
+catalog\controller\account\forgotten.php
+catalog\language\en-gb\account\forgotten.php
+catalog\view\theme\default\template\account\forgotten.tpl
+admin\view\template\customer\customer_form.tpl
+admin\view\template\customer\customer_reward.tpl
+admin\view\template\customer\customer_ip.tpl
+admin\view\template\customer\customer_history.tpl
+admin\view\template\customer\customer_transaction.tpl
+catalog\language\en-gb\account\order.php
+catalog\model\account\order.php
+catalog\view\theme\default\template\account\order_list.tpl
