@@ -18274,6 +18274,165 @@ error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify faile
 2018-04-12 20:58:39 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
 =======
 >>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
+<<<<<<< HEAD
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:58:56 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 20:59:33 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-12 21:18:28 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:21 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:28 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\home.tpl on line 129
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:41 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 6:45:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\home.tpl on line 129
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:49:47 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:49:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\home.tpl on line 129
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:51:02 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 7:51:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\common\home.tpl on line 129
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:00:37 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:01:40 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:22:11 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:16 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:52 - PHP Notice:  Undefined index: sku in C:\xampp\htdocs\atchaya_theme\vqmod\vqcache\vq2-system_storage_modification_admin_model_catalog_product.php on line 258
+2018-04-15 8:40:52 - PHP Notice:  Undefined index: upc in C:\xampp\htdocs\atchaya_theme\vqmod\vqcache\vq2-system_storage_modification_admin_model_catalog_product.php on line 258
+2018-04-15 8:40:52 - PHP Notice:  Undefined index: ean in C:\xampp\htdocs\atchaya_theme\vqmod\vqcache\vq2-system_storage_modification_admin_model_catalog_product.php on line 258
+2018-04-15 8:40:52 - PHP Notice:  Undefined index: jan in C:\xampp\htdocs\atchaya_theme\vqmod\vqcache\vq2-system_storage_modification_admin_model_catalog_product.php on line 258
+2018-04-15 8:40:52 - PHP Notice:  Undefined index: isbn in C:\xampp\htdocs\atchaya_theme\vqmod\vqcache\vq2-system_storage_modification_admin_model_catalog_product.php on line 258
+2018-04-15 8:40:52 - PHP Notice:  Undefined index: mpn in C:\xampp\htdocs\atchaya_theme\vqmod\vqcache\vq2-system_storage_modification_admin_model_catalog_product.php on line 258
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+2018-04-15 8:40:57 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+=======
 >>>>>>> f90b4cc2fc0978f5d0a329ec9bb72a58f2453249
 >>>>>>> 87c35a54a7f9b25e1ea63ae95facf84dc85ebece
 2018-04-12 21:13:42 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
@@ -22209,6 +22368,7 @@ error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify faile
 2018-04-15 8:35:36 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
 2018-04-15 8:35:36 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
 >>>>>>> b555d7d56dd6017e68ef07cb6b7f96e76b61060b
+<<<<<<< HEAD
 2018-04-15 9:54:48 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
 2018-04-15 9:54:48 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
 2018-04-15 9:54:48 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
@@ -22224,3 +22384,6 @@ error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify faile
 2018-04-15 9:54:48 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 34
 2018-04-15 9:54:48 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
 2018-04-15 9:54:48 - PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\atchaya_theme\catalog\view\theme\tt_selena1\template\extension\module\ocspecialproductslider.tpl on line 38
+=======
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
+>>>>>>> fbe09f100b385feb7452fc7764eb026e55f1c6dc

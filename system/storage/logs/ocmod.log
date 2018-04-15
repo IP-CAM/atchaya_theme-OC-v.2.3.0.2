@@ -6959,7 +6959,11 @@ LINE: 228
 =======
 >>>>>>> ee8748e757debaee98bacaffbf217792a09fc4ad
 >>>>>>> dd42aeaed84aa46ce73899b8e56a6d833d160684
+<<<<<<< HEAD
+2018-04-15 7:50:46 - MOD: Modification Default
+=======
 2018-04-14 21:04:30 - MOD: Modification Default
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
@@ -7023,6 +7027,19 @@ LINE: 71
 CODE: if ($this->user->hasPermission('access', 'catalog/product')) {
 LINE: 90
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Export/Import Tool (V3.20) for OpenCart 2.x
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 704
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/fr-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+=======
 MOD: Google Translate Full
 
 FILE: catalog/view/theme/default/template/common/header.tpl
@@ -9982,6 +9999,7 @@ CODE: if ($this->user->hasPermission('access', 'catalog/category')) {
 LINE: 71
 CODE: if ($this->user->hasPermission('access', 'catalog/product')) {
 LINE: 90
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 ----------------------------------------------------------------
 MOD: Google Translate Full
 
@@ -9991,7 +10009,11 @@ LINE: 70
 
 FILE: catalog/view/theme/tt_selena1/template/common/header.tpl
 CODE: <?php echo $language; ?>
+<<<<<<< HEAD
+LINE: 161
+=======
 LINE: 156
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 
 FILE: catalog/view/theme/tt_selena2/template/common/header.tpl
 CODE: <?php echo $language; ?>
@@ -10040,6 +10062,17 @@ CODE: if (!empty($data['filter_manufacturer_id'])) {
 LINE: 161
 LINE: 578
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+=======
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 MOD: Product Rotator Image by Plaza Themes
 
 FILE: admin/controller/catalog/product.php
@@ -10215,7 +10248,11 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
+2018-04-15 7:57:51 - MOD: Modification Default
+=======
 2018-04-14 21:57:26 - MOD: Modification Default
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
@@ -10279,6 +10316,21 @@ LINE: 71
 CODE: if ($this->user->hasPermission('access', 'catalog/product')) {
 LINE: 90
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Export/Import Tool (V3.20) for OpenCart 2.x
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 704
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/fr-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+=======
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 MOD: Google Translate Full
 
 FILE: catalog/view/theme/default/template/common/header.tpl
@@ -10287,7 +10339,11 @@ LINE: 70
 
 FILE: catalog/view/theme/tt_selena1/template/common/header.tpl
 CODE: <?php echo $language; ?>
+<<<<<<< HEAD
+LINE: 161
+=======
 LINE: 156
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 
 FILE: catalog/view/theme/tt_selena2/template/common/header.tpl
 CODE: <?php echo $language; ?>
@@ -10336,6 +10392,17 @@ CODE: if (!empty($data['filter_manufacturer_id'])) {
 LINE: 161
 LINE: 578
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+=======
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 MOD: Product Rotator Image by Plaza Themes
 
 FILE: admin/controller/catalog/product.php
@@ -10511,7 +10578,11 @@ LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
 ----------------------------------------------------------------
+<<<<<<< HEAD
+2018-04-15 8:14:14 - MOD: Modification Default
+=======
 2018-04-14 21:57:30 - MOD: Modification Default
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 
 FILE: system/engine/action.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
@@ -10549,6 +10620,25 @@ MOD: Blog For Opencart 2.3.x
 
 FILE: admin/controller/common/column_left.php
 CODE: if ($this->user->hasPermission('access', 'marketing/marketing')) {
+<<<<<<< HEAD
+LINE: 434
+
+FILE: admin/controller/extension/theme/theme_default.php
+CODE: $this->load->language('extension/theme/theme_default');
+LINE: 14
+CODE: $data['entry_image_related'] = $this->language->get('entry_image_related');
+LINE: 57
+CODE: if (isset($this->error['image_related'])) {
+LINE: 149
+CODE: if (isset($this->request->post['theme_default_image_related_width'])) {
+LINE: 393
+CODE: if (!$this->request->post['theme_default_image_related_width'] || !$this->request->post['theme_default_image_related_height']) {
+LINE: 536
+
+FILE: admin/view/template/extension/theme/theme_default.tpl
+CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
+LINE: 229
+=======
 LINE: 398
 
 FILE: admin/controller/extension/theme/theme_default.php
@@ -10566,6 +10656,7 @@ LINE: 468
 FILE: admin/view/template/extension/theme/theme_default.tpl
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 196
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 ----------------------------------------------------------------
 MOD: Category Thumbnail for v2.3.x by Plaza Themes
 CODE: if ($this->user->hasPermission('access', 'catalog/category')) {
@@ -10575,6 +10666,21 @@ LINE: 71
 CODE: if ($this->user->hasPermission('access', 'catalog/product')) {
 LINE: 90
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Export/Import Tool (V3.20) for OpenCart 2.x
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 740
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+
+FILE: admin/language/fr-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+=======
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 MOD: Google Translate Full
 
 FILE: catalog/view/theme/default/template/common/header.tpl
@@ -10583,7 +10689,11 @@ LINE: 70
 
 FILE: catalog/view/theme/tt_selena1/template/common/header.tpl
 CODE: <?php echo $language; ?>
+<<<<<<< HEAD
+LINE: 161
+=======
 LINE: 156
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 
 FILE: catalog/view/theme/tt_selena2/template/common/header.tpl
 CODE: <?php echo $language; ?>
@@ -10632,6 +10742,17 @@ CODE: if (!empty($data['filter_manufacturer_id'])) {
 LINE: 161
 LINE: 578
 ----------------------------------------------------------------
+<<<<<<< HEAD
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+=======
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 MOD: Product Rotator Image by Plaza Themes
 
 FILE: admin/controller/catalog/product.php
@@ -10791,6 +10912,23 @@ MOD: Testimonial by Plaza Themes
 CODE: if ($this->user->hasPermission('access', 'catalog/recurring')) {
 LINE: 109
 CODE: $this->load->language('extension/theme/theme_default');
+<<<<<<< HEAD
+LINE: 17
+CODE: $data['text_product'] = $this->language->get('text_product');
+LINE: 39
+CODE: $data['entry_product_limit'] = $this->language->get('entry_product_limit');
+LINE: 49
+CODE: if (isset($this->error['image_related'])) {
+LINE: 172
+CODE: if (isset($this->request->post['theme_default_image_related_width'])) {
+LINE: 441
+CODE: if (!$this->request->post['theme_default_image_related_width'] || !$this->request->post['theme_default_image_related_height']) {
+LINE: 593
+CODE: <legend><?php echo $text_product; ?></legend>
+LINE: 73
+CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
+LINE: 261
+=======
 LINE: 13
 CODE: $data['text_product'] = $this->language->get('text_product');
 LINE: 35
@@ -10806,4 +10944,5 @@ CODE: <legend><?php echo $text_product; ?></legend>
 LINE: 73
 CODE: <label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>
 LINE: 228
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 ----------------------------------------------------------------

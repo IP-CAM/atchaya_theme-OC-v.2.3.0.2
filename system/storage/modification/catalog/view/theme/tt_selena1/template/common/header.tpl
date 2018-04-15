@@ -78,11 +78,24 @@
 <div class="container">
 	<div class="header-border">
 		<div class="row">
+<<<<<<< HEAD
+			<div class="col-md-3 col-xs-12 logo-container">
+				<div id="logo">
+					<?php if ($logo) { ?>
+					<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+					<?php } else { ?>
+				<h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
+				<?php } ?>
+				</div>
+			</div>
+			<div class="col-md-9 col-sm-12 col-header">
+=======
 			
 			<div class="row col-header">
 			
 				
 				<div class="col-md-5 col-sm-12">
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 				<div class="header-link">
 					<ul class="list-unstyled pull-left">
 						<li>
@@ -157,6 +170,9 @@ function googleTranslateElementInit() {
 			
 					</ul>
 			   </div>
+<<<<<<< HEAD
+				<?php echo $search; ?>
+=======
 				
 			</div>
 			<div class="col-md-3 col-sm-12 logo-container">
@@ -172,6 +188,7 @@ function googleTranslateElementInit() {
 			<div class="col-md-3 col-sm-12">
 				<?php echo $search; ?>
 			</div>
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 				<div class="cart-container"><?php echo $cart; ?></div>
 			</div>
 			<div class="clearfix"></div>
