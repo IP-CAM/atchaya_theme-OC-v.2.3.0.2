@@ -1,4 +1,5 @@
 <?php echo $header; ?>
+<div class="common_space_bt">
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -19,7 +20,8 @@
     
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
     	<div class="row">
-        <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 boxshadow">
+        <div class="col-xs-12 col-sm-3 col-lg-3 col-md-3">
+          <div class="boxshadow">
           <h2><?php echo $text_my_account; ?></h2>
           <ul class="list-unstyled">
             <li><a href="<?php echo $edit; ?>"><?php echo $text_edit; ?></a></li>
@@ -27,19 +29,23 @@
             <li><a href="<?php echo $address; ?>"><?php echo $text_address; ?></a></li>
             <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
           </ul>
+        </div>
     	</div>
       
       <?php if ($credit_cards) { ?>
-      <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 boxshadow">
+      <div class="col-xs-12 col-sm-3 col-lg-3 col-md-3">
+        <div class="boxshadow">
       	<h2><?php echo $text_credit_card; ?></h2>
       	<ul class="list-unstyled">
         	<?php foreach ($credit_cards as $credit_card) { ?>
         	<li><a href="<?php echo $credit_card['href']; ?>"><?php echo $credit_card['name']; ?></a></li>
         	<?php } ?>
       	</ul>
+      </div>
       </div>     
       <?php } ?>
-      <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 boxshadow">
+      <div class="col-xs-12 col-sm-3 col-lg-3 col-md-3">
+        <div class="boxshadow">
       	  <h2><?php echo $text_my_orders; ?></h2>
           <ul class="list-unstyled">
             <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
@@ -51,17 +57,22 @@
             <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
             <li><a href="<?php echo $recurring; ?>"><?php echo $text_recurring; ?></a></li>
           </ul>
+        </div>
       </div>
       
-      <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 boxshadow">
+      <div class="col-xs-12 col-sm-3 col-lg-3 col-md-3">
+        <div class="boxshadow">
       <h2><?php echo $text_my_newsletter; ?></h2>
       <ul class="list-unstyled">
         <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
       </ul>
+    </div>
       </div>
     </div>
       
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
+</div>
+
 <?php echo $footer; ?> 

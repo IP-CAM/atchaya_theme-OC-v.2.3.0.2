@@ -1,9 +1,15 @@
 <?php echo $header; ?>
 <div class="gallery_homepage gallery_popup">
 <div class="container">
+<<<<<<< HEAD
 	<div class="module-title">
 		<h2>Gallery</h2>
 	</div>
+=======
+	<div class="blog-title module-title">
+			    <h2>Gallery</h2>
+		  </div>
+>>>>>>> c7491a050b5124008ab97ef198225a908c5aaa15
 	<div class="row">
 		<div class="popup-gallery">
 			<?php

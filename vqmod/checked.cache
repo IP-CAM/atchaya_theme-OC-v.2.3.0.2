@@ -547,6 +547,7 @@ admin\model\extension\modification.php
 admin\view\template\extension\modification.tpl
 catalog\controller\account\logout.php
 catalog\language\en-gb\account\logout.php
+<<<<<<< HEAD
 system\storage\modification\catalog\controller\extension\module\carousel.php
 catalog\model\design\banner.php
 catalog\view\theme\tt_selena1\template\extension\module\carousel.tpl
@@ -563,7 +564,16 @@ admin\view\template\extension\module\gallery.tpl
 admin\controller\common\filemanager.php
 admin\language\en-gb\common\filemanager.php
 admin\view\template\common\filemanager.tpl
+=======
+catalog\view\theme\default\template\account\order_info.tpl
+>>>>>>> c7491a050b5124008ab97ef198225a908c5aaa15
 catalog\controller\extension\module\ocvermegamenu.php
 catalog\language\en-gb\extension\module\ocvermegamenu.php
 catalog\model\vermegamenu\menu.php
 catalog\view\theme\tt_selena1\template\extension\module\ocvermegamenu.tpl
+<<<<<<< HEAD
+=======
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+>>>>>>> c7491a050b5124008ab97ef198225a908c5aaa15

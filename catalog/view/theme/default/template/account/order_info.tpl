@@ -1,4 +1,5 @@
 <?php echo $header; ?>
+<div class="common_space_bt">
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -170,5 +171,6 @@
       </div>
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
+</div>
 </div>
 <?php echo $footer; ?>

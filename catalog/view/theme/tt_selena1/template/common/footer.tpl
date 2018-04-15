@@ -38,7 +38,7 @@
 		  </div>
               <div class="col-md-3 col-sm-6 col-footer">
               	<div class="socialmedia_scrollbar">
-                   <div class="fb-page" data-href="https://www.facebook.com/Atchaya-1924600737854421/" data-tabs="timeline" data-width="270" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Atchaya-1924600737854421/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Atchaya-1924600737854421/">Atchaya</a></blockquote></div>
+                   <div class="fb-page" data-href="https://www.facebook.com/Atchaya-1924600737854421/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Atchaya-1924600737854421/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Atchaya-1924600737854421/">Atchaya</a></blockquote></div>
                </div>
               </div>
               

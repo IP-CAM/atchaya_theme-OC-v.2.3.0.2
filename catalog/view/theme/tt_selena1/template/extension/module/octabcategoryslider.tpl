@@ -22,7 +22,7 @@ $(document).ready(function() {
 	if(!$row) {$row=1;}
 ?>
 
-<div class="product-tabs-category-container-slider <?php echo $cateogry_alias;?>">
+<div class="product-tabs-category-container-slider  <?php echo $cateogry_alias;?>">
     <div class="tab-title module-title">
         <h2>
 			<?php 

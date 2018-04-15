@@ -1,7 +1,8 @@
 <?php if($widgets): ?>
-	<?php $row_count = 0; ?>
-    <?php foreach ($widgets as $rows): ?>
+	<?php $row_count = 0;?>
+    <?php foreach ($widgets as $rows):  ?>
     <div class="main-row <?php echo $rows['class']; ?>">
+        <div class="bg_product_<?php echo $row_count;?>">
         <div class="container">
             <div class="row">
                 <?php foreach($rows['main_cols'] as $main_col): ?>
@@ -23,6 +24,7 @@
                 <?php endforeach; ?>
             </div>
         </div>
+    </div>
 		<?php $row_count++; ?>
     </div><!-- end row <?php echo $row_count; ?>-->
     <?php endforeach; ?>
