@@ -31,12 +31,21 @@
             <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
             <!-- <li><a href="#tab-attribute" data-toggle="tab"><?php echo $tab_attribute; ?></a></li> -->
             <li><a href="#tab-option" data-toggle="tab"><?php echo $tab_option; ?></a></li>
+<<<<<<< HEAD
             <!-- <li><a href="#tab-recurring" data-toggle="tab"><?php echo $tab_recurring; ?></a></li> -->
             <!-- <li><a href="#tab-discount" data-toggle="tab"><?php echo $tab_discount; ?></a></li> -->
             <li><a href="#tab-special" data-toggle="tab">Offer</a></li>
             <li><a href="#tab-image" data-toggle="tab"><?php echo $tab_image; ?></a></li>
             <!-- <li><a href="#tab-reward" data-toggle="tab"><?php echo $tab_reward; ?></a></li> -->
             <!-- <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li> -->
+=======
+            <li><a href="#tab-recurring" data-toggle="tab"><?php echo $tab_recurring; ?></a></li>
+            <li><a href="#tab-discount" data-toggle="tab"><?php echo $tab_discount; ?></a></li>
+            <li><a href="#tab-special" data-toggle="tab"><?php echo $tab_special; ?></a></li>
+            <li><a href="#tab-image" data-toggle="tab"><?php echo $tab_image; ?></a></li>
+            <li><a href="#tab-reward" data-toggle="tab"><?php echo $tab_reward; ?></a></li>
+            <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
           </ul>
           <div class="tab-content">
             <div class="tab-pane active" id="tab-general">

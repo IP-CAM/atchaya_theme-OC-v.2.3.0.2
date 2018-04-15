@@ -12,7 +12,7 @@ class ModelSettingGallery extends Model {
 		return $gallery_data;
 	}
 
-	public function editSetting($data) {
+	public function editSetting($code,$data) {
 
 		foreach ($data as $key => $value) {
 
@@ -22,11 +22,11 @@ class ModelSettingGallery extends Model {
 				$createddate = date('d-m-Y');
 
 				if($id != ""){
-					$this->db->query("UPDATE ".DB_PREFIX."gallery SET gallery_image = '".$values['image']."',name = '".$values['name']."', description = '".$values['description']."', sort_order = '".$values['sort_order']."',status = '".$values['gallerymodule_status']."' WHERE id = '".$id."'");
+					$this->db->query("UPDATE ".DB_PREFIX."gallery SET gallery_image = '".$values['image']."',name = '".$values['name']."', description = '".$values['description']."', sort_order = '".$values['sort_order']."' WHERE id = '".$id."'");
 				}
 				else
 				{
-					$this->db->query("INSERT INTO ".DB_PREFIX."gallery SET gallery_image = '".$values['image']."',name = '".$values['name']."', description = '".$values['description']."', sort_order = '".$values['sort_order']."',status = '".$values['gallerymodule_status']."',created_date='".$createddate."'");
+					$this->db->query("INSERT INTO ".DB_PREFIX."gallery SET gallery_image = '".$values['image']."',name = '".$values['name']."', description = '".$values['description']."', sort_order = '".$values['sort_order']."',created_date='".$createddate."'");
 				}
 			}
 		}

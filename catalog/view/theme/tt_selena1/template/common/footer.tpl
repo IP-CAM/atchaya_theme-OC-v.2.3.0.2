@@ -1,7 +1,16 @@
 <footer class="custom_organic">
   <div class="container">
 	<!--<div class="footer-border"></div>-->
- 
+
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=599017843792114&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           
     <div class="row">
 		<div class="footer-top">
@@ -15,6 +24,7 @@
 			</div>
 		  </div>
 		  <?php } ?>
+
 		  <div class="col-md-2 col-sm-6 col-footer">
 			<div class="title-footer"><?php echo $text_account; ?></div>
 			<ul class="list-unstyled text-content">
@@ -22,21 +32,25 @@
 			  <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
 			  <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
 			  <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
-			  <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-			  <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+			  <!--<li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>-->
+			  <!--<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>-->
 			</ul>
 		  </div>
               <div class="col-md-3 col-sm-6 col-footer">
-                    <?php if(isset($block3)){ ?>
-                        <?php echo $block3; ?>
-                    <?php } ?>
+              	<div class="socialmedia_scrollbar">
+                   <div class="fb-page" data-href="https://www.facebook.com/Atchaya-1924600737854421/" data-tabs="timeline" data-width="270" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Atchaya-1924600737854421/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Atchaya-1924600737854421/">Atchaya</a></blockquote></div>
+               </div>
               </div>
               
                  
     <div class="col-md-4 col-sm-6 col-footer">
+    	<div class="socialmedia_scrollbar">
+    	<a class="twitter-timeline" href="https://twitter.com/saravana32cse?ref_src=twsrc%5Etfw">Tweets by Atchaya</a>
+    </div>
+    	<!-- 
 			<?php if(isset($block2)){ ?>
 					<?php echo $block2; ?>
-				<?php } ?>
+				<?php } ?> -->
 		  </div>
 		  
 		</div>
@@ -46,6 +60,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
+
+
 				<p class="text-powered">
 					<?php echo $powered; ?>
 				</p>

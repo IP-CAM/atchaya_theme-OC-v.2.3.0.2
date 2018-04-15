@@ -200,8 +200,8 @@
     <?php } ?>
   </div>
   <div class="buttons clearfix">
-    <div class="pull-right">
-      <input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-address" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
+    <div class="cou_butt">
+      <input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-address" data-loading-text="<?php echo $text_loading; ?>" class="continue_buttall_check" />
     </div>
   </div>
 </form>

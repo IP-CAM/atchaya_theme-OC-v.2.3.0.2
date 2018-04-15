@@ -13,7 +13,7 @@ class ControllerExtensionModuleGallery extends Controller {
 		$data['gallery_data'] = $this->model_setting_gallery->getGallery();
 
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
-
+			
 			$this->model_setting_gallery->editSetting('gallery', $this->request->post);
 
 			$this->session->data['success'] = $this->language->get('text_success');

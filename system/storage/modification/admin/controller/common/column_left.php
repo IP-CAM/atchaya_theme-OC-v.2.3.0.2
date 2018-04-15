@@ -413,7 +413,10 @@ class ControllerCommonColumnLeft extends Controller {
 			$marketing = array();
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 
                 $this->load->language('extension/module/ocblog');
 
@@ -446,7 +449,18 @@ class ControllerCommonColumnLeft extends Controller {
                         'name' => $this->language->get('text_blog_article_list'),
 
                         'href' => $this->url->link('blog/articlelist', 'token=' . $this->session->data['token'], true),
+<<<<<<< HEAD
 
+=======
+                        'children' => array()
+                    );
+                }
+				
+				if ($this->user->hasPermission('access', 'blog/video')) {
+                    $blog_menu[] = array(
+                        'name' => $this->language->get('Blog Video'),
+                        'href' => $this->url->link('blog/video', 'token=' . $this->session->data['token'], true),
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
                         'children' => array()
 
                     );
@@ -739,6 +753,7 @@ if ($this->user->hasPermission('access', 'blog/video')) {
 					'children' => array()
 				);
 			}
+<<<<<<< HEAD
 
 
 			if ($this->user->hasPermission('access', 'tool/export_import')) {
@@ -749,6 +764,9 @@ if ($this->user->hasPermission('access', 'blog/video')) {
 				);
 			}
 			
+=======
+
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 			if ($this->user->hasPermission('access', 'tool/log')) {
 				$tool[] = array(
 					'name'	   => $this->language->get('text_log'),
@@ -915,6 +933,11 @@ if ($this->user->hasPermission('access', 'blog/video')) {
 				);
 			}
 
+<<<<<<< HEAD
+=======
+			
+
+>>>>>>> 0a3966d2b938717ebe22554e19ebd5b88f3f89c8
 			// Report Marketing
 			$report_marketing = array();
 
