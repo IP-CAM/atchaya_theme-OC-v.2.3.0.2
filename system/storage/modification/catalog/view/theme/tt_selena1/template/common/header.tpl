@@ -109,7 +109,6 @@
 									<?php } else { ?>
 									<li>
 										<?php if($use_ajax_login): ?> 
-                                        <p>Teste</p>
 											<a id="a-register-link" href="<?php echo $register; ?>"><?php echo $text_register; ?></a>
 										<?php else: ?>
 											<a href="<?php echo $register; ?>"><?php echo $text_register; ?></a> 
@@ -129,6 +128,33 @@
 						</li>
 						<li><?php echo $currency; ?></li>
 						<li><?php echo $language; ?></li>
+
+			
+			<style>
+		div#google_translate_element div.goog-te-gadget-simple{background-color: #FFFFFF; border-color: transparent;}
+		div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span{color: #000000;}
+		div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover{color: #000000;}
+		div#google_translate_element div.goog-logo-link{display:  none ;}
+		div#google_translate_element div.goog-te-gadget{color: transparent; height: 14px;}
+				div#google_translate_element div.goog-te-gadget .goog-te-combo{color: #FF0000; background-color: #FFFFFF; border-color: #000000;}
+				body {position: static !important; top:0px !important;}
+		iframe.goog-te-banner-frame{ display: none !important;}
+				</style>
+				
+			<div class="pull-left" style="width:140px; ">
+			<div id="google_translate_element" ></div>
+<span><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'it',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+</script>
+		</span></div>
+			
 					</ul>
 			   </div>
 				
