@@ -175,38 +175,71 @@
             </div>
             <div class="form-group required">
 
+
                     <label class="col-sm-2 control-label" for="input-image-article"><?php echo $entry_image_article; ?></label>
+
                     <div class="col-sm-10">
+
                       <div class="row">
+
                         <div class="col-sm-6">
+
                           <input type="text" name="theme_default_image_article_width" value="<?php echo $theme_default_image_article_width; ?>" placeholder="<?php echo $entry_width; ?>" id="input-image-article" class="form-control" />
+
                         </div>
+
                         <div class="col-sm-6">
+
                           <input type="text" name="theme_default_image_article_height" value="<?php echo $theme_default_image_article_height; ?>" placeholder="<?php echo $entry_height; ?>" class="form-control" />
+
                         </div>
+
                       </div>
+
                       <?php if ($error_image_article) { ?>
+
                       <div class="text-danger"><?php echo $error_image_article; ?></div>
+
                       <?php } ?>
+
                     </div>
+
                   </div>
+
                   <div class="form-group required">
+
                   <label class="col-sm-2 control-label" for="input-image-blog"><?php echo $entry_image_blog; ?></label>
+
                     <div class="col-sm-10">
+
                       <div class="row">
+
                         <div class="col-sm-6">
+
                           <input type="text" name="theme_default_image_blog_width" value="<?php echo $theme_default_image_blog_width; ?>" placeholder="<?php echo $entry_width; ?>" id="input-image-blog" class="form-control" />
+
                         </div>
+
                         <div class="col-sm-6">
+
                           <input type="text" name="theme_default_image_blog_height" value="<?php echo $theme_default_image_blog_height; ?>" placeholder="<?php echo $entry_height; ?>" class="form-control" />
+
                         </div>
+
                       </div>
+
                       <?php if ($error_image_blog) { ?>
+
                       <div class="text-danger"><?php echo $error_image_blog; ?></div>
+
                       <?php } ?>
+
                     </div>
+
                   </div>
+
                   <div class="form-group required">
+
                 
 
                     <label class="col-sm-2 control-label" for="input-image-testimonial"><?php echo $entry_testimonial_image; ?></label>
