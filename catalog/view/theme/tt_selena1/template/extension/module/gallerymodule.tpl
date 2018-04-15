@@ -2,7 +2,6 @@
 <div class="container">
 	<div class="blog-title module-title">
 			    <h2>Gallery</h2>
-			  
 		  </div>
 	<div class="row">
 		<div class="popup-gallery">

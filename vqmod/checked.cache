@@ -547,3 +547,11 @@ admin\model\extension\modification.php
 admin\view\template\extension\modification.tpl
 catalog\controller\account\logout.php
 catalog\language\en-gb\account\logout.php
+catalog\view\theme\default\template\account\order_info.tpl
+catalog\controller\extension\module\ocvermegamenu.php
+catalog\language\en-gb\extension\module\ocvermegamenu.php
+catalog\model\vermegamenu\menu.php
+catalog\view\theme\tt_selena1\template\extension\module\ocvermegamenu.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
+catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
