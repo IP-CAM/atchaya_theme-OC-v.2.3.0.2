@@ -528,6 +528,11 @@ catalog\view\theme\tt_selena1\template\blog\blog.tpl
 system\storage\modification\catalog\controller\product\search.php
 catalog\language\en-gb\product\search.php
 catalog\view\theme\tt_selena1\template\product\search.tpl
+<<<<<<< HEAD
+catalog\controller\product\octestimonial.php
+catalog\view\theme\default\template\product\octestimonial.tpl
+catalog\view\theme\default\template\product\octestimonial.tpl
+=======
 >>>>>>> b555d7d56dd6017e68ef07cb6b7f96e76b61060b
 <<<<<<< HEAD
 catalog\controller\extension\module\gallerymodule.php
