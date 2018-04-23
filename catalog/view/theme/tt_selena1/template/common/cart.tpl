@@ -5,13 +5,14 @@
     <li class="has-scroll">
       <table class="table">
         <?php foreach ($products as $product) { ?>
-        <tr>
-          <td class="text-center">
+        <tr class="cart_bottom_br">
+          <td class="cart_product_img">
 				<?php if ($product['thumb']) { ?>
 					<a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>"/></a>
 				<?php } ?>
 			</td>
-          <td class="text-left info-item">
+
+          <td class="cart_product_details">
 			  <a class="cart-name" href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
 				<?php if ($product['option']) { ?>
 					<?php foreach ($product['option'] as $option) { ?>
@@ -26,8 +27,11 @@
 				<p class="cart-quantity">&times;<?php echo $product['quantity']; ?></p>
 				<p class="cart-price"><?php echo $product['total']; ?></p>
 			</td>
-          <td class="text-center cart-close"><button type="button" onclick="cart.remove('<?php echo $product['cart_id']; ?>');" title="<?php echo $button_remove; ?>" class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button></td>
+
+          <td class="cart_product_close"><button type="button" onclick="cart.remove('<?php echo $product['cart_id']; ?>');" title="<?php echo $button_remove; ?>" class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button></td>
+
         </tr>
+
         <?php } ?>
         <?php foreach ($vouchers as $voucher) { ?>
         <tr>
@@ -44,7 +48,7 @@
       <div>
         <table class="table">
           <?php foreach ($totals as $total) { ?>
-          <tr>
+          <tr class="space_cart">
             <td class="text-right"><strong><?php echo $total['title']." :"; ?></strong></td>
             <td class="text-right"><?php echo $total['text']; ?></td>
           </tr>
@@ -52,7 +56,9 @@
         </table>
         
       </div>
-	  <p class="text-center cart-button"><a href="<?php echo $cart; ?>"><strong><?php echo $text_cart; ?> <i class="fa fa-angle-right"></i></strong></a><a href="<?php echo $checkout; ?>"><strong><?php echo $text_checkout; ?><i class="fa fa-angle-right"></i></strong></a></p>
+      <div class="cart_buut_list">
+	  <a href="<?php echo $cart; ?>" class="view_cart"><strong><?php echo $text_cart; ?> <i class="fa fa-angle-right"></i></strong></a><a href="<?php echo $checkout; ?>" class="checkout_cart"><strong><?php echo $text_checkout; ?><i class="fa fa-angle-right"></i></strong></a>
+  </div>
     </li>
     <?php } else { ?>
     <li>

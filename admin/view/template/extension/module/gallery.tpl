@@ -98,8 +98,8 @@ var image_row = <?php echo $image_row; ?>;
   function addImage() {
   html  = '<tr id="image-row' + image_row + '">';
   html += '  <td class="text-left"><a href="" id="thumb-image' + image_row + '"data-toggle="image" class="img-thumbnail"><img src="" alt="" title="" data-placeholder="" /></a><input type="hidden" name="gallery_data[' + image_row + '][image]" value="" id="input-image' + image_row + '" /></td>';
-  html += '  <td class="text-right"><input type="hidden" name="gallery_data[<?php echo $image_row; ?>][id]" value=""><input type="text" name="gallery_data[' + image_row + '][name]" value="" placeholder="" class="form-control" /></td>';
-  html += '  <td class="text-right"><textarea class="form-control" name="gallery_data[<?php echo $image_row; ?>][description]"></textarea></td>';
+  html += '  <td class="text-right"><input type="hidden" name="gallery_data['+image_row+'][id]" value=""><input type="text" name="gallery_data[' + image_row + '][name]" value="" placeholder="" class="form-control" /></td>';
+  html += '  <td class="text-right"><textarea class="form-control" name="gallery_data['+image_row+'][description]"></textarea></td>';
   html += '  <td class="text-center"><input type="text" name="gallery_data[' + image_row + '][sort_order]" value="" placeholder="" class="form-control" /></td>';
   html += '  <td class="text-left"><button type="button" onclick="$(\'#image-row' + image_row  + '\').remove();" data-toggle="tooltip" title="" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
   html += '</tr>';

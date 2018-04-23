@@ -26,20 +26,20 @@
 </p>
 <?php if ($text_agree) { ?>
 <div class="buttons">
-  <div class="pull-right"><?php echo $text_agree; ?>
-    <?php if ($agree) { ?>
+  <div class="cou_butt">
+<?php if ($agree) { ?>
     <input type="checkbox" name="agree" value="1" checked="checked" />
     <?php } else { ?>
     <input type="checkbox" name="agree" value="1" />
     <?php } ?>
-    &nbsp;
+    <?php echo $text_agree; ?>
+    </div>
     <input type="button" value="<?php echo $button_continue; ?>" id="button-payment-method" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
   </div>
-</div>
 <?php } else { ?>
 <div class="buttons">
-  <div class="pull-right">
-    <input type="button" value="<?php echo $button_continue; ?>" id="button-payment-method" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
+  <div class="cou_butt">
+    <input type="button" value="<?php echo $button_continue; ?>" id="button-payment-method" data-loading-text="<?php echo $text_loading; ?>" class="continue_buttall_check" />
   </div>
 </div>
 <?php } ?>

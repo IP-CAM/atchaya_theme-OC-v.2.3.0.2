@@ -1,14 +1,14 @@
 $(document).ready(function () {
     var enable_status = $('#input-opc-status').val();
     if(enable_status == '1') {
-        ocajaxlogin.changeEvent();
+        //ocajaxlogin.changeEvent();
     }
 });
 
 $(document).ajaxComplete(function () {
     var enable_status = $('#input-opc-status').val();
     if(enable_status == '1') {
-        ocajaxlogin.changeEvent();
+        //ocajaxlogin.changeEvent();
     }
 });
 
@@ -233,12 +233,12 @@ var ocajaxlogin = {
         ocajaxlogin.resetRegisterForm();
     },
     
-    'changeEvent' : function () {
+    /*'changeEvent' : function () {
         $('#a-register-link').attr('href', 'javascript:void(0);')
             .attr('onclick', 'ocajaxlogin.appendRegisterForm()');
         $('#a-login-link').attr('href', 'javascript:void(0);')
             .attr('onclick', 'ocajaxlogin.appendLoginForm()');
         $('#a-logout-link').attr('href', 'javascript:void(0);')
             .attr('onclick', 'ocajaxlogin.logoutAction()');
-    }
+    }*/
 };

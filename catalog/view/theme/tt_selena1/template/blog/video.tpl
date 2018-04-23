@@ -58,6 +58,10 @@
                         <div class="intro-text">
                           <?php echo html_entity_decode($blogvideo['description'], ENT_QUOTES, 'UTF-8');?>
                         </div>
+                        
+                        <a class="readmore-page" href="<?php echo 'index.php?route=blog/video_article&video_id='.$blogvideo['id'];?>">
+							<?php echo 'Read More'; ?><i class="fa fa-arrow-right" aria-hidden="true"></i>
+						</a>
 
                       </div>
                     </div>
