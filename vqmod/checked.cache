@@ -577,3 +577,15 @@ catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
 catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
 catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
 >>>>>>> c7491a050b5124008ab97ef198225a908c5aaa15
+admin\controller\design\banner.php
+admin\language\en-gb\design\banner.php
+admin\model\design\banner.php
+admin\view\template\design\banner_list.tpl
+admin\view\template\design\banner_form.tpl
+admin\controller\extension\extension\theme.php
+admin\view\template\extension\extension\theme.tpl
+admin\controller\extension\module\occmsblock.php
+admin\model\cmsblock\info.php
+admin\view\template\extension\module\occmsblock\config.tpl
+admin\view\template\catalog\category_form.tpl
+admin\controller\catalog\filter.php
