@@ -577,3 +577,5 @@ catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
 catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
 catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
 >>>>>>> c7491a050b5124008ab97ef198225a908c5aaa15
+admin\controller\extension\analytics\google_analytics.php
+admin\view\template\extension\analytics\google_analytics.tpl
