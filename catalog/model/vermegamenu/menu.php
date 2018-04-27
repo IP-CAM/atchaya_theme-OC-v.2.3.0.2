@@ -14,13 +14,20 @@ class ModelVermegamenuMenu extends Model {
              $menu_html .= '<ul id="accordion" class="accordion">';
              foreach ($main_cats as $main_cat)
              {
+                 $sub_cats = $this->model_catalog_category->getCategories($main_cat['category_id']) ;
+
                  $menu_html .= '<li>
                     <div class="link">
-                        '.$main_cat['name'].'
-                        <i class="fa fa-chevron-down"></i>
-                    </div>';
+                        '.$main_cat['name'];
 
-                    $sub_cats = $this->model_catalog_category->getCategories($main_cat['category_id']) ;
+                        if (!empty($sub_cats)) 
+                        {
+                            $menu_html .= '<i class="fa fa-chevron-down"></i>';
+                        }
+                 
+                 $menu_html .= '</div>';
+
+                    
 
                     if (!empty($sub_cats))
                     {
