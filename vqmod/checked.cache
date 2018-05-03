@@ -606,4 +606,8 @@ admin\language\en-gb\extension\feed\google_sitemap.php
 admin\language\en-gb\extension\feed\openbaypro.php
 admin\view\template\extension\extension\feed.tpl
 >>>>>>> fb68b9c607184d148872e5920892b709bb0e7a76
+<<<<<<< HEAD
 admin\controller\common\column_left.php
+=======
+catalog\view\theme\tt_selena1\template\extension\module\ocbestproductslider.tpl
+>>>>>>> 04e597d81c1fdf1f53dd234983f2eea91d122f78

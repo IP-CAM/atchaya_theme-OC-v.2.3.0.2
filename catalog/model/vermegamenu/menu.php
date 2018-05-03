@@ -15,10 +15,10 @@ class ModelVermegamenuMenu extends Model {
              foreach ($main_cats as $main_cat)
              {
                  $sub_cats = $this->model_catalog_category->getCategories($main_cat['category_id']) ;
-
+				 $url = $this->url->link('product/category', "path=".$main_cat['category_id']);
                  $menu_html .= '<li>
                     <div class="link">
-                        '.$main_cat['name'];
+                        <a href="'.$url.'" class="c_cata_product">'.$main_cat['name'].'</a>';
 
                         if (!empty($sub_cats)) 
                         {
@@ -34,7 +34,7 @@ class ModelVermegamenuMenu extends Model {
                         $menu_html .= '<ul class="submenu">';
                         foreach ($sub_cats as $sub_cat)
                         {
-                            $url = $this->url->link('product/category', "path=".$sub_cat['category_id']);
+                           
                             $menu_html .= '<li>
                                 <a href="'.$url.'">'.$sub_cat['name'].'</a>
                             </li>';
