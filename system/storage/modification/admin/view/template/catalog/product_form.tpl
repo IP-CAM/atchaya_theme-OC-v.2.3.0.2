@@ -35,6 +35,7 @@
             <!-- <li><a href="#tab-discount" data-toggle="tab"><?php echo $tab_discount; ?></a></li> -->
             <li><a href="#tab-special" data-toggle="tab">Offer</a></li>
             <li><a href="#tab-image" data-toggle="tab"><?php echo $tab_image; ?></a></li>
+            <li><a href="#tab-flash" data-toggle="tab">Flash Notification</a></li>
             <!-- <li><a href="#tab-reward" data-toggle="tab"><?php echo $tab_reward; ?></a></li> -->
             <!-- <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li> -->
           </ul>
@@ -868,6 +869,46 @@
                 </table>
               </div>
             </div>
+
+<!-- my code starts........ -->
+
+            <div class="tab-pane" id="tab-flash">
+              <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-stock-status"><span data-toggle="tooltip" title="<?php echo $help_stock_status; ?>">Flash Status</span></label>
+                <div class="col-sm-10">
+                  <select name="flash_status" id="input-flash-status" class="form-control">
+                    <?php if ($flash_status == 1) { ?>
+                    <option value="1" selected="selected">Enabled</option>
+                    <option value="0">Disabled</option>
+                    <?php } else { ?>
+                    <option value="1">Enabled</option>
+                    <option value="0" selected="selected">Disabled</option>
+                    <?php } ?>
+                  </select>
+                </div>
+              </div>
+                    </tr>
+                  </thead>
+                  
+                  <tbody>
+                    <tr>
+                      <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-model">Flash Text</label>
+                <div class="col-sm-10">
+                  <input type="text" name="flash_text" value="<?php echo $flash_text; ?>" placeholder="Enter Notification Text" id="input-flash" class="form-control" />
+                </div>
+              </div>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+
             <div class="tab-pane" id="tab-reward">
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-points"><span data-toggle="tooltip" title="<?php echo $help_points; ?>"><?php echo $entry_points; ?></span></label>

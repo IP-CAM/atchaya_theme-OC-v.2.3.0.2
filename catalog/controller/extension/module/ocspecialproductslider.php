@@ -110,12 +110,21 @@ class ControllerExtensionModuleOcspecialproductslider extends Controller {
 						);
 					}
 				}
+
+				$results_flash = $this->model_catalog_product->getFlash($result['product_id']);
+
+				if(isset($results_flash)) {
+					$flash_text = $results_flash;
+				} else {
+					$flash_text = '';
+				}
 				
 				$result['name'] = strlen($result['name']) > 40 ? substr($result['name'],0,40)."..." : $result['name'];
 
 				$data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
+					'flash_msg'	=> $flash_text,
 					'rotator_image' => $rotator_image,
 					'name'        => $result['name'],
 					'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get($this->config->get('config_theme') . '_product_description_length')) . '..',

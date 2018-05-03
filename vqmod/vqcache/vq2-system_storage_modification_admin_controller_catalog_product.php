@@ -33,7 +33,7 @@ class ControllerCatalogProduct extends Controller {
 
 		$this->load->model('catalog/product');
 
-		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {
+		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) { 
 			$this->model_catalog_product->addProduct($this->request->post);
 
 			$this->session->data['success'] = $this->language->get('text_success');
@@ -89,7 +89,7 @@ class ControllerCatalogProduct extends Controller {
 
 		$this->load->model('catalog/product');
 
-		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {
+		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) { 
 			$this->model_catalog_product->editProduct($this->request->get['product_id'], $this->request->post);
 
 			$this->session->data['success'] = $this->language->get('text_success');
@@ -811,6 +811,26 @@ $data['button_export'] = $this->language->get('button_export');
 		} else {
 			$data['sku'] = '';
 		}
+ 
+
+$flash_data = $this->model_catalog_product->getProductflash($this->request->get['product_id']);
+
+		if (isset($this->request->post['flash_status'])) {
+			$data['flash_status'] = $this->request->post['flash_status'];
+		} elseif (!empty($flash_data)) {
+			$data['flash_status'] = $flash_data['flash_status'];
+		} else {
+			$data['flash_status'] = '';
+		}
+
+		if (isset($this->request->post['flash_text'])) {
+			$data['flash_text'] = $this->request->post['flash_text'];
+		} elseif (!empty($flash_data)) {
+			$data['flash_text'] = $flash_data['flash_text'];
+		} else {
+			$data['flash_text'] = '';
+		}
+
 
 		if (isset($this->request->post['upc'])) {
 			$data['upc'] = $this->request->post['upc'];

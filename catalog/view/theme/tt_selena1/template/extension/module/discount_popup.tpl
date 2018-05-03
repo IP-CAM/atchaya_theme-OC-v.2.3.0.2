@@ -129,20 +129,6 @@
     $(document).ready(function() {
 
         if($.cookie('shownewsletter')==1) $('.discount-popup').hide();
-        $('#subscribe_pemail').keypress(function(e) {
-            if(e.which == 13) {
-                e.preventDefault();
-                email_subscribepopup();
-            }
-            var name= $(this).val();
-            $('#subscribe_pname').val(name);
-        });
-        $('#subscribe_pemail').change(function() {
-         var name= $(this).val();
-                $('#subscribe_pname').val(name);
-        });
-        //transition effect
-        $('.discount-popup').bPopup();
 
         if($.cookie("shownewsletter") != "<?php echo session_id(); ?>"){
 

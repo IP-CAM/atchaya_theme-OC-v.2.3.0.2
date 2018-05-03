@@ -19,6 +19,11 @@ class ModelCatalogProduct extends Model {
 			}
 		}
 
+	
+			$this->db->query("INSERT INTO " . DB_PREFIX . "flash_notification SET product_id = '" . (int)$product_id . "', flash_status = '" . (int)$data['flash_status'] . "', flash_text = '". $data['flash_text'] ."', date_modified = NOW()");
+
+		 
+
 		if (isset($data['product_attribute'])) {
 			foreach ($data['product_attribute'] as $product_attribute) {
 				if ($product_attribute['attribute_id']) {
@@ -267,6 +272,16 @@ public function export_getmanufacturerid($manufacturer_id) {
 			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "', meta_title = '" . $this->db->escape($value['meta_title']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "'");
 		}
 
+		$flash_notification = $this->db->query("SELECT * FROM " . DB_PREFIX . "flash_notification WHERE product_id = '" . (int)$product_id . "'");
+
+		if($flash_notification->rows) {
+			$this->db->query("UPDATE " . DB_PREFIX . "flash_notification SET flash_status = '" . (int)$data['flash_status'] . "', flash_text = '". $data['flash_text'] ."', date_modified = NOW() WHERE product_id = '" . (int)$product_id . "'");
+		}
+		else {
+			$this->db->query("INSERT INTO " . DB_PREFIX . "flash_notification SET flash_status = '" . (int)$data['flash_status'] . "', flash_text = '". $data['flash_text'] ."', date_modified = NOW(), product_id = '" . (int)$product_id . "'");
+		}
+			
+
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_to_store WHERE product_id = '" . (int)$product_id . "'");
 
 		if (isset($data['product_store'])) {
@@ -407,6 +422,16 @@ public function export_getmanufacturerid($manufacturer_id) {
 		}
 
 		$this->cache->delete('product');
+	}
+
+	public function getProductflash($product_id) {
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "flash_notification WHERE product_id = '" . (int)$product_id . "'");
+
+		if($query->rows)
+		return $query->row;
+		else
+		return '';
+
 	}
 
 	public function copyProduct($product_id) {
