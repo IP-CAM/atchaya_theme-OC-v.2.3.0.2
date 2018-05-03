@@ -153,3 +153,10 @@
 	</div>
 </div>
 </div>
+
+<style type="text/css">
+	#form-language
+	{
+		display: none;
+	}
+</style>
