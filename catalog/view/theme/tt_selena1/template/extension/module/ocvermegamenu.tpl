@@ -52,6 +52,12 @@ var CUSTOMMENU_POPUP_TOP_OFFSET = <?php echo $top_offset ; ?>
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+.c_cata_product
+{
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+}
 
 .accordion li:last-child .link { border-bottom: 0; }
 
