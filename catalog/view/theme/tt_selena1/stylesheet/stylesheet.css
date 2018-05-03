@@ -514,8 +514,8 @@ header {
 	padding:12px 0px 0px 0px;
 }
 #logo a {
-	display: block;
-width: 110px;
+display: block;
+width: 230px;
 margin: auto;
 }
 /* search category */
@@ -3658,8 +3658,7 @@ letter-spacing: 1px;
 	padding:0px;
 	margin:0px;
 	list-style:none;
-	float:left;
-	width:50%;
+	width:100%;
 }
 .organic_blog .date_username li p
 {

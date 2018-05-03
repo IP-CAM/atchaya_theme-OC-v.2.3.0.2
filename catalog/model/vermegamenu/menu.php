@@ -4,86 +4,129 @@ class ModelVermegamenuMenu extends Model {
 	private $_menuLink = '';
 	private $pattern = '/^([A-Z_]*)[0-9]+/';
 	
-	 public function getMenuCustomerLink($lang_id = NULL,$setting = array()) {
-	 	$menu_html = '';
-		$menu_items = $this->getMenuItems($setting);
-		$item1=0;
-		$lang_id = (int)$this->config->get('config_language_id');
-		//$id_shop = (int)Shop::getContextShopID();
-		$showhome= $setting['h_show_homepage'];
-        $item_number = (int) $setting['h_item_number'];
-        if ($showhome) {
-			$act = '';
-			 // if ($this->request->get['route'] == 'common/home') {
-							// $act = ' act';
-			 // }
-			 $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-            $id = "_home";
-            $menu_html .= '<div id="pt_ver_menu' . $id . '" class="pt_ver_menu' . $act . '">';
-            $menu_html .= '<div class="parentMenu">';
-            $menu_html .= '<a href="'.$url.'">';
-            $menu_html .= '<span>' . $this->language->get("text_home"). '</span>';
-            $menu_html .= '</a>';
-            $menu_html .= '</div>';
-            $menu_html .= '</div>';
-        }
-		
-		$count = 0;
-        $setting['is_over'] = false;
-        $over_class = "";
+     public function getMenuCustomerLink($lang_id = NULL,$setting = array()) 
+     {
+         $main_cats = $this->model_catalog_category->getCategories() ;
+         $menu_html = '';
 
-		foreach ($menu_items as $item)
-		{
-			if (!$item)
-				continue;
+         if ($main_cats) 
+         {
+             $menu_html .= '<ul id="accordion" class="accordion">';
+             foreach ($main_cats as $main_cat)
+             {
+                 $sub_cats = $this->model_catalog_category->getCategories($main_cat['category_id']) ;
 
-			preg_match($this->pattern, $item, $value);
-			$id = (int)substr($item, strlen($value[1]), strlen($item));
+                 $menu_html .= '<li>
+                    <div class="link">
+                        '.$main_cat['name'];
 
-            if($count >= $item_number) {
-                $over_class = ' over-menu';
-                $setting['is_over'] = true;
-            }
+                        if (!empty($sub_cats)) 
+                        {
+                            $menu_html .= '<i class="fa fa-chevron-down"></i>';
+                        }
+                 
+                 $menu_html .= '</div>';
 
-			switch (substr($item, 0, strlen($value[1])))
-			{
-				case 'CAT':
-					$item1 = $item1+ 1; 
-					$menu_html .= $this->drawCustomMenuItem($id, 0, false, $item1, $lang_id,$setting);
-					break;
-				case 'LINK': 
-					$link = $this->getTopLinks($id);
-                    if($link) {
-                        $link = $link[0];
-                        //echo "<pre>"; print_r($cms); echo "</pre>";
-                        $menu_html .= '<div id ="pt_ver_menu_link" class ="pt_ver_menu '. $over_class .'"><div class="parentMenu" ><a href="'.($link['link']).'"><span>'.$link['title'].'</span></a></div></div>'.PHP_EOL;
+                    
+
+                    if (!empty($sub_cats))
+                    {
+                        $menu_html .= '<ul class="submenu">';
+                        foreach ($sub_cats as $sub_cat)
+                        {
+                            $url = $this->url->link('product/category', "path=".$sub_cat['category_id']);
+                            $menu_html .= '<li>
+                                <a href="'.$url.'">'.$sub_cat['name'].'</a>
+                            </li>';
+                        }
+                        $menu_html .= '</ul>';
                     }
-				case 'CMS': 
-					$this->load->model('catalog/information');
-					$cms = $this->model_catalog_information->getInformation($id);
-					//echo "<pre>"; print_r($cms); echo "</pre>";
-                    if(isset($cms['information_id'])) {
-                        $cms_link = $this->url->link('information/information', 'information_id=' . $cms['information_id']);
-                        $menu_html .= '<div id ="pt_ver_menu_cms" class ="pt_ver_menu '. $over_class .'"><div class="parentMenu" ><a href="'.$cms_link.'"><span>'.$cms['title'].'</span></a></div></div>'.PHP_EOL;
-                    }
-			}
-            $count++;        
-		}
-		
-        $this->load->language('extension/module/vermegamenu');
 
-         // block customer menu link
-         $blockCustomer = $this->getCmsBlockContent(null, 'item');
-         foreach ($blockCustomer as $bc) {
-             if($bc['status']) {
-                 $menu_html .= $this->drawCustomMenuBlock($bc['identify'], $bc, $setting);
+                $menu_html .= '</li>';                 
              }
+             $menu_html .= '</ul>';
          }
+         
+        
+	 	// $menu_html = '';
+		// $menu_items = $this->getMenuItems($setting);
+		// $item1=0;
+		// $lang_id = (int)$this->config->get('config_language_id');
+		// //$id_shop = (int)Shop::getContextShopID();
+		// $showhome= $setting['h_show_homepage'];
+        // $item_number = (int) $setting['h_item_number'];
+        // if ($showhome) {
+		// 	$act = '';
+		// 	 // if ($this->request->get['route'] == 'common/home') {
+		// 					// $act = ' act';
+		// 	 // }
+		// 	 $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        //     $id = "_home";
+        //     $menu_html .= '<div id="pt_ver_menu' . $id . '" class="pt_ver_menu' . $act . '">';
+        //     $menu_html .= '<div class="parentMenu">';
+        //     $menu_html .= '<a href="'.$url.'">';
+        //     $menu_html .= '<span>' . $this->language->get("text_home"). '</span>';
+        //     $menu_html .= '</a>';
+        //     $menu_html .= '</div>';
+        //     $menu_html .= '</div>';
+        // }
+		
+		// $count = 0;
+        // $setting['is_over'] = false;
+        // $over_class = "";
 
-        if($setting['is_over']) {
-            $menu_html .= '<div class="more-wrap pt_ver_menu"><div class="parentMenu"><a href="javascript:void(0);" class="more-ver-menu"><span>'.$this->language->get('text_more_vertical_menu').'</span></a></div></div>';
-            $menu_html .= '<div class="close-wrap pt_ver_menu over-menu"><div class="parentMenu"><a href="javascript:void(0);" class="close-ver-menu"><span>'.$this->language->get('text_close_vertical_menu').'</span></a></div></div>';
-        }
+		// foreach ($menu_items as $item)
+		// {
+		// 	if (!$item)
+		// 		continue;
+
+		// 	preg_match($this->pattern, $item, $value);
+		// 	$id = (int)substr($item, strlen($value[1]), strlen($item));
+
+        //     if($count >= $item_number) {
+        //         $over_class = ' over-menu';
+        //         $setting['is_over'] = true;
+        //     }
+
+		// 	switch (substr($item, 0, strlen($value[1])))
+		// 	{
+		// 		case 'CAT':
+		// 			$item1 = $item1+ 1; 
+		// 			$menu_html .= $this->drawCustomMenuItem($id, 0, false, $item1, $lang_id,$setting);
+		// 			break;
+		// 		case 'LINK': 
+		// 			$link = $this->getTopLinks($id);
+        //             if($link) {
+        //                 $link = $link[0];
+        //                 //echo "<pre>"; print_r($cms); echo "</pre>";
+        //                 $menu_html .= '<div id ="pt_ver_menu_link" class ="pt_ver_menu '. $over_class .'"><div class="parentMenu" ><a href="'.($link['link']).'"><span>'.$link['title'].'</span></a></div></div>'.PHP_EOL;
+        //             }
+		// 		case 'CMS': 
+		// 			$this->load->model('catalog/information');
+		// 			$cms = $this->model_catalog_information->getInformation($id);
+		// 			//echo "<pre>"; print_r($cms); echo "</pre>";
+        //             if(isset($cms['information_id'])) {
+        //                 $cms_link = $this->url->link('information/information', 'information_id=' . $cms['information_id']);
+        //                 $menu_html .= '<div id ="pt_ver_menu_cms" class ="pt_ver_menu '. $over_class .'"><div class="parentMenu" ><a href="'.$cms_link.'"><span>'.$cms['title'].'</span></a></div></div>'.PHP_EOL;
+        //             }
+		// 	}
+        //     $count++;        
+		// }
+		
+        // $this->load->language('extension/module/vermegamenu');
+
+        //  // block customer menu link
+        //  $blockCustomer = $this->getCmsBlockContent(null, 'item');
+        //  foreach ($blockCustomer as $bc) {
+        //      if($bc['status']) {
+        //          $menu_html .= $this->drawCustomMenuBlock($bc['identify'], $bc, $setting);
+        //      }
+        //  }
+
+        // if($setting['is_over']) {
+        //     $menu_html .= '<div class="more-wrap pt_ver_menu"><div class="parentMenu"><a href="javascript:void(0);" class="more-ver-menu"><span>'.$this->language->get('text_more_vertical_menu').'</span></a></div></div>';
+        //     $menu_html .= '<div class="close-wrap pt_ver_menu over-menu"><div class="parentMenu"><a href="javascript:void(0);" class="close-ver-menu"><span>'.$this->language->get('text_close_vertical_menu').'</span></a></div></div>';
+        // }
 
 		return $menu_html; 
 

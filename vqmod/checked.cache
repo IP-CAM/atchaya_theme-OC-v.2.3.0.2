@@ -577,7 +577,32 @@ catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
 catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
 catalog\view\theme\default\template\extension\module\octabcategoryslider.tpl
 >>>>>>> c7491a050b5124008ab97ef198225a908c5aaa15
+<<<<<<< HEAD
 admin\controller\extension\module\octabcategoryslider.php
 admin\view\template\extension\module\octabcategoryslider.tpl
 admin\controller\extension\module\ocsearchcategory.php
 admin\view\template\extension\module\ocsearchcategory.tpl
+=======
+<<<<<<< HEAD
+admin\controller\extension\analytics\google_analytics.php
+admin\view\template\extension\analytics\google_analytics.tpl
+=======
+admin\controller\design\banner.php
+admin\language\en-gb\design\banner.php
+admin\model\design\banner.php
+admin\view\template\design\banner_list.tpl
+admin\view\template\design\banner_form.tpl
+admin\controller\extension\extension\theme.php
+admin\view\template\extension\extension\theme.tpl
+admin\controller\extension\module\occmsblock.php
+admin\model\cmsblock\info.php
+admin\view\template\extension\module\occmsblock\config.tpl
+admin\view\template\catalog\category_form.tpl
+admin\controller\catalog\filter.php
+>>>>>>> 12c4fae994247e2ac61f14466a2f9e9c7d307528
+admin\controller\extension\extension\feed.php
+admin\language\en-gb\extension\feed\google_base.php
+admin\language\en-gb\extension\feed\google_sitemap.php
+admin\language\en-gb\extension\feed\openbaypro.php
+admin\view\template\extension\extension\feed.tpl
+>>>>>>> fb68b9c607184d148872e5920892b709bb0e7a76
