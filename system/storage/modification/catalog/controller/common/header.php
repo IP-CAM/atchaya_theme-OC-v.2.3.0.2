@@ -3,6 +3,66 @@ class ControllerCommonHeader extends Controller {
 	public function index() {
 		// Analytics
 		$this->load->model('extension/extension');
+		
+		$filter_data = array(
+			'sort'  => 'pd.name',
+			'order' => 'ASC',
+			'start' => 0,
+			'limit' => 5
+		);
+
+		$results = $this->model_catalog_product->getProductSpecials($filter_data);
+		
+		if ($results) {
+			foreach ($results as $result) { 
+
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$price = $this->currency->format($this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+				} else {
+					$price = false;
+				}
+
+				
+				$data['tags'] = array();
+
+				if ($result['tag']) {
+					$tags = explode(',', $result['tag']);
+
+					foreach ($tags as $tag) {
+						$data['tags'][] = array(
+							'tag'  => trim($tag),
+							'href' => $this->url->link('product/search', 'tag=' . trim($tag))
+						);
+					}
+				}
+
+				$results_flash = $this->model_catalog_product->getFlash($result['product_id']);
+				
+				if($results_flash != '')
+				{
+					
+					$result['name'] = strlen($result['name']) > 40 ? substr($result['name'],0,40)."..." : $result['name'];
+	
+					$data['products'][] = array(
+						'product_id'  => $result['product_id'],
+						'flash_msg'	=> $results_flash,
+						'name'        => $result['name'],
+						'price'       => $price,
+						'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id'])
+					);
+				}
+				else
+				{
+					$data['products'][] = array(
+						'product_id'  => "",
+						'flash_msg'	=> "",
+						'name'        => "",
+						'price'       => "",
+						'href'        => ""
+					);
+				}
+			}
+		}
 
 		$data['analytics'] = array();
 

@@ -171,6 +171,7 @@ function googleTranslateElementInit() {
 </div>
 </header>
 </nav>
+
 <div class="menu-warpper">
 <div class="container">
 	<div class="main-menu">
@@ -180,6 +181,45 @@ function googleTranslateElementInit() {
 	</div>
 </div>
 </div>
+<marquee class="flash_pro"><?php $i = 1; foreach($products as $product) { 
+				if($product['product_id'] != '')
+                {
+                 ?> 
+    			<a class="flash-text mar_flash_producr" href="<?php echo $product['href']; ?>">
+    			 <div class="flash-text_container">
+                 <ul class="marquee_flash">
+                 <li>
+                 <p><?php echo $i;?>.</p>
+                 </li>
+                 <li>
+                 <p class="flash-product-name"><?php echo $product['name']; ?> </p>
+                 </li>
+                 
+                  <li>
+    			 <p class="flash-product-price"><?php echo $product['price']; ?></p>
+                 </li>
+                 
+                 <li>
+    			 <p class="product-flash-text"> <?php echo $product['flash_msg']; ?></p>
+                 </li>
+                 
+                 <li class="spacer"></li>
+                 
+                 </ul>
+               
+    			
+    		</div>
+
+    		</a> 
+    			
+    			<?php $i++; } } 
+
+							?>
+                            <br class="spacer" /></marquee>
+
+
+
+
 
 <style type="text/css">
 	#form-language

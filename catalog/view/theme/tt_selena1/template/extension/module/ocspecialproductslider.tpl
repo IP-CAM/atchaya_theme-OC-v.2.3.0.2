@@ -1,20 +1,9 @@
 <div class="product-tabs-category-container-slider">
 <div class="special-product-slider special-button-owl">
-   <div class="module-title">
-   	<div class="col-md-3 col-sm-6 col-footer">
-    		<marquee><?php $i = 1; foreach($products as $product) { echo $i; ?> 
-    			<a class="flash-text" href="<?php echo $product['href']; ?>">
-    			 <div class="flash-text_container">
-    			<span class="flash-product-name"><?php echo $product['name']; ?> </span>
-    			<span class="flash-product-price"><?php echo $product['price']; ?></span>
-    			<p class="product-flash-text"> <?php echo $product['flash_msg'] ?></p>
-    		</div>
-    		</a> 
-    			
-    			<?php $i++; } 
-
-							?></marquee>
-    	</div>
+  
+   	
+        
+     <div class="module-title">    
 	  <h2>
 		<?php 
 			$title2 = explode(' ',$title,3); 
@@ -123,6 +112,9 @@
 			<p><?php echo $text_empty; ?></p>
 		<?php endif; ?>
    </div>
+   
+   
+   
    </div>
 </div>
 <script type="text/javascript">
